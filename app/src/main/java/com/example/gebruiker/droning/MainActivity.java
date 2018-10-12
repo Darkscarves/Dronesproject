@@ -6,7 +6,7 @@ package com.example.gebruiker.droning;
         import android.os.Bundle;
         import android.view.View;
 
-
+// testcomment
 public class MainActivity extends AppCompatActivity {
 
     @Override
