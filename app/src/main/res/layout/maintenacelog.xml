@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/phone_background"
+    android:background="@drawable/sub_background"
     android:paddingLeft="16dp"
     android:paddingRight="16dp">
 
@@ -19,8 +20,8 @@
                 android:id="@+id/btn1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="toHome"
                 android:layout_weight="1"
+                android:onClick="toHome"
                 android:text="Go Back" />
 
             <TextView
