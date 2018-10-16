@@ -17,10 +17,6 @@
             </intent-filter>
         </activity>
         <!-- checken of dit werkt-->
-        <activity
-            android:name=".MaintenanceLog"
-            android:label="@string/app_name">
-        </activity>
         <!---->
     </application>
 
