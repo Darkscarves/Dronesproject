@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Droning</string>
+    <string name="pre_site_survey">Pre Site Survey</string>
+    <string name="pre_flight_checklists">Pre Flight checklists</string>
+    <string name="operational_flight_plan">Operational Flight Plan</string>
+    <string name="on_site_survey">On Site Survey</string>
+    <string name="maintenance_log">Maintenance Log</string>
+    <string name="incident_log">Incident Log</string>
+    <string name="embarkation_checklist">Embarkation checklist</string>
+    <string name="battery_log">Battery Log</string>
+    <string name="arrival_and_post_flight_checklist">Arrival and Post flight checklist</string>
+    <string name="aircraft_pilot_and_crew_flight_logs">Aircraft pilot and crew flight logs</string>
 </resources>
