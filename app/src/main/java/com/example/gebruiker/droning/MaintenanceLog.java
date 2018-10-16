@@ -10,7 +10,7 @@ public class MaintenanceLog extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.maintenacelog);
+        setContentView(R.layout.maintenancelog);
     }
     public void toHome(View view)
     {
