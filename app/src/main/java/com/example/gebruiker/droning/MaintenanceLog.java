@@ -16,5 +16,6 @@ public class MaintenanceLog extends AppCompatActivity {
     {
         Intent intent = new Intent(MaintenanceLog.this, MainActivity.class);
         startActivity(intent);
+
     }
 }

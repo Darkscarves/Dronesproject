@@ -1,6 +1,5 @@
 package com.example.gebruiker.droning;
 
-
         import android.content.Intent;
         import android.support.v7.app.AppCompatActivity;
         import android.os.Bundle;
@@ -14,11 +13,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void toMaintenanceLog(View view)
+   public void toMaintenanceLog(View view)
     {
         Intent intent = new Intent(MainActivity.this, MaintenanceLog.class);
         startActivity(intent);
     }
-
 }
-//test WERKT DIT?
