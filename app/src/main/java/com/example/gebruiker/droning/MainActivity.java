@@ -18,4 +18,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, MaintenanceLog.class);
         startActivity(intent);
     }
+    public void toBatteryLog(View view)
+    {
+        Intent intent = new Intent(MainActivity.this, BatteryLog.class);
+        startActivity(intent);
+    }
 }
