@@ -33,7 +33,7 @@
                 android:id="@+id/textView12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/reden" />
+                android:text="Battery number" />
 
             <EditText
                 android:id="@+id/editText2"
@@ -46,7 +46,7 @@
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/work_done" />
+                android:text="Battery residual" />
 
             <EditText
                 android:id="@+id/editText3"
@@ -59,7 +59,7 @@
                 android:id="@+id/textView19"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/parts_replaced" />
+                android:text="Date of charge" />
 
             <EditText
                 android:id="@+id/editText4"
@@ -72,7 +72,7 @@
                 android:id="@+id/textView18"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/system_tested" />
+                android:text="Charge input" />
 
             <EditText
                 android:id="@+id/editText5"
@@ -85,10 +85,36 @@
                 android:id="@+id/textView17"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/notes" />
+                android:text="Flight duration" />
 
             <EditText
                 android:id="@+id/editText6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pre-flight" />
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Notes" />
+
+            <EditText
+                android:id="@+id/editText8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
