@@ -13,7 +13,7 @@ public class BatteryLog extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.batterylog);
     }
-    public void toMaintenanceLog(View view)
+    public void toHome(View view)
     {
         Intent intent = new Intent(BatteryLog.this, MainActivity.class);
         startActivity(intent);
