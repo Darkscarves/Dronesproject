@@ -14,11 +14,20 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    public void toBatteryLog(View view)
+    {
+        Intent intent = new Intent(MainActivity.this, BatteryLog.class);
+        startActivity(intent);
+    }
+
     public void toMaintenanceLog(View view)
     {
         Intent intent = new Intent(MainActivity.this, MaintenanceLog.class);
         startActivity(intent);
     }
+
+
+
 
 }
 //test WERKT DIT?

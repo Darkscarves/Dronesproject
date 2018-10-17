@@ -21,6 +21,10 @@
             android:name=".MaintenanceLog"
             android:label="@string/app_name">
         </activity>
+        <activity
+            android:name=".BatteryLog"
+            android:label="@string/app_name">
+        </activity>
         <!---->
     </application>
 
