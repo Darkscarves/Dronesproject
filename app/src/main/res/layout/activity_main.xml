@@ -122,6 +122,7 @@
                     android:layout_height="60dp"
                     android:layout_weight="1"
                     android:text="@string/arrival_and_post_flight_checklist"
+                    android:onClick="toArrivalAndPostFlightChecklists"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"

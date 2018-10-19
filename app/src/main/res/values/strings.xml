@@ -56,4 +56,5 @@
     <string name="positon_required_to_mantanin_safe_flying_zone">Positon required to mantanin safe flying zone</string>
     <string name="postion_requiered_to_maintain_safe_operation">Postion requiered to maintain safe operation</string>
     <string name="check_securing_nuts_for_tightness_replace_if_removed">Check securing nuts for tightness (replace if removed)</string>
+    <string name="check_for_damage_wear">Check for damage, wear, tightness of fittings, condition and secure fitment of propellers and secure attachment of camera</string>
 </resources>
