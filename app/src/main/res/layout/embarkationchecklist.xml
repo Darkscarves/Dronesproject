@@ -31,91 +31,91 @@
                         android:id="@+id/textView28"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:text="Site survey" />
+                        android:text="@string/site_survey" />
 
                     <TextView
                         android:id="@+id/textView30"
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
-                        android:text="Fligt plan / brief" />
+                        android:text="@string/fligt_plan_brief" />
 
                     <TextView
                         android:id="@+id/textView31"
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
-                        android:text="Airframe" />
+                        android:text="@string/airframe" />
 
                     <TextView
                         android:id="@+id/textView32"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:text="Camera" />
+                        android:text="@string/camera" />
 
                     <TextView
                         android:id="@+id/textView33"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:text="A/V connections" />
+                        android:text="@string/a_v_connections" />
 
                     <TextView
                         android:id="@+id/textView34"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:text="Propellers" />
+                        android:layout_height="65dp"
+                        android:text="@string/propellers" />
 
                     <TextView
                         android:id="@+id/textView35"
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
-                        android:text="Calibration platform" />
+                        android:text="@string/calibration_platform" />
 
                     <TextView
                         android:id="@+id/textView36"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:text="Ground station" />
+                        android:text="@string/ground_station" />
 
                     <TextView
                         android:id="@+id/textView37"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:text="A/V monitor" />
+                        android:text="@string/a_v_monitor" />
 
                     <TextView
                         android:id="@+id/textView38"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:text="Crew identification badges" />
+                        android:text="@string/crew_identification_badges" />
 
                     <TextView
                         android:id="@+id/textView39"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:text="Hard hat / fluorescent jackets" />
+                        android:text="@string/hard_hat_fluorescent_jackets" />
 
                     <TextView
                         android:id="@+id/textView40"
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
-                        android:text="Two way radios" />
+                        android:text="@string/two_way_radios" />
 
                     <TextView
                         android:id="@+id/textView41"
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
-                        android:text="First aid kit" />
+                        android:text="@string/first_aid_kit" />
 
                     <TextView
                         android:id="@+id/textView42"
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
-                        android:text="Fire extinguisher" />
+                        android:text="@string/fire_extinguisher" />
 
                     <TextView
                         android:id="@+id/textView43"
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
-                        android:text="Cordens, signs &amp; safety tape" />
+                        android:text="@string/cordens_signs_amp_safety_tape" />
 
                 </LinearLayout>
 
@@ -128,90 +128,90 @@
                         android:id="@+id/textView44"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:text="Carry out site survey with observer" />
+                        android:text="@string/carry_out_site_survey_with_observer" />
 
                     <TextView
                         android:id="@+id/textView45"
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
-                        android:text="Confirm flight plan &amp; brief crew, observer &amp; client" />
+                        android:text="@string/confirm_flight_plan_amp_brief_crew_observer_amp_client" />
 
                     <TextView
                         android:id="@+id/textView46"
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
-                        android:text="Unload &amp; check airframe for any damage in transit" />
+                        android:text="@string/unload_amp_check_airframe_for_any_damage_in_transit" />
 
                     <TextView
                         android:id="@+id/textView47"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:text="Attach to platform &amp; fit safety lanyard" />
+                        android:text="@string/attach_to_platform_amp_fit_safety_lanyard" />
 
                     <TextView
                         android:id="@+id/textView48"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:text="Insert A/V plug and secure" />
+                        android:text="@string/insert_a_v_plug_and_secure" />
 
                     <TextView
                         android:id="@+id/textView49"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:text="Check securing nuts for tightness" />
+                        android:layout_height="65dp"
+                        android:text="@string/check_securing_nuts_for_tightness_replace_if_removed" />
 
                     <TextView
                         android:id="@+id/textView50"
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
-                        android:text="Position as required &amp; ensure level with spirit level" />
+                        android:text="@string/position_as_required_amp_ensure_level_with_spirit_level" />
 
                     <TextView
                         android:id="@+id/textView51"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:text="Setup, switch on and test operation" />
+                        android:text="@string/setup_switch_on_and_test_operation" />
 
                     <TextView
                         android:id="@+id/textView52"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:text="Setup, switch on and test operation" />
+                        android:text="@string/setup_switch_on_and_test_operation" />
 
                     <TextView
                         android:id="@+id/textView53"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:text="Issue as required" />
+                        android:text="@string/issue_as_required" />
 
                     <TextView
                         android:id="@+id/textView54"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:text="Issue as required" />
+                        android:text="@string/issue_as_required" />
 
                     <TextView
                         android:id="@+id/textView55"
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
-                        android:text="Postion easy accessible &amp; inform crew of location" />
+                        android:text="@string/postion_easy_accessible_amp_inform_crew_of_location" />
                     <TextView
                         android:id="@+id/textView56"
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
-                        android:text="Postion easy accessible &amp; inform crew of location" />
+                        android:text="@string/postion_easy_accessible_amp_inform_crew_of_location" />
 
                     <TextView
                         android:id="@+id/textView57"
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
-                        android:text="Positon required to mantanin safe flying zone" />
+                        android:text="@string/positon_required_to_mantanin_safe_flying_zone" />
 
                     <TextView
                         android:id="@+id/textView58"
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
-                        android:text="Postion requiered to maintain safe operation" />
+                        android:text="@string/postion_requiered_to_maintain_safe_operation" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -233,7 +233,7 @@
                         android:id="@+id/checkBox17"
                         android:layout_width="match_parent"
                         android:layout_height="65dp" />
-6
+
                     <CheckBox
                         android:id="@+id/checkBox19"
                         android:layout_width="match_parent"
@@ -247,7 +247,7 @@
                     <CheckBox
                         android:id="@+id/checkBox2"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp" />
+                        android:layout_height="65dp" />
 
                     <CheckBox
                         android:id="@+id/checkBox3"
