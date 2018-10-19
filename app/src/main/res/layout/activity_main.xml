@@ -108,6 +108,7 @@
                     android:layout_weight="1"
 
                     android:text="@string/incident_log"
+                    android:onClick="toIncidentLog"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -154,7 +155,6 @@
                     android:layout_height="60dp"
                     android:layout_weight="1"
                     android:text="@string/embarkation_checklist"
-
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />

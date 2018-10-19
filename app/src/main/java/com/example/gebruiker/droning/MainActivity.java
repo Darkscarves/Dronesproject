@@ -5,7 +5,6 @@ package com.example.gebruiker.droning;
         import android.os.Bundle;
         import android.view.View;
 
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -13,14 +12,28 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-   public void toMaintenanceLog(View view)
-    {
-        Intent intent = new Intent(MainActivity.this, MaintenanceLog.class);
-        startActivity(intent);
-    }
+
     public void toBatteryLog(View view)
     {
         Intent intent = new Intent(MainActivity.this, BatteryLog.class);
         startActivity(intent);
     }
+
+    public void toMaintenanceLog(View view)
+
+    {
+        Intent intent = new Intent(MainActivity.this, MaintenanceLog.class);
+        startActivity(intent);
+    }
+
+    public void toIncidentLog(View view)
+    {
+        Intent intent = new Intent(MainActivity.this, IncidentLog.class);
+        startActivity(intent);
+    }
+
+
+
+
+
 }

@@ -15,9 +15,21 @@
     <string name="work_done">Work done</string>
     <string name="parts_replaced">Parts replaced</string>
     <string name="system_tested">System tested</string>
-    <string name="notes">Notes</string>
     <string name="submit">Submit</string>
     <string name="go_back">Go Back</string>
     <string name="no">No</string>
     <string name="yes">Yes</string>
+    <string name="battery_number">Battery number</string>
+    <string name="battery_residual">Battery residual</string>
+    <string name="date_of_charge">Date of charge</string>
+    <string name="charge_input">Charge input</string>
+    <string name="flight_duration">Flight duration</string>
+    <string name="pre_flight">Pre-flight</string>
+    <string name="notes">notes</string>
+    <string name="injuries_damage">Injuries / damage</string>
+    <string name="incident_details">Incident details</string>
+    <string name="action_taken_incident_report">Action taken / incident report</string>
+    <string name="date_of_incident">Date of incident</string>
+    <string name="time_of_incident">Time of incident</string>
+
 </resources>
