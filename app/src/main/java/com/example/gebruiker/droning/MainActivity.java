@@ -26,6 +26,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void toIncidentLog(View view)
+    {
+        Intent intent = new Intent(MainActivity.this, IncidentLog.class);
+        startActivity(intent);
+    }
+
 
 
 
