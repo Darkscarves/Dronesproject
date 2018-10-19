@@ -31,11 +31,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, IncidentLog.class);
         startActivity(intent);
     }
-    public void toEmbarkationChecklist(View view)
-    {
-        Intent intent = new Intent(MainActivity.this, EmbarkationChecklist.class);
-        startActivity(intent);
-    }
 
 
 
