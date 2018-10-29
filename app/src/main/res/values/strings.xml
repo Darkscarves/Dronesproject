@@ -57,4 +57,26 @@
     <string name="postion_requiered_to_maintain_safe_operation">Postion requiered to maintain safe operation</string>
     <string name="check_securing_nuts_for_tightness_replace_if_removed">Check securing nuts for tightness (replace if removed)</string>
     <string name="check_for_damage_wear">Check for damage, wear, tightness of fittings, condition and secure fitment of propellers and secure attachment of camera</string>
+    <string name="transmitter">Transmitter</string>
+    <string name="data_recording">Data recording</string>
+    <string name="removal">Removal</string>
+    <string name="power_down">Power down</string>
+    <string name="touchdown">Touchdown</string>
+    <string name="item">Item</string>
+    <string name="camera">Camera</string>
+    <string name="airframe">Airframe</string>
+    <string name="battery">Battery</string>
+    <string name="memory_card">Memory card</string>
+    <string name="review">Review</string>
+    <string name="action_check">Action / check</string>
+    <string name="upon_touchdown_immidiately_stop_left_transmitter_stick_to_bottom_left_corner">Upon touchdown immidiately stop (left transmitter stick to bottom left corner)</string>
+    <string name="walk_to_aircraft_disconnect_flight_battery_and_call_safe">Walk to aircraft, disconnect flight battery and call SAFE</string>
+    <string name="remove_aircraft_from_landing_area">Remove aircraft from landing area</string>
+    <string name="record_flight_time_details_in_pilot_logbook_amp_battery_logbook"><![CDATA[Record flight time details in pilot logbook & battery logbook]]></string>
+    <string name="switch_off_transmitter">Switch off transmitter</string>
+    <string name="stop_recording_and_switch_off">Stop recording and switch off</string>
+    <string name="remove_flight_battery_from_aircraft"><![CDATA[Remove flight battery from aircraft, check residual battery %, record details in battery logbook & place on charge in lipo safe bag provided that the battery is not warm (if so allow to cool first)]]></string>
+    <string name="remove_from_camera_and_back_up_to_ground_station">Remove from camera and back up to ground station</string>
+    <string name="review_images_and_discuss_with_crew_and_or_client_if_required">review images and discuss with crew and/or client if required</string>
+    <string name="tick">Tick</string>
 </resources>
