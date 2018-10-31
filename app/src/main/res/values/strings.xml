@@ -146,4 +146,6 @@
     <string name="communication">Communication</string>
     <string name="landing">Landing</string>
     <string name="note_battery_number">Note battery number in battery logbook, record pre-fligt battery power % and fit into airframe (no lower than 90%)</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
 </resources>
