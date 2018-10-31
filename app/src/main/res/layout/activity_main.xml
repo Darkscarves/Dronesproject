@@ -6,15 +6,15 @@
     android:layout_height="match_parent"
     android:background="@drawable/phone_background"
     tools:context=".MainActivity">
-<ScrollView
+
+    <ScrollView
         android:layout_width="368dp"
         android:layout_height="389dp"
         android:layout_marginBottom="100dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -38,7 +38,6 @@
                     android:layout_width="200dp"
                     android:layout_height="60dp"
                     android:layout_weight="1"
-
                     android:text="@string/pre_site_survey"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -49,7 +48,6 @@
                     android:layout_width="200dp"
                     android:layout_height="60dp"
                     android:layout_weight="1"
-
                     android:text="@string/on_site_survey"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -78,7 +76,6 @@
                     android:layout_width="200dp"
                     android:layout_height="60dp"
                     android:layout_weight="1"
-
                     android:text="@string/operational_flight_plan"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -106,7 +103,6 @@
                     android:layout_width="200dp"
                     android:layout_height="60dp"
                     android:layout_weight="1"
-
                     android:text="@string/incident_log"
                     android:onClick="toIncidentLog"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -124,13 +120,13 @@
                     android:id="@+id/BTN7"
                     android:layout_width="200dp"
                     android:layout_height="60dp"
-                    android:layout_marginTop="-8dp"
                     android:layout_weight="1"
                     android:text="@string/arrival_and_post_flight_checklist"
-
+                    android:onClick="toArrivalAndPostFlightChecklists"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginTop="-8dp"/>
 
                 <Button
                     android:id="@+id/BTN8"
@@ -155,6 +151,7 @@
                     android:layout_height="60dp"
                     android:layout_weight="1"
                     android:text="@string/embarkation_checklist"
+                    android:onClick="toEmbarkationChecklist"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -165,7 +162,6 @@
                     android:layout_height="60dp"
                     android:layout_weight="1"
                     android:text="@string/aircraft_pilot_and_crew_flight_logs"
-
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
