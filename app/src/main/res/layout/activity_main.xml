@@ -64,7 +64,7 @@
                     android:id="@+id/BTN2"
                     android:layout_width="200dp"
                     android:layout_height="60dp"
-
+                    android:onClick="toPreFlightChecklist"
                     android:layout_weight="1"
                     android:text="@string/pre_flight_checklists"
                     app:layout_constraintEnd_toEndOf="parent"

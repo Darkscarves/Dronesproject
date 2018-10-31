@@ -129,4 +129,21 @@
     <string name="check_condition">Check condition</string>
     <string name="check_functionality">Check functionality</string>
     <string name="tick">Tick</string>
+    <string name="flight_battery">Flight battery</string>
+    <string name="transmitter_s">Transmitter(s)</string>
+    <string name="self_diagnostic">Self diagnostic</string>
+    <string name="monitor">Monitor</string>
+    <string name="calibration">Calibration</string>
+    <string name="save_calibration">Save calibration</string>
+    <string name="camera_platform">Camera platform</string>
+    <string name="telemetry_link">Telemetry link</string>
+    <string name="flight_plan">Flight plan</string>
+    <string name="aircraft_alignment">Aircraft alignment</string>
+    <string name="crew_public_amp_client"><![CDATA[Crew, Public & client]]></string>
+    <string name="clearence">Clearence</string>
+    <string name="power_up">Power up</string>
+    <string name="take_off">Take off</string>
+    <string name="communication">Communication</string>
+    <string name="landing">Landing</string>
+    <string name="note_battery_number">Note battery number in battery logbook, record pre-fligt battery power % and fit into airframe (no lower than 90%)</string>
 </resources>
