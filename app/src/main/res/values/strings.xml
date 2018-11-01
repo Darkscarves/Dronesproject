@@ -146,6 +146,25 @@
     <string name="communication">Communication</string>
     <string name="landing">Landing</string>
     <string name="note_battery_number">Note battery number in battery logbook, record pre-fligt battery power % and fit into airframe (no lower than 90%)</string>
+    <string name="switch_on_check_battery_power">Switch on, check battery power is within safe parameters, ensure trims are nuetral and all switches are in there correct positions</string>
+    <string name="switch_on_and_confirm_correct_operation">Switch on and confirm correct operation</string>
+    <string name="ensure_aircraft_is_level_on_the_calibration_platform">ensure aircraft is level on the calibration platform</string>
+    <string name="call_clear_props_and_connect_flight_battery">Call \'clear props\' and connect flight battery</string>
+    <string name="wait_for_diagnostic_to_finish_amp_gps_lock_to_be_established_flashing_blue_light"><![CDATA[Wait for diagnostic to finish & gps lock to be established (flashing blue light)]]></string>
+    <string name="check_function_amp_quality_of_a_v_link_from_camera"><![CDATA[Check function & quality of A/V link from camera]]></string>
+    <string name="move_left_transmitter_stick_to_top_left_corner_amp_wait_for_beep"><![CDATA[Move left transmitter stick to top left corner & wait for beep]]></string>
+    <string name="move_left_transmitter_stick_to_top_right_corner_amp_wait_for_beep"><![CDATA[move left transmitter stick to top right corner & wait for beep]]></string>
+    <string name="test_for_contol_and_operation">Test for contol and operation</string>
+    <string name="ensure_ground_station_and_transmitter_displays_are_connected">Ensure ground station and transmitter displays are connected</string>
+    <string name="load_in_flight_plan_from_ground_station_if_required_beep_for_each_waypoint">Load in flight plan from ground station if required (beep for each waypoint)</string>
+    <string name="start_recording">Start recording</string>
+    <string name="reposition_aircraft_in_take_off_area_on_level_ground_facing_into_wind">Reposition aircraft in take off area on level ground facing into wind</string>
+    <string name="ensure_all_crew_public_amp_client_are_in_correct_safe_positions"><![CDATA[Ensure all crew, Public & client are in correct safe positions]]></string>
+    <string name="do_we_have_clearence_from_air_traffic_control_if_required">Do we have clearence from air traffic control if required</string>
+    <string name="call_taking_off_and_start_motors_left_transmitter_stick_to_bottom_right_corner">Call \'taking off\' and start motors (left transmitter stick to bottom right corner)</string>
+    <string name="take_one_final_quick">Take one final quick look around, check with obserber that they agree it is safe to fly, power up and take off</string>
+    <string name="throughout_entire_flight">Throughout entire flight stay in audiable contact with observer listen for battery warnings, airspace infringements or public encroachments</string>
+    <string name="before_landing_check">Before landing, check with obserber, hover over landing area, take a quick look below aircraft and call \'landing\' and then land</string>
     <string name="yes">yes</string>
     <string name="no">no</string>
 </resources>

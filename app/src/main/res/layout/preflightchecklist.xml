@@ -36,19 +36,19 @@
                     <TextView
                         android:id="@+id/textView22"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
+                        android:layout_height="125dp"
                         android:text="@string/airframe" />
 
                     <TextView
                         android:id="@+id/textView3"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
+                        android:layout_height="125dp"
                         android:text="@string/flight_battery" />
 
                     <TextView
                         android:id="@+id/textView4"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
+                        android:layout_height="125dp"
                         android:text="@string/transmitter_s" />
 
                     <TextView
@@ -60,7 +60,7 @@
                     <TextView
                         android:id="@+id/textView6"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
+                        android:layout_height="65dp"
                         android:text="@string/airframe" />
 
                     <TextView
@@ -72,25 +72,25 @@
                     <TextView
                         android:id="@+id/textView8"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
+                        android:layout_height="80dp"
                         android:text="@string/self_diagnostic" />
 
                     <TextView
                         android:id="@+id/textView9"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
+                        android:layout_height="65dp"
                         android:text="@string/monitor" />
 
                     <TextView
                         android:id="@+id/textView10"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
+                        android:layout_height="65dp"
                         android:text="@string/calibration" />
 
                     <TextView
                         android:id="@+id/textView11"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
+                        android:layout_height="65dp"
                         android:text="@string/save_calibration" />
 
                     <TextView
@@ -102,13 +102,13 @@
                     <TextView
                         android:id="@+id/textView13"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
+                        android:layout_height="65dp"
                         android:text="@string/telemetry_link" />
 
                     <TextView
                         android:id="@+id/textView14"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
+                        android:layout_height="80dp"
                         android:text="@string/flight_plan" />
 
                     <TextView
@@ -120,41 +120,41 @@
                     <TextView
                         android:id="@+id/textView16"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
+                        android:layout_height="80dp"
                         android:text="@string/aircraft_alignment" />
                     <TextView
                         android:id="@+id/textView17"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
+                        android:layout_height="80dp"
                         android:text="@string/crew_public_amp_client" />
 
                     <TextView
                         android:id="@+id/textView18"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
+                        android:layout_height="80dp"
                         android:text="@string/clearence" />
 
                     <TextView
                         android:id="@+id/textView19"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
+                        android:layout_height="100dp"
                         android:text="@string/power_up" />
                     <TextView
                         android:id="@+id/textView20"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
+                        android:layout_height="100dp"
                         android:text="@string/take_off" />
 
                     <TextView
                         android:id="@+id/textView21"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
+                        android:layout_height="130dp"
                         android:text="@string/communication" />
 
                     <TextView
                         android:id="@+id/textView24"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
+                        android:layout_height="130dp"
                         android:text="@string/landing"  />
 
 
@@ -176,126 +176,126 @@
                     <TextView
                         android:id="@+id/textView31"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
+                        android:layout_height="125dp"
                         android:text="@string/check_for_damage_wear" />
 
                     <TextView
                         android:id="@+id/textView32"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
+                        android:layout_height="125dp"
                         android:text="@string/note_battery_number" />
 
                     <TextView
                         android:id="@+id/textView29"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:text="Switch on, check" />
+                        android:layout_height="125dp"
+                        android:text="@string/switch_on_check_battery_power" />
 
                     <TextView
                         android:id="@+id/textView33"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:text="@string/check_condition_amp_functionality" />
+                        android:text="@string/switch_on_and_confirm_correct_operation" />
 
                     <TextView
                         android:id="@+id/textView34"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:text="@string/check_condition_amp_functionality" />
+                        android:layout_height="65dp"
+                        android:text="@string/ensure_aircraft_is_level_on_the_calibration_platform" />
 
                     <TextView
                         android:id="@+id/textView35"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:text="@string/check_condition_amp_functionality" />
+                        android:text="@string/call_clear_props_and_connect_flight_battery"   />
 
                     <TextView
                         android:id="@+id/textView36"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:text="@string/check_condition_amp_quantity" />
+                        android:layout_height="80dp"
+                        android:text="@string/wait_for_diagnostic_to_finish_amp_gps_lock_to_be_established_flashing_blue_light" />
 
                     <TextView
                         android:id="@+id/textView37"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:text="@string/check_condition_amp_contents" />
+                        android:layout_height="65dp"
+                        android:text="@string/check_function_amp_quality_of_a_v_link_from_camera" />
 
                     <TextView
                         android:id="@+id/textView38"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:text="@string/check_requirements_amp_quantity" />
+                        android:layout_height="65dp"
+                        android:text="@string/move_left_transmitter_stick_to_top_left_corner_amp_wait_for_beep" />
 
                     <TextView
                         android:id="@+id/textView39"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:text="@string/check_condition_amp_quantity" />
+                        android:layout_height="65dp"
+                        android:text="@string/move_left_transmitter_stick_to_top_right_corner_amp_wait_for_beep" />
 
                     <TextView
                         android:id="@+id/textView40"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:text="@string/check_condition_charge_amp_function" />
+                        android:text="@string/test_for_contol_and_operation" />
 
                     <TextView
                         android:id="@+id/textView41"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:text="@string/check_condition" />
+                        android:layout_height="65dp"
+                        android:text="@string/ensure_ground_station_and_transmitter_displays_are_connected" />
 
                     <TextView
                         android:id="@+id/textView42"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:text="@string/check_condition" />
+                        android:layout_height="80dp"
+                        android:text="@string/load_in_flight_plan_from_ground_station_if_required_beep_for_each_waypoint" />
 
                     <TextView
                         android:id="@+id/textView43"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:text="@string/check_condition_amp_current" />
+                        android:text="@string/start_recording" />
 
                     <TextView
                         android:id="@+id/textView44"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:text="@string/check_condition" />
+                        android:layout_height="80dp"
+                        android:text="@string/reposition_aircraft_in_take_off_area_on_level_ground_facing_into_wind" />
                     <TextView
                         android:id="@+id/textView45"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:text="@string/check_condition" />
+                        android:layout_height="80dp"
+                        android:text="@string/ensure_all_crew_public_amp_client_are_in_correct_safe_positions" />
 
                     <TextView
                         android:id="@+id/textView46"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:text="@string/check_condition_amp_quantity" />
+                        android:layout_height="80dp"
+                        android:text="@string/do_we_have_clearence_from_air_traffic_control_if_required" />
 
                     <TextView
                         android:id="@+id/textView47"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:text="@string/charge_amp_check_condition" />
+                        android:layout_height="100dp"
+                        android:text="@string/call_taking_off_and_start_motors_left_transmitter_stick_to_bottom_right_corner" />
 
                     <TextView
                         android:id="@+id/textView48"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:text="@string/charge_amp_check_condition" />
+                        android:layout_height="100dp"
+                        android:text="@string/take_one_final_quick" />
 
                     <TextView
                         android:id="@+id/textView49"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:text="@string/charge_amp_check_condition" />
+                        android:layout_height="130dp"
+                        android:text="@string/throughout_entire_flight" />
                     <TextView
                         android:id="@+id/textView50"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:text="@string/charge_amp_check_condition" />
+                        android:layout_height="130dp"
+                        android:text="@string/before_landing_check" />
 
 
 
