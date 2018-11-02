@@ -316,17 +316,17 @@
                     <CheckBox
                         android:id="@+id/checkBox1"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp" />
+                        android:layout_height="125dp" />
 
                     <CheckBox
                         android:id="@+id/checkBox2"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp" />
+                        android:layout_height="125dp" />
 
                     <CheckBox
                         android:id="@+id/checkBox3"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp" />
+                        android:layout_height="125dp" />
 
                     <CheckBox
                         android:id="@+id/checkBox4"
@@ -336,7 +336,7 @@
                     <CheckBox
                         android:id="@+id/checkBox5"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp" />
+                        android:layout_height="65dp" />
 
                     <CheckBox
                         android:id="@+id/checkBox6"
@@ -346,22 +346,22 @@
                     <CheckBox
                         android:id="@+id/checkBox7"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp" />
+                        android:layout_height="80dp" />
 
                     <CheckBox
                         android:id="@+id/checkBox8"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp" />
+                        android:layout_height="65dp" />
 
                     <CheckBox
                         android:id="@+id/checkBox9"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp" />
+                        android:layout_height="65dp" />
 
                     <CheckBox
                         android:id="@+id/checkBox10"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp" />
+                        android:layout_height="65dp" />
 
                     <CheckBox
                         android:id="@+id/checkBox11"
@@ -371,12 +371,12 @@
                     <CheckBox
                         android:id="@+id/checkBox12"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp" />
+                        android:layout_height="65dp" />
 
                     <CheckBox
                         android:id="@+id/checkBox13"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp" />
+                        android:layout_height="80dp" />
 
                     <CheckBox
                         android:id="@+id/checkBox14"
@@ -386,36 +386,36 @@
                     <CheckBox
                         android:id="@+id/checkBox15"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp" />
+                        android:layout_height="80dp" />
                     <CheckBox
                         android:id="@+id/checkBox16"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp" />
+                        android:layout_height="80dp" />
 
                     <CheckBox
                         android:id="@+id/checkBox17"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp" />
+                        android:layout_height="80dp" />
 
                     <CheckBox
                         android:id="@+id/checkBox18"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp" />
+                        android:layout_height="100dp" />
 
                     <CheckBox
                         android:id="@+id/checkBox19"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp" />
+                        android:layout_height="100dp" />
 
                     <CheckBox
                         android:id="@+id/checkBox20"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp" />
+                        android:layout_height="130dp" />
 
                     <CheckBox
                         android:id="@+id/checkBox21"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp" />
+                        android:layout_height="130dp" />
 
 
 
