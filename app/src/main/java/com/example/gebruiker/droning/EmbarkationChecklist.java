@@ -18,4 +18,3 @@ public class EmbarkationChecklist extends AppCompatActivity {
         startActivity(intent);
     }
 }
-//werkt dit
