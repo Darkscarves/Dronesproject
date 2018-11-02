@@ -39,12 +39,17 @@ public class MainActivity extends AppCompatActivity {
 
     public void toArrivalAndPostFlightChecklists(View view)
     {
-        Intent intent = new Intent(MainActivity.this, EmbarkationChecklist.class);
+        Intent intent = new Intent(MainActivity.this, ArrivalAndPostFlightChecklists.class);
         startActivity(intent);
     }
     public void toPreFlightChecklist(View view)
     {
         Intent intent = new Intent(MainActivity.this, PreFlightChecklist.class);
+        startActivity(intent);
+    }
+    public void toOnSiteSurvey(View view)
+    {
+        Intent intent = new Intent(MainActivity.this, OnSiteSurvey.class);
         startActivity(intent);
     }
 
