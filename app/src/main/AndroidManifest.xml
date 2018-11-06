@@ -46,6 +46,10 @@
             android:name=".OnSiteSurvey"
             android:label="@string/app_name">
         </activity>
+        <activity
+            android:name=".OperationalFlightPlan"
+            android:label="@string/app_name">
+        </activity>
         <!---->
     </application>
 

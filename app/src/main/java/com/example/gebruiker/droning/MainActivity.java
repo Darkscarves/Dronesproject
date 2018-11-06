@@ -53,6 +53,11 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, OnSiteSurvey.class);
         startActivity(intent);
     }
+    public void toOperationFlightPlan(View view)
+    {
+        Intent intent = new Intent(MainActivity.this, OperationalFlightPlan.class);
+        startActivity(intent);
+    }
 
 
 
