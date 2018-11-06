@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void toArrivalAndPostFlightChecklists(View view)
     {
-        Intent intent = new Intent(MainActivity.this, EmbarkationChecklist.class);
+        Intent intent = new Intent(MainActivity.this, ArrivalAndPostFlightChecklists.class);
         startActivity(intent);
     }
     public void toPreFlightChecklist(View view)
