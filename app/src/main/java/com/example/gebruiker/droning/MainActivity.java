@@ -58,7 +58,11 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, OperationalFlightPlan.class);
         startActivity(intent);
     }
-
+    public void toAircraftPilotAndCrewFlightLogs(View view)
+    {
+        Intent intent = new Intent(MainActivity.this, AircraftPilotAndCrewFlightLogs.class);
+        startActivity(intent);
+    }
 
 
 
