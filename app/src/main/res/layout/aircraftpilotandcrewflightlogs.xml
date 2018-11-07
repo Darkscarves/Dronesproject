@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sub_background"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="93dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView233"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Flight no." />
+
+                <TextView
+                    android:id="@+id/textView232"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="date" />
+
+                <TextView
+                    android:id="@+id/textView231"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Take-Off Time (hh:mm)" />
+
+                <TextView
+                    android:id="@+id/textView230"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Landing Time (hh:mm)" />
+
+                <TextView
+                    android:id="@+id/textView229"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Duration" />
+
+                <TextView
+                    android:id="@+id/textView228"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Aircraft" />
+
+                <TextView
+                    android:id="@+id/textView227"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Aircraft System" />
+
+                <TextView
+                    android:id="@+id/textView226"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Engine battery no." />
+
+                <TextView
+                    android:id="@+id/textView225"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pilot_in_command" />
+
+                <TextView
+                    android:id="@+id/textView224"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/observer" />
+
+                <TextView
+                    android:id="@+id/textView223"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Payload operator" />
+
+                <TextView
+                    android:id="@+id/textView221"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Location" />
+
+                <TextView
+                    android:id="@+id/textView211"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Purpose of Flight" />
+
+                <TextView
+                    android:id="@+id/textView199"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Comments and minor Incidents" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
