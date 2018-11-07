@@ -18,110 +18,98 @@
             android:orientation="horizontal">
 
             <LinearLayout
-                android:layout_width="111dp"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView233"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Flight no." />
-
-                <TextView
                     android:id="@+id/textView232"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:text="date" />
 
                 <TextView
                     android:id="@+id/textView231"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:text="Take-Off Time (hh:mm)" />
 
                 <TextView
                     android:id="@+id/textView230"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:text="Landing Time (hh:mm)" />
 
                 <TextView
                     android:id="@+id/textView229"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:text="Duration" />
 
                 <TextView
                     android:id="@+id/textView228"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:text="Aircraft" />
 
                 <TextView
                     android:id="@+id/textView227"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:text="Aircraft System" />
 
                 <TextView
                     android:id="@+id/textView226"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:text="Engine battery no." />
 
                 <TextView
                     android:id="@+id/textView225"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:text="@string/pilot_in_command" />
 
                 <TextView
                     android:id="@+id/textView224"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:text="@string/observer" />
 
                 <TextView
                     android:id="@+id/textView223"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:text="Payload operator" />
 
                 <TextView
                     android:id="@+id/textView221"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:text="Location" />
 
                 <TextView
                     android:id="@+id/textView211"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Purpose of Flight" />
+                    android:layout_height="40dp"
+                    android:text="purpose of flight" />
 
                 <TextView
                     android:id="@+id/textView199"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:text="Comments and minor Incidents" />
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="80dp"
+                android:layout_width="267dp"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textView234"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="1" />
 
                 <EditText
                     android:id="@+id/editText56"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:ems="10"
                     android:inputType="textPersonName"
                     android:text="" />
@@ -129,7 +117,7 @@
                 <EditText
                     android:id="@+id/editText66"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:ems="10"
                     android:inputType="textPersonName"
                     android:text="" />
@@ -137,7 +125,7 @@
                 <EditText
                     android:id="@+id/editText54"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:ems="10"
                     android:inputType="textPersonName"
                     android:text="" />
@@ -145,7 +133,7 @@
                 <EditText
                     android:id="@+id/editText55"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:ems="10"
                     android:inputType="textPersonName"
                     android:text="" />
@@ -153,7 +141,7 @@
                 <EditText
                     android:id="@+id/editText67"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:ems="10"
                     android:inputType="textPersonName"
                     android:text="" />
@@ -161,7 +149,7 @@
                 <EditText
                     android:id="@+id/editText64"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:ems="10"
                     android:inputType="textPersonName"
                     android:text="" />
@@ -169,7 +157,7 @@
                 <EditText
                     android:id="@+id/editText57"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:ems="10"
                     android:inputType="textPersonName"
                     android:text="" />
@@ -177,7 +165,7 @@
                 <EditText
                     android:id="@+id/editText65"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:ems="10"
                     android:inputType="textPersonName"
                     android:text="" />
@@ -185,7 +173,7 @@
                 <EditText
                     android:id="@+id/editText63"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:ems="10"
                     android:inputType="textPersonName"
                     android:text="" />
@@ -193,7 +181,7 @@
                 <EditText
                     android:id="@+id/editText59"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:ems="10"
                     android:inputType="textPersonName"
                     android:text="" />
@@ -201,7 +189,7 @@
                 <EditText
                     android:id="@+id/editText58"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:ems="10"
                     android:inputType="textPersonName"
                     android:text="" />
@@ -209,7 +197,7 @@
                 <EditText
                     android:id="@+id/editText61"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:ems="10"
                     android:inputType="textPersonName"
                     android:text="" />
@@ -217,138 +205,10 @@
                 <EditText
                     android:id="@+id/editText60"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:ems="10"
                     android:inputType="textPersonName"
                     android:text="" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="80dp"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textView235"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="2" />
-
-                <EditText
-                    android:id="@+id/editText71"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName" />
-
-                <EditText
-                    android:id="@+id/editText76"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName" />
-
-                <EditText
-                    android:id="@+id/editText78"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName" />
-
-                <EditText
-                    android:id="@+id/editText80"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName" />
-
-                <EditText
-                    android:id="@+id/editText79"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName" />
-
-                <EditText
-                    android:id="@+id/editText81"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName" />
-
-                <EditText
-                    android:id="@+id/editText72"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName" />
-
-                <EditText
-                    android:id="@+id/editText82"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName" />
-
-                <EditText
-                    android:id="@+id/editText74"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName" />
-
-                <EditText
-                    android:id="@+id/editText83"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName" />
-
-                <EditText
-                    android:id="@+id/editText77"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName" />
-
-                <EditText
-                    android:id="@+id/editText75"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName" />
-
-                <EditText
-                    android:id="@+id/editText73"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textView236"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Total hrs" />
-
-                <TextView
-                    android:id="@+id/textView237"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="TextView" />
-
-                <EditText
-                    android:id="@+id/editText84"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName" />
             </LinearLayout>
 
         </LinearLayout>
