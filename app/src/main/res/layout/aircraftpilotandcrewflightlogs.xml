@@ -104,7 +104,7 @@
                     android:id="@+id/button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Submit" />
+                    android:text="@string/submit" />
             </LinearLayout>
 
             <LinearLayout
@@ -214,7 +214,7 @@
                     android:layout_height="40dp"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:text="@string/submit" />
+                    android:text="" />
 
                 <Button
                     android:id="@+id/button4"
