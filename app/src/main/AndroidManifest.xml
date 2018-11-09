@@ -54,6 +54,10 @@
             android:name=".AircraftPilotAndCrewFlightLogs"
             android:label="@string/app_name">
         </activity>
+        <activity
+            android:name=".PreSiteSurvey"
+            android:label="@string/app_name">
+        </activity>
         <!---->
     </application>
 

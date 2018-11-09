@@ -38,6 +38,7 @@
                     android:layout_width="200dp"
                     android:layout_height="60dp"
                     android:layout_weight="1"
+                    android:onClick="toPreSiteSurvey"
                     android:text="@string/pre_site_survey"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"

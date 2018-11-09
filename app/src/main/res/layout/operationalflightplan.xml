@@ -562,7 +562,6 @@
                         android:id="@+id/editText43"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
-                        android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
@@ -1311,7 +1310,26 @@
                 </LinearLayout>
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
 
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/submit" />
+
+                <Button
+                    android:id="@+id/btn1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="toHome"
+                    android:text="@string/go_back" />
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 
