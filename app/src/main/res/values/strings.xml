@@ -315,7 +315,7 @@
     <string name="tug_received">TUG received?</string>
     <string name="flight_reported_to_meldingtuig_ilent_nl">Flight reported to meldingtuig@ilent.nl?</string>
     <string name="what_is_the_terrain_flat_mountainous_boggy">What is the terrain? (Flat, Mountainous, Boggy)</string>
-    <string name="other_aircraft_aerodromes_heli_pads_model">Other aircraft (aerodromes, heli pads, model)</string>
+    <string name="other_aircraft_aerodromes_heli_pads_model">Other aircraft (aerodromes, heli pads, model sites)</string>
     <string name="live_firing_high_intensity_radio_transmissions_gas_venting">Live firing, high intensity radio transmissions, gas venting</string>
     <string name="nuclear_power_stations_prisons">Nuclear power stations, prisons</string>
     <string name="nature_reserves_recreational_areas_bye_laws">Nature reserves, recreational areas, bye laws</string>
