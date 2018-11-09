@@ -63,6 +63,11 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, AircraftPilotAndCrewFlightLogs.class);
         startActivity(intent);
     }
+    public void toPreSiteSurvey(View view)
+    {
+        Intent intent = new Intent(MainActivity.this, PreSiteSurvey.class);
+        startActivity(intent);
+    }
 
 
 
