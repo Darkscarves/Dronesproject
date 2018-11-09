@@ -321,4 +321,12 @@
     <string name="nature_reserves_recreational_areas_bye_laws">Nature reserves, recreational areas, bye laws</string>
     <string name="local_authority_land_owner_military_space">Local authority, land owner, military space</string>
     <string name="_24_hours_forecast">24 hours forecast</string>
+    <string name="take_off_time_hh_mm">Take-Off Time (hh:mm)</string>
+    <string name="landing_time_hh_mm">Landing Time (hh:mm)</string>
+    <string name="duration">Duration</string>
+    <string name="aircraft">Aircraft</string>
+    <string name="aircraft_system">Aircraft System</string>
+    <string name="engine_battery_no">Engine battery no.</string>
+    <string name="purpose_of_flight">purpose of flight</string>
+    <string name="comments_and_minor_incidents">Comments and minor Incidents</string>
 </resources>
