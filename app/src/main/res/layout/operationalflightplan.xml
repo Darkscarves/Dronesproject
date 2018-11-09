@@ -32,7 +32,7 @@
                         android:id="@+id/textView1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Job number" />
+                        android:text="@string/job_number" />
 
                     <EditText
                         android:id="@+id/editText1"
@@ -52,7 +52,7 @@
                         android:id="@+id/textView2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Version" />
+                        android:text="@string/version" />
 
                     <EditText
                         android:id="@+id/editText3"
@@ -71,7 +71,7 @@
                         android:id="@+id/textView3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Date" />
+                        android:text="@string/date" />
 
                     <EditText
                         android:id="@+id/editText4"
@@ -103,25 +103,25 @@
                         android:id="@+id/textView25"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="T.1" />
+                        android:text="@string/t_1" />
 
                     <TextView
                         android:id="@+id/textView26"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="T.2" />
+                        android:text="@string/t_2" />
 
                     <TextView
                         android:id="@+id/textView27"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="T.3" />
+                        android:text="@string/t_3" />
 
                     <TextView
                         android:id="@+id/textView59"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="T.4" />
+                        android:text="@string/t_4" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -133,25 +133,25 @@
                         android:id="@+id/textView167"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Pilot in command:" />
+                        android:text="@string/pilot_in_command" />
 
                     <TextView
                         android:id="@+id/textView168"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Observer:" />
+                        android:text="@string/observer" />
 
                     <TextView
                         android:id="@+id/textView169"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Payload operator:" />
+                        android:text="@string/payload_operator" />
 
                     <TextView
                         android:id="@+id/textView171"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Helper 1:" />
+                        android:text="@string/helper_1" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -164,7 +164,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
-                        android:hint="Pilot"
+                        android:hint="@string/pilot"
                         android:inputType="textPersonName" />
 
                     <EditText
@@ -172,7 +172,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
-                        android:hint="Observer"
+                        android:hint="@string/observer"
                         android:inputType="textPersonName" />
 
                     <EditText
@@ -180,7 +180,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
-                        android:hint="Operator"
+                        android:hint="@string/operator"
                         android:inputType="textPersonName" />
 
                     <EditText
@@ -188,7 +188,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
-                        android:hint="Helper"
+                        android:hint="@string/helper"
                         android:inputType="textPersonName" />
                 </LinearLayout>
             </LinearLayout>
@@ -197,7 +197,7 @@
                 android:id="@+id/textView172"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Mission details" />
+                android:text="@string/mission_details" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -213,67 +213,67 @@
                         android:id="@+id/textView173"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="M.1" />
+                        android:text="@string/m_1" />
 
                     <TextView
                         android:id="@+id/textView177"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="M.2" />
+                        android:text="@string/m_2" />
 
                     <TextView
                         android:id="@+id/textView178"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="M.3" />
+                        android:text="@string/m_3" />
 
                     <TextView
                         android:id="@+id/textView180"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="M.4" />
+                        android:text="@string/m_4" />
 
                     <TextView
                         android:id="@+id/textView183"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="M.5" />
+                        android:text="@string/m_5" />
 
                     <TextView
                         android:id="@+id/textView182"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="M.6" />
+                        android:text="@string/m_6" />
 
                     <TextView
                         android:id="@+id/textView181"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="M.7" />
+                        android:text="@string/m_7" />
 
                     <TextView
                         android:id="@+id/textView175"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="M.8" />
+                        android:text="@string/m_8" />
 
                     <TextView
                         android:id="@+id/textView179"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="M.9" />
+                        android:text="@string/m_9" />
 
                     <TextView
                         android:id="@+id/textView176"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="M.10" />
+                        android:text="@string/m_10" />
 
                     <TextView
                         android:id="@+id/textView174"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="M.11" />
+                        android:text="@string/m_11" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -285,67 +285,67 @@
                         android:id="@+id/textView184"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Address:" />
+                        android:text="@string/address" />
 
                     <TextView
                         android:id="@+id/textView186"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Lattitude &amp; tongitude:" />
+                        android:text="@string/lattitude_amp_tongitude" />
 
                     <TextView
                         android:id="@+id/textView187"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Elevation:" />
+                        android:text="@string/elevation" />
 
                     <TextView
                         android:id="@+id/textView188"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Vehicular acces:" />
+                        android:text="@string/vehicular_acces" />
 
                     <TextView
                         android:id="@+id/textView185"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Purpose of the flight:" />
+                        android:text="@string/purpose_of_the_flight" />
 
                     <TextView
                         android:id="@+id/textView194"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Type of operation:" />
+                        android:text="@string/type_of_operation" />
 
                     <TextView
                         android:id="@+id/textView193"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Date work required:" />
+                        android:text="@string/date_work_required" />
 
                     <TextView
                         android:id="@+id/textView189"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Mission duration:" />
+                        android:text="@string/mission_duration" />
 
                     <TextView
                         android:id="@+id/textView192"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Cruising altitude:" />
+                        android:text="@string/cruising_altitude" />
 
                     <TextView
                         android:id="@+id/textView190"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Maximum altitude:" />
+                        android:text="@string/maximum_altitude" />
 
                     <TextView
                         android:id="@+id/textView191"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Maximum distance:" />
+                        android:text="@string/maximum_distance" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -436,7 +436,7 @@
                 android:id="@+id/textView195"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Location" />
+                android:text="@string/location" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -452,43 +452,43 @@
                         android:id="@+id/textView196"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
-                        android:text="L.1" />
+                        android:text="@string/l_1" />
 
                     <TextView
                         android:id="@+id/textView198"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
-                        android:text="L.2" />
+                        android:text="@string/l_2" />
 
                     <TextView
                         android:id="@+id/textView197"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
-                        android:text="L.3" />
+                        android:text="@string/l_3" />
 
                     <TextView
                         android:id="@+id/textView200"
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
-                        android:text="L.4" />
+                        android:text="@string/l_4" />
 
                     <TextView
                         android:id="@+id/textView201"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
-                        android:text="L.5" />
+                        android:text="@string/l_5" />
 
                     <TextView
                         android:id="@+id/textView203"
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
-                        android:text="L.6" />
+                        android:text="@string/l_6" />
 
                     <TextView
                         android:id="@+id/textView202"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
-                        android:text="L.7" />
+                        android:text="@string/l_7" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -500,43 +500,43 @@
                         android:id="@+id/textView204"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
-                        android:text="satellite picture (or refer to any attachment of appendix)" />
+                        android:text="@string/satellite_picture_or_refer_to_any_attachment_of_appendix" />
 
                     <TextView
                         android:id="@+id/textView205"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
-                        android:text="BAG-viewer picture with building (or refer to attachment or appendix)" />
+                        android:text="@string/bag_viewer_picture_with_building_or_refer_to_attachment_or_appendix" />
 
                     <TextView
                         android:id="@+id/textView206"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
-                        android:text="Position of crew on the location (or refer to attachment or appendix)" />
+                        android:text="@string/position_of_crew_on_the_location_or_refer_to_attachment_or_appendix" />
 
                     <TextView
                         android:id="@+id/textView207"
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
-                        android:text="Flightbox (flight operational area) (or refer to attachment or appendix)" />
+                        android:text="@string/flightbox_flight_operational_area_or_refer_to_attachment_or_appendix" />
 
                     <TextView
                         android:id="@+id/textView208"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
-                        android:text="Alternate landing area (or refer to attachment or appendix)" />
+                        android:text="@string/alternate_landing_area_or_refer_to_attachment_or_appendix" />
 
                     <TextView
                         android:id="@+id/textView209"
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
-                        android:text="distance to people, roads,  buildings, airports (or refer to attachment or appendix)" />
+                        android:text="@string/distance_to_people_roads_buildings_airports_or_refer_to_attachment_or_appendix" />
 
                     <TextView
                         android:id="@+id/textView210"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
-                        android:text="Risk assessment (or refer to attachment or appendix)" />
+                        android:text="@string/risk_assessment_or_refer_to_attachment_or_appendix" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -599,7 +599,7 @@
                 android:id="@+id/textView212"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="PRE NOTIFICATIONS if notified data, time &amp; contact name" />
+                android:text="@string/pre_notifications_if_notified_data_time_amp_contact_name" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -615,25 +615,25 @@
                         android:id="@+id/textView213"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="P.1" />
+                        android:text="@string/p_1" />
 
                     <TextView
                         android:id="@+id/textView214"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="P.2" />
+                        android:text="@string/p_2" />
 
                     <TextView
                         android:id="@+id/textView215"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="P.3" />
+                        android:text="@string/p_3" />
 
                     <TextView
                         android:id="@+id/textView216"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="P.4" />
+                        android:text="@string/p_4" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -645,25 +645,25 @@
                         android:id="@+id/textView217"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Local air traffic control:" />
+                        android:text="@string/local_air_traffic_control" />
 
                     <TextView
                         android:id="@+id/textView218"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Regional air traffic control:" />
+                        android:text="@string/regional_air_traffic_control" />
 
                     <TextView
                         android:id="@+id/textView219"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Military control:" />
+                        android:text="@string/military_control" />
 
                     <TextView
                         android:id="@+id/textView220"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Coordinator low flying area/route:" />
+                        android:text="@string/coordinator_low_flying_area_route" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -703,9 +703,613 @@
 
             <TextView
                 android:id="@+id/textView222"
-                android:layout_width="match_parent"
+                android:layout_width="50dp"
                 android:layout_height="wrap_content"
-                android:text="Checks" />
+                android:text="@string/checks" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView224"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/textView225"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/c_1" />
+
+                    <TextView
+                        android:id="@+id/textView242"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/c_2" />
+
+                    <TextView
+                        android:id="@+id/textView246"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/c_3" />
+
+                    <TextView
+                        android:id="@+id/textView245"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:text="@string/c_4" />
+
+                    <TextView
+                        android:id="@+id/textView244"
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:text="@string/c_5" />
+
+                    <TextView
+                        android:id="@+id/textView234"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/c_6" />
+
+                    <TextView
+                        android:id="@+id/textView238"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/c_7" />
+
+                    <TextView
+                        android:id="@+id/textView243"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:text="@string/c_8" />
+
+                    <TextView
+                        android:id="@+id/textView226"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/c_9" />
+
+                    <TextView
+                        android:id="@+id/textView241"
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:text="@string/c_10" />
+
+                    <TextView
+                        android:id="@+id/textView240"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:text="@string/c_11" />
+
+                    <TextView
+                        android:id="@+id/textView239"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:text="@string/c_12" />
+
+                    <TextView
+                        android:id="@+id/textView235"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/c_13" />
+
+                    <TextView
+                        android:id="@+id/textView237"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/c_14" />
+
+                    <TextView
+                        android:id="@+id/textView236"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/c_15" />
+
+                    <TextView
+                        android:id="@+id/textView233"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/c_16" />
+
+                    <TextView
+                        android:id="@+id/textView231"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/c_17" />
+
+                    <TextView
+                        android:id="@+id/textView232"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:text="@string/c_18" />
+
+                    <TextView
+                        android:id="@+id/textView227"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/c_19" />
+
+                    <TextView
+                        android:id="@+id/textView230"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/c_20" />
+
+                    <TextView
+                        android:id="@+id/textView229"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/c_21" />
+
+                    <TextView
+                        android:id="@+id/textView228"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/c_22" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="79dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView199"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/item" />
+
+                    <TextView
+                        android:id="@+id/textView247"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/airspace" />
+
+                    <TextView
+                        android:id="@+id/textView261"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/airspace" />
+
+                    <TextView
+                        android:id="@+id/textView268"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/airspace" />
+
+                    <TextView
+                        android:id="@+id/textView266"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:text="@string/airspace" />
+
+                    <TextView
+                        android:id="@+id/textView264"
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:text="@string/airspace" />
+
+                    <TextView
+                        android:id="@+id/textView248"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/notam" />
+
+                    <TextView
+                        android:id="@+id/textView267"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/notam" />
+
+                    <TextView
+                        android:id="@+id/textView259"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:text="@string/operation" />
+
+                    <TextView
+                        android:id="@+id/textView263"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/operation" />
+
+                    <TextView
+                        android:id="@+id/textView260"
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:text="@string/operation" />
+
+                    <TextView
+                        android:id="@+id/textView255"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:text="@string/operation" />
+
+                    <TextView
+                        android:id="@+id/textView265"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:text="@string/operation" />
+
+                    <TextView
+                        android:id="@+id/textView262"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/operation" />
+
+                    <TextView
+                        android:id="@+id/textView256"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/tug_mtom_25kg" />
+
+                    <TextView
+                        android:id="@+id/textView258"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/notification" />
+
+                    <TextView
+                        android:id="@+id/textView257"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/terrain" />
+
+                    <TextView
+                        android:id="@+id/textView252"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/proximities" />
+
+                    <TextView
+                        android:id="@+id/textView254"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:text="@string/hazards" />
+
+                    <TextView
+                        android:id="@+id/textView253"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/restrictions" />
+
+                    <TextView
+                        android:id="@+id/textView251"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/sensitivities" />
+
+                    <TextView
+                        android:id="@+id/textView249"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/permission" />
+
+                    <TextView
+                        android:id="@+id/textView250"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/weather" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="135dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView221"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/action" />
+
+                    <TextView
+                        android:id="@+id/textView269"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/what_is_the_airspace_a_b_c_d_e_f_g" />
+
+                    <TextView
+                        android:id="@+id/textView285"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/is_the_airspace_a_civil_or_militairt_ctr" />
+
+                    <TextView
+                        android:id="@+id/textView274"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/do_i_need_atc_permission" />
+
+                    <TextView
+                        android:id="@+id/textView284"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:text="@string/will_the_flight_be_within_3nm_from_a_military_low_flying_area_route_additional_coordination_and_permission_required" />
+
+                    <TextView
+                        android:id="@+id/textView286"
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:text="@string/will_the_flight_be_in_prohibited_eh_pxx_restricted_eh_rxx_or_danger_zones_eh_dxx_additional_permission_required" />
+
+                    <TextView
+                        android:id="@+id/textView290"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/any_notice_to_airmen_that_may_effect_operations" />
+
+                    <TextView
+                        android:id="@+id/textView289"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/is_the_notam_for_my_operation_published" />
+
+                    <TextView
+                        android:id="@+id/textView288"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:text="@string/has_the_site_operations_helpdesk_special_activities_or_aocs_nm_been_consulted_and_checked" />
+
+                    <TextView
+                        android:id="@+id/textView287"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/what_are_the_weather_conditions_allowing_for_visual_flight_rules" />
+
+                    <TextView
+                        android:id="@+id/textView280"
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:text="@string/at_a_distance_of_more_than_150m_from_open_air_assemblies_of_persons_congested_areas_and_motorways_freeways_or_roads_with_a_speed_limit_of_80km_h_or_ore_which_are_in_use" />
+
+                    <TextView
+                        android:id="@+id/textView283"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:text="@string/at_a_distance_of_at_least_50m_from_industrial_areas_and_ports" />
+
+                    <TextView
+                        android:id="@+id/textView282"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:text="@string/with_a_horizontal_distance_to_vehicles_in_case_of_roads_with_a_speed_limit_below_80km_h_vessels_railways_bridges_is_at_least_50m_horizontally" />
+
+                    <TextView
+                        android:id="@+id/textView275"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/class_1_flight_taken_into_account_previous" />
+
+                    <TextView
+                        android:id="@+id/textView277"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/tug_received" />
+
+                    <TextView
+                        android:id="@+id/textView281"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/flight_reported_to_meldingtuig_ilent_nl" />
+
+                    <TextView
+                        android:id="@+id/textView270"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/what_is_the_terrain_flat_mountainous_boggy" />
+
+                    <TextView
+                        android:id="@+id/textView276"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/other_aircraft_aerodromes_heli_pads_model" />
+
+                    <TextView
+                        android:id="@+id/textView278"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:text="@string/live_firing_high_intensity_radio_transmissions_gas_venting" />
+
+                    <TextView
+                        android:id="@+id/textView279"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/nuclear_power_stations_prisons" />
+
+                    <TextView
+                        android:id="@+id/textView272"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="@string/nature_reserves_recreational_areas_bye_laws" />
+
+                    <TextView
+                        android:id="@+id/textView273"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/local_authority_land_owner_military_space" />
+
+                    <TextView
+                        android:id="@+id/textView271"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:text="@string/_24_hours_forecast" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView223"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/findings" />
+
+                    <EditText
+                        android:id="@+id/editText52"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/editText65"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/editText74"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/editText73"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/editText72"
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/editText71"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/editText54"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/editText70"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/editText69"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/editText67"
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/editText68"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/editText66"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/editText61"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/editText64"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/editText63"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/editText56"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/editText60"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/editText57"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/editText58"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/editText53"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/editText55"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/editText59"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+                </LinearLayout>
+            </LinearLayout>
 
 
         </LinearLayout>
