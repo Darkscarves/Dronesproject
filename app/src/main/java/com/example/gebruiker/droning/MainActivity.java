@@ -1,11 +1,9 @@
 package com.example.gebruiker.droning;
 
-
         import android.content.Intent;
         import android.support.v7.app.AppCompatActivity;
         import android.os.Bundle;
         import android.view.View;
-
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
     public void toBatteryLog(View view)
     {
         Intent intent = new Intent(MainActivity.this, BatteryLog.class);
@@ -21,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void toMaintenanceLog(View view)
+
     {
         Intent intent = new Intent(MainActivity.this, MaintenanceLog.class);
         startActivity(intent);
@@ -31,11 +31,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, IncidentLog.class);
         startActivity(intent);
     }
-    public void toEmbarkationChecklist(View view)
-    {
-        Intent intent = new Intent(MainActivity.this, EmbarkationChecklist.class);
-        startActivity(intent);
-    }
+
 
     public void toArrivalAndPostFlightChecklists(View view)
     {
@@ -45,6 +41,11 @@ public class MainActivity extends AppCompatActivity {
     public void toPreFlightChecklist(View view)
     {
         Intent intent = new Intent(MainActivity.this, PreFlightChecklist.class);
+        startActivity(intent);
+    }
+    public void toEmbarkationChecklist(View view)
+    {
+        Intent intent = new Intent(MainActivity.this, EmbarkationChecklist.class);
         startActivity(intent);
     }
     public void toOnSiteSurvey(View view)
@@ -57,7 +58,11 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, OperationalFlightPlan.class);
         startActivity(intent);
     }
-
+    public void toAircraftPilotAndCrewFlightLogs(View view)
+    {
+        Intent intent = new Intent(MainActivity.this, AircraftPilotAndCrewFlightLogs.class);
+        startActivity(intent);
+    }
 
 
 
