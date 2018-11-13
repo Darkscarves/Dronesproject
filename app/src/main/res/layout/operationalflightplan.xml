@@ -29,13 +29,13 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView1"
+                        android:id="@+id/JobNumberText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/job_number" />
 
                     <EditText
-                        android:id="@+id/editText1"
+                        android:id="@+id/JobNumberEdit"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:ems="10"
@@ -49,13 +49,13 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView2"
+                        android:id="@+id/VersionText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/version" />
 
                     <EditText
-                        android:id="@+id/editText3"
+                        android:id="@+id/VersionEdit"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:ems="10"
@@ -68,13 +68,13 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView3"
+                        android:id="@+id/DateText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/date" />
 
                     <EditText
-                        android:id="@+id/editText4"
+                        android:id="@+id/DateEdit"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:ems="10"
@@ -84,7 +84,7 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/TeamText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/team" />
@@ -100,25 +100,25 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView25"
+                        android:id="@+id/t1Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/t_1" />
 
                     <TextView
-                        android:id="@+id/textView26"
+                        android:id="@+id/t2Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/t_2" />
 
                     <TextView
-                        android:id="@+id/textView27"
+                        android:id="@+id/t3Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/t_3" />
 
                     <TextView
-                        android:id="@+id/textView59"
+                        android:id="@+id/t4Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/t_4" />
@@ -130,25 +130,25 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView167"
+                        android:id="@+id/PilotInCommandText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/pilot_in_command" />
 
                     <TextView
-                        android:id="@+id/textView168"
+                        android:id="@+id/ObserverText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/observer" />
 
                     <TextView
-                        android:id="@+id/textView169"
+                        android:id="@+id/PayloadOperatorText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/payload_operator" />
 
                     <TextView
-                        android:id="@+id/textView171"
+                        android:id="@+id/Helper1Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/helper_1" />
@@ -160,7 +160,7 @@
                     android:orientation="vertical">
 
                     <EditText
-                        android:id="@+id/editText9"
+                        android:id="@+id/PilotInCommandEdit"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
@@ -168,7 +168,7 @@
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText10"
+                        android:id="@+id/ObserverEdit"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
@@ -176,7 +176,7 @@
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText11"
+                        android:id="@+id/PayloadOperatorEdit"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
@@ -184,7 +184,7 @@
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText12"
+                        android:id="@+id/Helper1Edit"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
@@ -194,7 +194,7 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/textView172"
+                android:id="@+id/MissionDetailsText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/mission_details" />
@@ -210,67 +210,67 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView173"
+                        android:id="@+id/m1Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/m_1" />
 
                     <TextView
-                        android:id="@+id/textView177"
+                        android:id="@+id/m2Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/m_2" />
 
                     <TextView
-                        android:id="@+id/textView178"
+                        android:id="@+id/m3Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/m_3" />
 
                     <TextView
-                        android:id="@+id/textView180"
+                        android:id="@+id/m4Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/m_4" />
 
                     <TextView
-                        android:id="@+id/textView183"
+                        android:id="@+id/m5Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/m_5" />
 
                     <TextView
-                        android:id="@+id/textView182"
+                        android:id="@+id/m6Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/m_6" />
 
                     <TextView
-                        android:id="@+id/textView181"
+                        android:id="@+id/m7Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/m_7" />
 
                     <TextView
-                        android:id="@+id/textView175"
+                        android:id="@+id/m8Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/m_8" />
 
                     <TextView
-                        android:id="@+id/textView179"
+                        android:id="@+id/m9Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/m_9" />
 
                     <TextView
-                        android:id="@+id/textView176"
+                        android:id="@+id/m10Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/m_10" />
 
                     <TextView
-                        android:id="@+id/textView174"
+                        android:id="@+id/m11Text"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/m_11" />
@@ -282,67 +282,67 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView184"
+                        android:id="@+id/AddressText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/address" />
 
                     <TextView
-                        android:id="@+id/textView186"
+                        android:id="@+id/LattitudeAmpLongitudeText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="@string/lattitude_amp_tongitude" />
+                        android:text="@string/lattitude_amp_longitude" />
 
                     <TextView
-                        android:id="@+id/textView187"
+                        android:id="@+id/ElevationText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/elevation" />
 
                     <TextView
-                        android:id="@+id/textView188"
+                        android:id="@+id/VehicularAccesText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/vehicular_acces" />
 
                     <TextView
-                        android:id="@+id/textView185"
+                        android:id="@+id/PurposeOfFlightText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/purpose_of_the_flight" />
 
                     <TextView
-                        android:id="@+id/textView194"
+                        android:id="@+id/TypeOperationText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/type_of_operation" />
 
                     <TextView
-                        android:id="@+id/textView193"
+                        android:id="@+id/DateWorkText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/date_work_required" />
 
                     <TextView
-                        android:id="@+id/textView189"
+                        android:id="@+id/MissionDurationText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/mission_duration" />
 
                     <TextView
-                        android:id="@+id/textView192"
+                        android:id="@+id/CruisingAltitudeText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/cruising_altitude" />
 
                     <TextView
-                        android:id="@+id/textView190"
+                        android:id="@+id/MaximumAltitudeText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/maximum_altitude" />
 
                     <TextView
-                        android:id="@+id/textView191"
+                        android:id="@+id/MaximumDistanceText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/maximum_distance" />
@@ -354,77 +354,77 @@
                     android:orientation="vertical">
 
                     <EditText
-                        android:id="@+id/editText13"
+                        android:id="@+id/AddressEdit"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText14"
+                        android:id="@+id/LattitudeAmpLongitudeEdit"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText15"
+                        android:id="@+id/ElevationEdit"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText33"
+                        android:id="@+id/VehicularAccesEdit"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText34"
+                        android:id="@+id/PurposeOfFlightEdit"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText35"
+                        android:id="@+id/TypeOperationEdit"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText37"
+                        android:id="@+id/DateWorkEdit"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText36"
+                        android:id="@+id/MissionDurationEdit"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText38"
+                        android:id="@+id/CruisingAltitudeEdit"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText39"
+                        android:id="@+id/MaximumAltitudeEdit"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText40"
+                        android:id="@+id/MaximumDistanceEdit"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
@@ -433,7 +433,7 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/textView195"
+                android:id="@+id/LocationTexti"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/location" />
@@ -449,43 +449,43 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView196"
+                        android:id="@+id/l1Text"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:text="@string/l_1" />
 
                     <TextView
-                        android:id="@+id/textView198"
+                        android:id="@+id/l2Text"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:text="@string/l_2" />
 
                     <TextView
-                        android:id="@+id/textView197"
+                        android:id="@+id/l3Text"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:text="@string/l_3" />
 
                     <TextView
-                        android:id="@+id/textView200"
+                        android:id="@+id/l4Text"
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
                         android:text="@string/l_4" />
 
                     <TextView
-                        android:id="@+id/textView201"
+                        android:id="@+id/l5Text"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:text="@string/l_5" />
 
                     <TextView
-                        android:id="@+id/textView203"
+                        android:id="@+id/l6Text"
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
                         android:text="@string/l_6" />
 
                     <TextView
-                        android:id="@+id/textView202"
+                        android:id="@+id/l7Text"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:text="@string/l_7" />
@@ -497,43 +497,43 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView204"
+                        android:id="@+id/SatellitePictureText"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:text="@string/satellite_picture_or_refer_to_any_attachment_of_appendix" />
 
                     <TextView
-                        android:id="@+id/textView205"
+                        android:id="@+id/BAGViewerText"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:text="@string/bag_viewer_picture_with_building_or_refer_to_attachment_or_appendix" />
 
                     <TextView
-                        android:id="@+id/textView206"
+                        android:id="@+id/PositionOfCrewText"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:text="@string/position_of_crew_on_the_location_or_refer_to_attachment_or_appendix" />
 
                     <TextView
-                        android:id="@+id/textView207"
+                        android:id="@+id/FlightboxText"
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
                         android:text="@string/flightbox_flight_operational_area_or_refer_to_attachment_or_appendix" />
 
                     <TextView
-                        android:id="@+id/textView208"
+                        android:id="@+id/AlternateLandingText"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:text="@string/alternate_landing_area_or_refer_to_attachment_or_appendix" />
 
                     <TextView
-                        android:id="@+id/textView209"
+                        android:id="@+id/DistanceToPeopleText"
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
                         android:text="@string/distance_to_people_roads_buildings_airports_or_refer_to_attachment_or_appendix" />
 
                     <TextView
-                        android:id="@+id/textView210"
+                        android:id="@+id/RiskAssessmentText"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:text="@string/risk_assessment_or_refer_to_attachment_or_appendix" />
@@ -545,48 +545,48 @@
                     android:orientation="vertical">
 
                     <EditText
-                        android:id="@+id/editText41"
+                        android:id="@+id/SatellitePictureEdit"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText42"
+                        android:id="@+id/BAGViewerEdit"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText43"
+                        android:id="@+id/PositionOfCrewEdit"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText44"
+                        android:id="@+id/FlightboxEdit"
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText45"
+                        android:id="@+id/AlternateLandingEdit"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText46"
+                        android:id="@+id/DistanceToPeopleEdit"
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText47"
+                        android:id="@+id/RiskAssessmentEdit"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:ems="10"
@@ -611,25 +611,25 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView213"
+                        android:id="@+id/p1Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/p_1" />
 
                     <TextView
-                        android:id="@+id/textView214"
+                        android:id="@+id/p2Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/p_2" />
 
                     <TextView
-                        android:id="@+id/textView215"
+                        android:id="@+id/p3Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/p_3" />
 
                     <TextView
-                        android:id="@+id/textView216"
+                        android:id="@+id/p4Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/p_4" />
@@ -641,25 +641,25 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView217"
+                        android:id="@+id/LocalAirText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/local_air_traffic_control" />
 
                     <TextView
-                        android:id="@+id/textView218"
+                        android:id="@+id/RegionalAirText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/regional_air_traffic_control" />
 
                     <TextView
-                        android:id="@+id/textView219"
+                        android:id="@+id/MilitaryControlText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/military_control" />
 
                     <TextView
-                        android:id="@+id/textView220"
+                        android:id="@+id/CoordinatorLowText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/coordinator_low_flying_area_route" />
@@ -671,28 +671,28 @@
                     android:orientation="vertical">
 
                     <EditText
-                        android:id="@+id/editText48"
+                        android:id="@+id/LocalAirEdit"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText49"
+                        android:id="@+id/RegionalAirEdit"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText50"
+                        android:id="@+id/MilitaryControlEdit"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText51"
+                        android:id="@+id/CoordinatorLowEdit"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
@@ -701,7 +701,7 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/textView222"
+                android:id="@+id/ChecksText"
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
                 android:text="@string/checks" />
@@ -717,138 +717,138 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView224"
+                        android:id="@+id/FILLUPTEXT"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
 
                     <TextView
-                        android:id="@+id/textView225"
+                        android:id="@+id/c1Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/c_1" />
 
                     <TextView
-                        android:id="@+id/textView242"
+                        android:id="@+id/c2Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/c_2" />
 
                     <TextView
-                        android:id="@+id/textView246"
+                        android:id="@+id/c3Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/c_3" />
 
                     <TextView
-                        android:id="@+id/textView245"
+                        android:id="@+id/c4Text"
                         android:layout_width="match_parent"
                         android:layout_height="120dp"
                         android:text="@string/c_4" />
 
                     <TextView
-                        android:id="@+id/textView244"
+                        android:id="@+id/c5Text"
                         android:layout_width="match_parent"
                         android:layout_height="110dp"
                         android:text="@string/c_5" />
 
                     <TextView
-                        android:id="@+id/textView234"
+                        android:id="@+id/c6Text"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:text="@string/c_6" />
 
                     <TextView
-                        android:id="@+id/textView238"
+                        android:id="@+id/c7Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/c_7" />
 
                     <TextView
-                        android:id="@+id/textView243"
+                        android:id="@+id/c8Text"
                         android:layout_width="match_parent"
                         android:layout_height="120dp"
                         android:text="@string/c_8" />
 
                     <TextView
-                        android:id="@+id/textView226"
+                        android:id="@+id/c9Text"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:text="@string/c_9" />
 
                     <TextView
-                        android:id="@+id/textView241"
+                        android:id="@+id/c10Text"
                         android:layout_width="match_parent"
                         android:layout_height="170dp"
                         android:text="@string/c_10" />
 
                     <TextView
-                        android:id="@+id/textView240"
+                        android:id="@+id/c11Text"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:text="@string/c_11" />
 
                     <TextView
-                        android:id="@+id/textView239"
+                        android:id="@+id/c12Text"
                         android:layout_width="match_parent"
                         android:layout_height="140dp"
                         android:text="@string/c_12" />
 
                     <TextView
-                        android:id="@+id/textView235"
+                        android:id="@+id/c13Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/c_13" />
 
                     <TextView
-                        android:id="@+id/textView237"
+                        android:id="@+id/c14Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/c_14" />
 
                     <TextView
-                        android:id="@+id/textView236"
+                        android:id="@+id/c15Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/c_15" />
 
                     <TextView
-                        android:id="@+id/textView233"
+                        android:id="@+id/c16Text"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:text="@string/c_16" />
 
                     <TextView
-                        android:id="@+id/textView231"
+                        android:id="@+id/c17Text"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:text="@string/c_17" />
 
                     <TextView
-                        android:id="@+id/textView232"
+                        android:id="@+id/c18Text"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:text="@string/c_18" />
 
                     <TextView
-                        android:id="@+id/textView227"
+                        android:id="@+id/c19Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/c_19" />
 
                     <TextView
-                        android:id="@+id/textView230"
+                        android:id="@+id/c20Text"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:text="@string/c_20" />
 
                     <TextView
-                        android:id="@+id/textView229"
+                        android:id="@+id/c21Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/c_21" />
 
                     <TextView
-                        android:id="@+id/textView228"
+                        android:id="@+id/c22Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/c_22" />
@@ -860,139 +860,139 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView199"
+                        android:id="@+id/ItemText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/item" />
 
                     <TextView
-                        android:id="@+id/textView247"
+                        android:id="@+id/Airspace1Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/airspace" />
 
                     <TextView
-                        android:id="@+id/textView261"
+                        android:id="@+id/Airspace2Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/airspace" />
 
                     <TextView
-                        android:id="@+id/textView268"
+                        android:id="@+id/Airspace3Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/airspace" />
 
                     <TextView
-                        android:id="@+id/textView266"
+                        android:id="@+id/Airspace4Text"
                         android:layout_width="match_parent"
                         android:layout_height="120dp"
                         android:text="@string/airspace" />
 
                     <TextView
-                        android:id="@+id/textView264"
+                        android:id="@+id/Airspace5Text"
                         android:layout_width="match_parent"
                         android:layout_height="110dp"
                         android:text="@string/airspace" />
 
                     <TextView
-                        android:id="@+id/textView248"
+                        android:id="@+id/Notam1Text"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:text="@string/notam" />
 
                     <TextView
-                        android:id="@+id/textView267"
+                        android:id="@+id/Notam2Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/notam" />
 
                     <TextView
-                        android:id="@+id/textView259"
+                        android:id="@+id/Operation1Text"
                         android:layout_width="match_parent"
                         android:layout_height="120dp"
                         android:text="@string/operation" />
 
                     <TextView
-                        android:id="@+id/textView263"
+                        android:id="@+id/Operation2Text"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:text="@string/operation" />
 
                     <TextView
-                        android:id="@+id/textView260"
+                        android:id="@+id/Operation3Text"
                         android:layout_width="match_parent"
                         android:layout_height="170dp"
                         android:text="@string/operation" />
 
                     <TextView
-                        android:id="@+id/textView255"
+                        android:id="@+id/Operation4Text"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:text="@string/operation" />
 
                     <TextView
-                        android:id="@+id/textView265"
+                        android:id="@+id/Operation5Text"
                         android:layout_width="match_parent"
                         android:layout_height="140dp"
                         android:text="@string/operation" />
 
                     <TextView
-                        android:id="@+id/textView262"
+                        android:id="@+id/Operation6Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/operation" />
 
                     <TextView
-                        android:id="@+id/textView256"
+                        android:id="@+id/TUGMOTMText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/tug_mtom_25kg" />
 
                     <TextView
-                        android:id="@+id/textView258"
+                        android:id="@+id/NotificationText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/notification" />
 
                     <TextView
-                        android:id="@+id/textView257"
+                        android:id="@+id/TerrainText"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:text="@string/terrain" />
 
                     <TextView
-                        android:id="@+id/textView252"
+                        android:id="@+id/ProximitiesText"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:text="@string/proximities" />
 
                     <TextView
-                        android:id="@+id/textView254"
+                        android:id="@+id/HazardsText"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:text="@string/hazards" />
 
                     <TextView
-                        android:id="@+id/textView253"
+                        android:id="@+id/RestrictionsText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/restrictions" />
 
                     <TextView
-                        android:id="@+id/textView251"
+                        android:id="@+id/SensitivitiesText"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:text="@string/sensitivities" />
 
                     <TextView
-                        android:id="@+id/textView249"
+                        android:id="@+id/PermissionText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/permission" />
 
                     <TextView
-                        android:id="@+id/textView250"
+                        android:id="@+id/WeatherText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/weather" />
@@ -1005,139 +1005,139 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView221"
+                        android:id="@+id/ActionText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/action" />
 
                     <TextView
-                        android:id="@+id/textView269"
+                        android:id="@+id/WhatIsTheAirText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/what_is_the_airspace_a_b_c_d_e_f_g" />
 
                     <TextView
-                        android:id="@+id/textView285"
+                        android:id="@+id/IsTheAirspaceText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/is_the_airspace_a_civil_or_militairt_ctr" />
 
                     <TextView
-                        android:id="@+id/textView274"
+                        android:id="@+id/DoINeedATCText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/do_i_need_atc_permission" />
 
                     <TextView
-                        android:id="@+id/textView284"
+                        android:id="@+id/WillTheFlightText"
                         android:layout_width="match_parent"
                         android:layout_height="120dp"
                         android:text="@string/will_the_flight_be_within_3nm_from_a_military_low_flying_area_route_additional_coordination_and_permission_required" />
 
                     <TextView
-                        android:id="@+id/textView286"
+                        android:id="@+id/WillTheFliText"
                         android:layout_width="match_parent"
                         android:layout_height="110dp"
                         android:text="@string/will_the_flight_be_in_prohibited_eh_pxx_restricted_eh_rxx_or_danger_zones_eh_dxx_additional_permission_required" />
 
                     <TextView
-                        android:id="@+id/textView290"
+                        android:id="@+id/AnyNoticeText"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:text="@string/any_notice_to_airmen_that_may_effect_operations" />
 
                     <TextView
-                        android:id="@+id/textView289"
+                        android:id="@+id/IsTheNotamText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/is_the_notam_for_my_operation_published" />
 
                     <TextView
-                        android:id="@+id/textView288"
+                        android:id="@+id/HasTheSiteText"
                         android:layout_width="match_parent"
                         android:layout_height="120dp"
                         android:text="@string/has_the_site_operations_helpdesk_special_activities_or_aocs_nm_been_consulted_and_checked" />
 
                     <TextView
-                        android:id="@+id/textView287"
+                        android:id="@+id/WhatAreTheText"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:text="@string/what_are_the_weather_conditions_allowing_for_visual_flight_rules" />
 
                     <TextView
-                        android:id="@+id/textView280"
+                        android:id="@+id/AtADistanceText"
                         android:layout_width="match_parent"
                         android:layout_height="170dp"
                         android:text="@string/at_a_distance_of_more_than_150m_from_open_air_assemblies_of_persons_congested_areas_and_motorways_freeways_or_roads_with_a_speed_limit_of_80km_h_or_ore_which_are_in_use" />
 
                     <TextView
-                        android:id="@+id/textView283"
+                        android:id="@+id/AtADistaText"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:text="@string/at_a_distance_of_at_least_50m_from_industrial_areas_and_ports" />
 
                     <TextView
-                        android:id="@+id/textView282"
+                        android:id="@+id/WithAHorizonText"
                         android:layout_width="match_parent"
                         android:layout_height="140dp"
                         android:text="@string/with_a_horizontal_distance_to_vehicles_in_case_of_roads_with_a_speed_limit_below_80km_h_vessels_railways_bridges_is_at_least_50m_horizontally" />
 
                     <TextView
-                        android:id="@+id/textView275"
+                        android:id="@+id/Class1FlightText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/class_1_flight_taken_into_account_previous" />
 
                     <TextView
-                        android:id="@+id/textView277"
+                        android:id="@+id/TUGReceivedText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/tug_received" />
 
                     <TextView
-                        android:id="@+id/textView281"
+                        android:id="@+id/FlightReportedText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/flight_reported_to_meldingtuig_ilent_nl" />
 
                     <TextView
-                        android:id="@+id/textView270"
+                        android:id="@+id/WhatIsTheTerrainText"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:text="@string/what_is_the_terrain_flat_mountainous_boggy" />
 
                     <TextView
-                        android:id="@+id/textView276"
+                        android:id="@+id/OtherAircraftText"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:text="@string/other_aircraft_aerodromes_heli_pads_model" />
 
                     <TextView
-                        android:id="@+id/textView278"
+                        android:id="@+id/LiveFiringText"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:text="@string/live_firing_high_intensity_radio_transmissions_gas_venting" />
 
                     <TextView
-                        android:id="@+id/textView279"
+                        android:id="@+id/NuclearPowerText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/nuclear_power_stations_prisons" />
 
                     <TextView
-                        android:id="@+id/textView272"
+                        android:id="@+id/NatureReservesText"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:text="@string/nature_reserves_recreational_areas_bye_laws" />
 
                     <TextView
-                        android:id="@+id/textView273"
+                        android:id="@+id/LocalAuthorityText"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/local_authority_land_owner_military_space" />
 
                     <TextView
-                        android:id="@+id/textView271"
+                        android:id="@+id/Hours24Text"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:text="@string/_24_hours_forecast" />
@@ -1149,160 +1149,160 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView223"
+                        android:id="@+id/FindingText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/findings" />
 
                     <EditText
-                        android:id="@+id/editText52"
+                        android:id="@+id/C1Edit"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText65"
+                        android:id="@+id/C2Edit"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText74"
+                        android:id="@+id/C3Edit"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText73"
+                        android:id="@+id/C4Edit"
                         android:layout_width="match_parent"
                         android:layout_height="120dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText72"
+                        android:id="@+id/C5Edit"
                         android:layout_width="match_parent"
                         android:layout_height="110dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText71"
+                        android:id="@+id/C6Edit"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText54"
+                        android:id="@+id/C7Edit"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText70"
+                        android:id="@+id/C8Edit"
                         android:layout_width="match_parent"
                         android:layout_height="120dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText69"
+                        android:id="@+id/C9Edit"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText67"
+                        android:id="@+id/C10Edit"
                         android:layout_width="match_parent"
                         android:layout_height="170dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText68"
+                        android:id="@+id/C11Edit"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText66"
+                        android:id="@+id/C12Edit"
                         android:layout_width="match_parent"
                         android:layout_height="140dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText61"
+                        android:id="@+id/C13Edit"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText64"
+                        android:id="@+id/C14Edit"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText63"
+                        android:id="@+id/C15Edit"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText56"
+                        android:id="@+id/C16Edit"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText60"
+                        android:id="@+id/C17Edit"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText57"
+                        android:id="@+id/C18Edit"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText58"
+                        android:id="@+id/C19Edit"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText53"
+                        android:id="@+id/C20Edit"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText55"
+                        android:id="@+id/C21Edit"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 
                     <EditText
-                        android:id="@+id/editText59"
+                        android:id="@+id/C22Edit"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:ems="10"
@@ -1316,14 +1316,14 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/SubmitBTN"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/submit" />
 
                 <Button
-                    android:id="@+id/btn1"
+                    android:id="@+id/GoBackBTN"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"

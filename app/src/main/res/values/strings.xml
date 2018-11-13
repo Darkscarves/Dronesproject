@@ -230,7 +230,7 @@
     <string name="m_10">M.10</string>
     <string name="m_11">M.11</string>
     <string name="address">Address</string>
-    <string name="lattitude_amp_tongitude"><![CDATA[Lattitude & tongitude]]></string>
+    <string name="lattitude_amp_longitude"><![CDATA[Lattitude & longitude]]></string>
     <string name="elevation">Elevation</string>
     <string name="vehicular_acces">Vehicular acces</string>
     <string name="purpose_of_the_flight">Purpose of the flight</string>
