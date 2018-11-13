@@ -23,85 +23,85 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView232"
+                    android:id="@+id/DateText"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:text="@string/date" />
 
                 <TextView
-                    android:id="@+id/textView231"
+                    android:id="@+id/TakeOffTimeText"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:text="@string/take_off_time_hh_mm" />
 
                 <TextView
-                    android:id="@+id/textView230"
+                    android:id="@+id/LandingTimeText"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:text="@string/landing_time_hh_mm" />
 
                 <TextView
-                    android:id="@+id/textView229"
+                    android:id="@+id/DurationText"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:text="@string/duration" />
 
                 <TextView
-                    android:id="@+id/textView228"
+                    android:id="@+id/AircraftText"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:text="@string/aircraft" />
 
                 <TextView
-                    android:id="@+id/textView227"
+                    android:id="@+id/AircraftSystemText"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:text="@string/aircraft_system" />
 
                 <TextView
-                    android:id="@+id/textView226"
+                    android:id="@+id/EngineBatteryText"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:text="@string/engine_battery_no" />
 
                 <TextView
-                    android:id="@+id/textView225"
+                    android:id="@+id/PilotInCommandText"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:text="@string/pilot_in_command" />
 
                 <TextView
-                    android:id="@+id/textView224"
+                    android:id="@+id/ObserverText"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:text="@string/observer" />
 
                 <TextView
-                    android:id="@+id/textView223"
+                    android:id="@+id/PayloadOperatorText"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:text="@string/payload_operator" />
 
                 <TextView
-                    android:id="@+id/textView221"
+                    android:id="@+id/LocationText"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:text="@string/location" />
 
                 <TextView
-                    android:id="@+id/textView211"
+                    android:id="@+id/PurposeOfFlightText"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:text="@string/purpose_of_flight" />
 
                 <TextView
-                    android:id="@+id/textView199"
+                    android:id="@+id/CommentAndMinorIncidentText"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:text="@string/comments_and_minor_incidents" />
 
                 <Button
-                    android:id="@+id/button"
+                    android:id="@+id/SubmitBTN"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/submit" />
@@ -113,7 +113,7 @@
                 android:orientation="vertical">
 
                 <EditText
-                    android:id="@+id/editText56"
+                    android:id="@+id/DateEdit"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:ems="10"
@@ -121,7 +121,7 @@
                     android:text="" />
 
                 <EditText
-                    android:id="@+id/editText66"
+                    android:id="@+id/TakeOffTimeEdit"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:ems="10"
@@ -129,7 +129,7 @@
                     android:text="" />
 
                 <EditText
-                    android:id="@+id/editText54"
+                    android:id="@+id/LandingTimeEdit"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:ems="10"
@@ -137,7 +137,7 @@
                     android:text="" />
 
                 <EditText
-                    android:id="@+id/editText55"
+                    android:id="@+id/DurationEdit"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:ems="10"
@@ -145,7 +145,7 @@
                     android:text="" />
 
                 <EditText
-                    android:id="@+id/editText67"
+                    android:id="@+id/AircraftEdit"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:ems="10"
@@ -153,7 +153,7 @@
                     android:text="" />
 
                 <EditText
-                    android:id="@+id/editText64"
+                    android:id="@+id/AircraftSystemEdit"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:ems="10"
@@ -161,7 +161,7 @@
                     android:text="" />
 
                 <EditText
-                    android:id="@+id/editText57"
+                    android:id="@+id/EngineBatteryEdit"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:ems="10"
@@ -169,7 +169,7 @@
                     android:text="" />
 
                 <EditText
-                    android:id="@+id/editText65"
+                    android:id="@+id/PilotInCommandEdit"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:ems="10"
@@ -177,7 +177,7 @@
                     android:text="" />
 
                 <EditText
-                    android:id="@+id/editText63"
+                    android:id="@+id/ObserverEdit"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:ems="10"
@@ -185,7 +185,7 @@
                     android:text="" />
 
                 <EditText
-                    android:id="@+id/editText59"
+                    android:id="@+id/PayloadOperatorEdit"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:ems="10"
@@ -193,7 +193,7 @@
                     android:text="" />
 
                 <EditText
-                    android:id="@+id/editText58"
+                    android:id="@+id/LocationEdit"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:ems="10"
@@ -201,7 +201,7 @@
                     android:text="" />
 
                 <EditText
-                    android:id="@+id/editText61"
+                    android:id="@+id/PurposeOfFlightEdit"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:ems="10"
@@ -209,7 +209,7 @@
                     android:text="" />
 
                 <EditText
-                    android:id="@+id/editText60"
+                    android:id="@+id/CommentAndMinorIncidentEdit"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:ems="10"
@@ -217,7 +217,7 @@
                     android:text="" />
 
                 <Button
-                    android:id="@+id/button4"
+                    android:id="@+id/GoBackBTN"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:onClick="toHome"
