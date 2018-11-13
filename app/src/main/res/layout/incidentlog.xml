@@ -17,91 +17,91 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/test"
+                android:id="@+id/StudentNaamText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/studentennaam" />
 
             <EditText
-                android:id="@+id/editText"
+                android:id="@+id/StudentNaamEdit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName" />
 
             <TextView
-                android:id="@+id/textView12"
+                android:id="@+id/DateOfIncidentText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/date_of_incident" />
 
             <EditText
-                android:id="@+id/editText2"
+                android:id="@+id/DateOfIncidentEdit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName" />
 
             <TextView
-                android:id="@+id/textView62"
+                android:id="@+id/TimeOfIncidentText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/time_of_incident" />
 
             <EditText
-                android:id="@+id/editText62"
+                android:id="@+id/TimeOfIncidentEdit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName" />
 
             <TextView
-                android:id="@+id/textView13"
+                android:id="@+id/InjuriesDamageText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/injuries_damage" />
 
             <EditText
-                android:id="@+id/editText3"
+                android:id="@+id/InjuriesDamageEdit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName" />
 
             <TextView
-                android:id="@+id/textView19"
+                android:id="@+id/IncidentDetailsText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/incident_details" />
 
             <EditText
-                android:id="@+id/editText4"
+                android:id="@+id/IncidentDetailsEdit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName" />
 
             <TextView
-                android:id="@+id/textView18"
+                android:id="@+id/ActionTakenIncidentReportText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/action_taken_incident_report" />
 
             <EditText
-                android:id="@+id/editText5"
+                android:id="@+id/ActionTakenIncidentReportEdit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName" />
 
             <TextView
-                android:id="@+id/textView17"
+                android:id="@+id/NotesText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/notes" />
 
             <EditText
-                android:id="@+id/editText6"
+                android:id="@+id/NotesEdit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -114,14 +114,14 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/SubmitBTN"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/submit" />
 
                 <Button
-                    android:id="@+id/btn1"
+                    android:id="@+id/GoBackBTN"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
