@@ -28,19 +28,19 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView5"
+                        android:id="@+id/ItemText"
                         android:layout_width="match_parent"
                         android:layout_height="25dp"
                         android:text="@string/item" />
 
                     <TextView
-                        android:id="@+id/textView28"
+                        android:id="@+id/GroundStationLeadsText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/ground_station_amp_leads" />
 
                     <TextView
-                        android:id="@+id/textView30"
+                        android:id="@+id/CameraMonitorLeadsText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/camera_monitor_amp_leads" />
@@ -796,14 +796,14 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/SubmitBTN"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/submit" />
 
                 <Button
-                    android:id="@+id/btn1"
+                    android:id="@+id/GoBackBTN"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
