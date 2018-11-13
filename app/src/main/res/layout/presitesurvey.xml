@@ -338,37 +338,37 @@
                         android:id="@+id/textView324"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Acces" />
+                        android:text="@string/acces" />
 
                     <TextView
                         android:id="@+id/textView325"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Footpaths" />
+                        android:text="@string/footpaths" />
 
                     <TextView
                         android:id="@+id/textView326"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Alternate" />
+                        android:text="@string/alternate" />
 
                     <TextView
                         android:id="@+id/textView327"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
-                        android:text="Risk reduction" />
+                        android:text="@string/risk_reduction" />
 
                     <TextView
                         android:id="@+id/textView328"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Weather" />
+                        android:text="@string/weather" />
 
                     <TextView
                         android:id="@+id/textView329"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
-                        android:text="Notams" />
+                        android:text="@string/notams" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -380,13 +380,13 @@
                         android:id="@+id/textView313"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
-                        android:text="Action (use skydemon light, google earth &amp; metcheck)" />
+                        android:text="@string/action_use_skydemon_light_google_earth_amp_metcheck" />
 
                     <TextView
                         android:id="@+id/textView330"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
-                        android:text="What is the airspace? (A, B, C, D, E, F, G) - Do i need ATC permission" />
+                        android:text="@string/what_is_the_airspace_a_b_c_d_e_f_g_do_i_need_atc_permission" />
 
                     <TextView
                         android:id="@+id/textView331"
@@ -422,13 +422,13 @@
                         android:id="@+id/textView342"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Local habitation (Do we need to letter drop)" />
+                        android:text="@string/local_habitation_do_we_need_to_letter_drop" />
 
                     <TextView
                         android:id="@+id/textView341"
                         android:layout_width="match_parent"
                         android:layout_height="20dp"
-                        android:text="Local farms" />
+                        android:text="@string/local_farms" />
 
                     <TextView
                         android:id="@+id/textView339"
@@ -440,25 +440,25 @@
                         android:id="@+id/textView343"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Public right of way, gates &amp; roads" />
+                        android:text="@string/public_right_of_way_gates_amp_roads" />
 
                     <TextView
                         android:id="@+id/textView344"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Public footpaths, bridal paths" />
+                        android:text="@string/public_footpaths_bridal_paths" />
 
                     <TextView
                         android:id="@+id/textView336"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
-                        android:text="Alternative operational / take off sites" />
+                        android:text="@string/alternative_operational_take_off_sites" />
 
                     <TextView
                         android:id="@+id/textView332"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
-                        android:text="Can the job be done at another time to avoid school times etc" />
+                        android:text="@string/can_the_job_be_done_at_another_time_to_avoid_school_times_etc" />
 
                     <TextView
                         android:id="@+id/textView333"
@@ -609,31 +609,31 @@
                             android:id="@+id/textView291"
                             android:layout_width="188dp"
                             android:layout_height="40dp"
-                            android:text="Pre notifications" />
+                            android:text="@string/pre_notifications" />
 
                         <TextView
                             android:id="@+id/textView303"
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
-                            android:text="LOCAL AIR TRAFFIC CONTROL:" />
+                            android:text="@string/local_air_traffic_control" />
 
                         <TextView
                             android:id="@+id/textView310"
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
-                            android:text="REGIONAL AIR TRAFFIC CONTROL:" />
+                            android:text="@string/regional_air_traffic_control" />
 
                         <TextView
                             android:id="@+id/textView402"
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
-                            android:text="MILITARY CONTROL:" />
+                            android:text="@string/military_control" />
 
                         <TextView
                             android:id="@+id/textView403"
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
-                            android:text="NOTICE TO AIRMEN:" />
+                            android:text="@string/notice_to_airmen" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -645,7 +645,7 @@
                             android:id="@+id/textView292"
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
-                            android:text="(If notified Date, Time &amp; Contact Name)" />
+                            android:text="@string/if_notified_date_time_amp_contact_name" />
 
                         <EditText
                             android:id="@+id/editText75"
