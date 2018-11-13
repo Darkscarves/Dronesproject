@@ -17,59 +17,59 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/Studentnaam"
+                android:id="@+id/StudentennaamText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/studentennaam" />
 
             <EditText
-                android:id="@+id/editText"
+                android:id="@+id/StudentennaamEdit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName" />
 
             <TextView
-                android:id="@+id/textView12"
+                android:id="@+id/RedenText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/reden" />
 
             <EditText
-                android:id="@+id/editText2"
+                android:id="@+id/RedenEdit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName" />
 
             <TextView
-                android:id="@+id/textView13"
+                android:id="@+id/WorkDoneText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/work_done" />
 
             <EditText
-                android:id="@+id/editText3"
+                android:id="@+id/WorkDoneEdit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName" />
 
             <TextView
-                android:id="@+id/textView19"
+                android:id="@+id/PartsReplacedText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/parts_replaced" />
 
             <EditText
-                android:id="@+id/editText4"
+                android:id="@+id/PartsReplacedEdit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName" />
 
             <TextView
-                android:id="@+id/textView18"
+                android:id="@+id/SystemTestedText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/system_tested" />
@@ -79,14 +79,14 @@
                 android:layout_height="match_parent" >
 
                 <RadioButton
-                    android:id="@+id/radioButton"
+                    android:id="@+id/SystemTestedYes"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/yes" />
 
                 <RadioButton
-                    android:id="@+id/radioButton2"
+                    android:id="@+id/SystemTestedNo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -94,13 +94,13 @@
             </RadioGroup>
 
             <TextView
-                android:id="@+id/textView17"
+                android:id="@+id/NotesText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/notes" />
 
             <EditText
-                android:id="@+id/editText6"
+                android:id="@+id/NotesEdit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -112,14 +112,14 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/SubmitBTN"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/submit" />
 
                 <Button
-                    android:id="@+id/btn1"
+                    android:id="@+id/GoBackBTN"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
