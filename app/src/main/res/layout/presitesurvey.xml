@@ -590,6 +590,96 @@
                         android:inputType="textPersonName" />
                 </LinearLayout>
             </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="188dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView291"
+                            android:layout_width="188dp"
+                            android:layout_height="40dp"
+                            android:text="Pre notifications" />
+
+                        <TextView
+                            android:id="@+id/textView303"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:text="LOCAL AIR TRAFFIC CONTROL:" />
+
+                        <TextView
+                            android:id="@+id/textView310"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:text="REGIONAL AIR TRAFFIC CONTROL:" />
+
+                        <TextView
+                            android:id="@+id/textView402"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:text="MILITARY CONTROL:" />
+
+                        <TextView
+                            android:id="@+id/textView403"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:text="NOTICE TO AIRMEN:" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView292"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:text="(If notified Date, Time &amp; Contact Name)" />
+
+                        <EditText
+                            android:id="@+id/editText75"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:ems="10"
+                            android:inputType="textPersonName" />
+
+                        <EditText
+                            android:id="@+id/editText76"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:ems="10"
+                            android:inputType="textPersonName" />
+
+                        <EditText
+                            android:id="@+id/editText404"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:ems="10"
+                            android:inputType="textPersonName" />
+
+                        <EditText
+                            android:id="@+id/editText405"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:ems="10"
+                            android:inputType="textPersonName" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 
