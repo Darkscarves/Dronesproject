@@ -34,7 +34,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/BTN1"
+                    android:id="@+id/PreSiteSurveyLink"
                     android:layout_width="200dp"
                     android:layout_height="60dp"
                     android:layout_weight="1"
@@ -45,7 +45,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <Button
-                    android:id="@+id/BTN4"
+                    android:id="@+id/OnSiteSurveyLink"
                     android:layout_width="200dp"
                     android:layout_height="60dp"
                     android:layout_weight="1"
@@ -63,7 +63,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/BTN2"
+                    android:id="@+id/PreFlightChecklistLink"
                     android:layout_width="200dp"
                     android:layout_height="60dp"
                     android:layout_weight="1"
@@ -74,7 +74,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <Button
-                    android:id="@+id/BTN3"
+                    android:id="@+id/OperationalFlightPlanLink"
                     android:layout_width="200dp"
                     android:layout_height="60dp"
                     android:layout_weight="1"
@@ -91,7 +91,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/BTN5"
+                    android:id="@+id/MaintenanceLogLink"
                     android:layout_width="200dp"
                     android:layout_height="60dp"
                     android:layout_weight="1"
@@ -102,7 +102,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <Button
-                    android:id="@+id/BTN6"
+                    android:id="@+id/IncidentLogLink"
                     android:layout_width="200dp"
                     android:layout_height="60dp"
                     android:layout_weight="1"
@@ -120,7 +120,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/BTN7"
+                    android:id="@+id/ArrivalAndPostFlightChecklistLink"
                     android:layout_width="200dp"
                     android:layout_height="60dp"
                     android:layout_marginTop="-8dp"
@@ -132,7 +132,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <Button
-                    android:id="@+id/BTN8"
+                    android:id="@+id/BatteryLogLink"
                     android:layout_width="200dp"
                     android:layout_height="60dp"
                     android:layout_weight="1"
@@ -149,7 +149,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/BTN9"
+                    android:id="@+id/EmbarkationChecklistLink"
                     android:layout_width="200dp"
                     android:layout_height="60dp"
                     android:layout_weight="1"
@@ -160,12 +160,12 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <Button
-                    android:id="@+id/BTN10"
+                    android:id="@+id/AircraftPilotAndCrewFlightLogsLink"
                     android:layout_width="200dp"
                     android:layout_height="60dp"
                     android:layout_weight="1"
-                    android:text="@string/aircraft_pilot_and_crew_flight_logs"
                     android:onClick="toAircraftPilotAndCrewFlightLogs"
+                    android:text="@string/aircraft_pilot_and_crew_flight_logs"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
