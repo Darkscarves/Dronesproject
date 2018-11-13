@@ -315,7 +315,7 @@
     <string name="tug_received">TUG received?</string>
     <string name="flight_reported_to_meldingtuig_ilent_nl">Flight reported to meldingtuig@ilent.nl?</string>
     <string name="what_is_the_terrain_flat_mountainous_boggy">What is the terrain? (Flat, Mountainous, Boggy)</string>
-    <string name="other_aircraft_aerodromes_heli_pads_model">Other aircraft (aerodromes, heli pads, model)</string>
+    <string name="other_aircraft_aerodromes_heli_pads_model">Other aircraft (aerodromes, heli pads, model sites)</string>
     <string name="live_firing_high_intensity_radio_transmissions_gas_venting">Live firing, high intensity radio transmissions, gas venting</string>
     <string name="nuclear_power_stations_prisons">Nuclear power stations, prisons</string>
     <string name="nature_reserves_recreational_areas_bye_laws">Nature reserves, recreational areas, bye laws</string>
@@ -337,4 +337,20 @@
     <string name="helper_2">Helper 2</string>
     <string name="downloaded_map_to_groundstation">Downloaded map to groundstation</string>
     <string name="ft">ft</string>
+    <string name="acces">Acces</string>
+    <string name="footpaths">Footpaths</string>
+    <string name="alternate">Alternate</string>
+    <string name="risk_reduction">Risk reduction</string>
+    <string name="notams">Notams</string>
+    <string name="action_use_skydemon_light_google_earth_amp_metcheck"><![CDATA[Action (use skydemon light, google earth & metcheck)]]></string>
+    <string name="what_is_the_airspace_a_b_c_d_e_f_g_do_i_need_atc_permission">What is the airspace? (A, B, C, D, E, F, G) - Do i need ATC permission</string>
+    <string name="local_habitation_do_we_need_to_letter_drop">Local habitation (Do we need to letter drop)</string>
+    <string name="local_farms">Local farms</string>
+    <string name="public_right_of_way_gates_amp_roads"><![CDATA[Public right of way, gates & roads]]></string>
+    <string name="public_footpaths_bridal_paths">Public footpaths, bridal paths</string>
+    <string name="alternative_operational_take_off_sites">Alternative operational / take off sites</string>
+    <string name="can_the_job_be_done_at_another_time_to_avoid_school_times_etc">Can the job be done at another time to avoid school times etc</string>
+    <string name="pre_notifications">Pre notifications</string>
+    <string name="if_notified_date_time_amp_contact_name"><![CDATA[(If notified Date, Time & Contact Name)]]></string>
+    <string name="notice_to_airmen">Notice to airmen</string>
 </resources>
