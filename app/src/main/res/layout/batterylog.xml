@@ -17,104 +17,104 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/test"
+                android:id="@+id/StudentennaamText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/studentennaam" />
 
             <EditText
-                android:id="@+id/editText"
+                android:id="@+id/StudentennaamEdit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName" />
 
             <TextView
-                android:id="@+id/textView12"
+                android:id="@+id/BatteryNumberText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/battery_number" />
 
             <EditText
-                android:id="@+id/editText2"
+                android:id="@+id/BatteryNumberEdit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName" />
 
             <TextView
-                android:id="@+id/textView13"
+                android:id="@+id/BatteryResidualText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/battery_residual" />
 
             <EditText
-                android:id="@+id/editText3"
+                android:id="@+id/BatteryResidualEdit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName" />
 
             <TextView
-                android:id="@+id/textView19"
+                android:id="@+id/DateOfChargeText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/date_of_charge" />
 
             <EditText
-                android:id="@+id/editText4"
+                android:id="@+id/DateOfChargeEdit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName" />
 
             <TextView
-                android:id="@+id/textView18"
+                android:id="@+id/ChargeInputText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/charge_input" />
 
             <EditText
-                android:id="@+id/editText5"
+                android:id="@+id/ChargeInputEdit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName" />
 
             <TextView
-                android:id="@+id/textView17"
+                android:id="@+id/FlightDurationText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/flight_duration" />
 
             <EditText
-                android:id="@+id/editText6"
+                android:id="@+id/FlightDurationEdit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName" />
 
             <TextView
-                android:id="@+id/textView1"
+                android:id="@+id/PreFlightText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/pre_flight" />
 
             <EditText
-                android:id="@+id/editText7"
+                android:id="@+id/PreFlightEdit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/NotesText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/notes" />
 
             <EditText
-                android:id="@+id/editText8"
+                android:id="@+id/NotesEdit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -126,14 +126,14 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/SubmitBTN"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/submit" />
 
                 <Button
-                    android:id="@+id/btn1"
+                    android:id="@+id/GoBackBTN"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
