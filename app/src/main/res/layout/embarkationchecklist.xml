@@ -241,49 +241,49 @@
                         android:text="@string/battery_checker" />
 
                     <TextView
-                        android:id="@+id/textView105"
+                        android:id="@+id/ScewDriversFlatCrossDriveText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/screwdrivers_flat_cross_drive" />
 
                     <TextView
-                        android:id="@+id/textView106"
+                        android:id="@+id/AllenKeysText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/allen_keys" />
 
                     <TextView
-                        android:id="@+id/textView107"
+                        android:id="@+id/PliersStandardLongNoseText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/pliers_standard_long_nose" />
 
                     <TextView
-                        android:id="@+id/textView108"
+                        android:id="@+id/CableTiesVariousSizesText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/cable_ties_various_sizes" />
 
                     <TextView
-                        android:id="@+id/textView109"
+                        android:id="@+id/SideCuttersText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/side_cutters" />
 
                     <TextView
-                        android:id="@+id/textView110"
+                        android:id="@+id/NylockPropellerNutsText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/nylock_propeller_nuts" />
 
                     <TextView
-                        android:id="@+id/textView111"
+                        android:id="@+id/SparePropsTractorPusherText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/spare_props_tractor_amp_pusher" />
 
                     <TextView
-                        android:id="@+id/textVie112"
+                        android:id="@+id/SmallSocketSetText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/small_socket_set" />
