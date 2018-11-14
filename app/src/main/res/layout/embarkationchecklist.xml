@@ -64,7 +64,7 @@
                         android:text="@string/laptop_amp_leads" />
 
                     <TextView
-                        android:id="@+id/MobilePhoneAppEmergencyNoSText"
+                        android:id="@+id/MobilePhoneAppEmergencyNoText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/mobile_phone_amp_emergency_no_s" />
@@ -88,7 +88,7 @@
                         android:text="@string/crew_identification" />
 
                     <TextView
-                        android:id="@+id/FluorescentJacketSHardHatsText"
+                        android:id="@+id/FluorescentJacketHardHatsText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/fluorescent_jacket_s_hard_hats" />
@@ -164,78 +164,78 @@
                         android:text="@string/charger_battery_packs" />
 
                     <TextView
-                        android:id="@+id/textView97"
+                        android:id="@+id/MobilePhoneBatteryText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/mobile_phone_battery" />
 
                     <TextView
-                        android:id="@+id/textView98"
+                        android:id="@+id/AirframeText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/airframe" />
 
                     <TextView
-                        android:id="@+id/textView99"
+                        android:id="@+id/CameraMountText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/camera_mount" />
 
                     <TextView
-                        android:id="@+id/textView91"
+                        android:id="@+id/FlightControllerTransmitterText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/fligt_controller_transmitter_s" />
 
                     <TextView
-                        android:id="@+id/textView90"
+                        android:id="@+id/CalibrationPlatformText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/calibration_platform" />
 
                     <TextView
-                        android:id="@+id/textView92"
+                        android:id="@+id/CameraLensText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/camera_s_amp_lens_s" />
 
                     <TextView
-                        android:id="@+id/textView93"
+                        android:id="@+id/CameraConnectionLeadsText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/camera_connection_leads" />
 
                     <TextView
-                        android:id="@+id/textView94"
+                        android:id="@+id/CameraMemoryCardsText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/camera_memory_cards" />
                     <TextView
-                        android:id="@+id/textView100"
+                        android:id="@+id/CameraToAirframeLanyardText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/camera_to_airframe_lanyard" />
 
                     <TextView
-                        android:id="@+id/textView101"
+                        android:id="@+id/CameraAttachmentBoltText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/camera_attachment_bolt" />
 
                     <TextView
-                        android:id="@+id/textView102"
+                        android:id="@+id/MultiFunctionBatteryChargerText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/multi_function_battry_charger" />
 
                     <TextView
-                        android:id="@+id/textView103"
+                        android:id="@+id/RequiredChargerLeadsText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/required_charger_leads" />
 
                     <TextView
-                        android:id="@+id/textView104"
+                        android:id="@+id/BatteryCheckerText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/battery_checker" />
