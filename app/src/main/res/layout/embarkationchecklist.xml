@@ -46,49 +46,49 @@
                         android:text="@string/camera_monitor_amp_leads" />
 
                     <TextView
-                        android:id="@+id/textView31"
+                        android:id="@+id/AVReceiverLeads"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/a_v_receiver_amp_leads" />
 
                     <TextView
-                        android:id="@+id/textView32"
+                        android:id="@+id/TelemetryReceiverLeads"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/telemetry_receiver_amp_leads" />
 
                     <TextView
-                        android:id="@+id/textView33"
+                        android:id="@+id/LaptopLeads"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/laptop_amp_leads" />
 
                     <TextView
-                        android:id="@+id/textView34"
+                        android:id="@+id/MobilePhoneAppEmergencyNoS"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/mobile_phone_amp_emergency_no_s" />
 
                     <TextView
-                        android:id="@+id/textView35"
+                        android:id="@+id/Anemometer"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/anemometer" />
 
                     <TextView
-                        android:id="@+id/textView36"
+                        android:id="@+id/FirstAidKitFireExtinguisher"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/first_aid_kit_amp_fire_extinguisher" />
 
                     <TextView
-                        android:id="@+id/textView37"
+                        android:id="@+id/CrewIdentification"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/crew_identification" />
 
                     <TextView
-                        android:id="@+id/textView38"
+                        android:id="@+id/FluorescentJacketSHardHats"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/fluorescent_jacket_s_hard_hats" />
