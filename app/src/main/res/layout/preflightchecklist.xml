@@ -28,131 +28,131 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView1"
+                        android:id="@+id/ItemText"
                         android:layout_width="match_parent"
                         android:layout_height="25dp"
                         android:text="@string/item" />
 
                     <TextView
-                        android:id="@+id/textView22"
+                        android:id="@+id/AirframeText"
                         android:layout_width="match_parent"
                         android:layout_height="125dp"
                         android:text="@string/airframe" />
 
                     <TextView
-                        android:id="@+id/textView3"
+                        android:id="@+id/FlightBatteryText"
                         android:layout_width="match_parent"
                         android:layout_height="125dp"
                         android:text="@string/flight_battery" />
 
                     <TextView
-                        android:id="@+id/textView4"
+                        android:id="@+id/TransmittersText"
                         android:layout_width="match_parent"
                         android:layout_height="125dp"
                         android:text="@string/transmitter_s" />
 
                     <TextView
-                        android:id="@+id/textView5"
+                        android:id="@+id/CameraText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/camera" />
 
                     <TextView
-                        android:id="@+id/textView6"
+                        android:id="@+id/Airframe2Text"
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
                         android:text="@string/airframe" />
 
                     <TextView
-                        android:id="@+id/textView7"
+                        android:id="@+id/FlightBattery2Text"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/flight_battery" />
 
                     <TextView
-                        android:id="@+id/textView8"
+                        android:id="@+id/SelfDiagText"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:text="@string/self_diagnostic" />
 
                     <TextView
-                        android:id="@+id/textView9"
+                        android:id="@+id/MonitorText"
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
                         android:text="@string/monitor" />
 
                     <TextView
-                        android:id="@+id/textView10"
+                        android:id="@+id/CalibrationText"
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
                         android:text="@string/calibration" />
 
                     <TextView
-                        android:id="@+id/textView11"
+                        android:id="@+id/SaveCalibText"
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
                         android:text="@string/save_calibration" />
 
                     <TextView
-                        android:id="@+id/textView12"
+                        android:id="@+id/CameraPlatText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/camera_platform" />
 
                     <TextView
-                        android:id="@+id/textView13"
+                        android:id="@+id/TelemetryText"
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
                         android:text="@string/telemetry_link" />
 
                     <TextView
-                        android:id="@+id/textView14"
+                        android:id="@+id/FlightPlanText"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:text="@string/flight_plan" />
 
                     <TextView
-                        android:id="@+id/textView15"
+                        android:id="@+id/Camera3Text"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/camera" />
 
                     <TextView
-                        android:id="@+id/textView16"
+                        android:id="@+id/AircraftAlignText"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:text="@string/aircraft_alignment" />
                     <TextView
-                        android:id="@+id/textView17"
+                        android:id="@+id/CrewPublicText"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:text="@string/crew_public_amp_client" />
 
                     <TextView
-                        android:id="@+id/textView18"
+                        android:id="@+id/ClearenceText"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:text="@string/clearence" />
 
                     <TextView
-                        android:id="@+id/textView19"
+                        android:id="@+id/PowerUpText"
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
                         android:text="@string/power_up" />
                     <TextView
-                        android:id="@+id/textView20"
+                        android:id="@+id/TakeOffText"
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
                         android:text="@string/take_off" />
 
                     <TextView
-                        android:id="@+id/textView21"
+                        android:id="@+id/CommunicationText"
                         android:layout_width="match_parent"
                         android:layout_height="130dp"
                         android:text="@string/communication" />
 
                     <TextView
-                        android:id="@+id/textView24"
+                        android:id="@+id/LandingText"
                         android:layout_width="match_parent"
                         android:layout_height="130dp"
                         android:text="@string/landing"  />
@@ -168,131 +168,131 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView30"
+                        android:id="@+id/ActionCheckText"
                         android:layout_width="match_parent"
                         android:layout_height="25dp"
                         android:text="@string/action_check" />
 
                     <TextView
-                        android:id="@+id/textView31"
+                        android:id="@+id/CheckForDamText"
                         android:layout_width="match_parent"
                         android:layout_height="125dp"
                         android:text="@string/check_for_damage_wear" />
 
                     <TextView
-                        android:id="@+id/textView32"
+                        android:id="@+id/NoteBatteryText"
                         android:layout_width="match_parent"
                         android:layout_height="125dp"
                         android:text="@string/note_battery_number" />
 
                     <TextView
-                        android:id="@+id/textView29"
+                        android:id="@+id/SwitchOnText"
                         android:layout_width="match_parent"
                         android:layout_height="125dp"
                         android:text="@string/switch_on_check_battery_power" />
 
                     <TextView
-                        android:id="@+id/textView33"
+                        android:id="@+id/SwitchOnAndText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/switch_on_and_confirm_correct_operation" />
 
                     <TextView
-                        android:id="@+id/textView34"
+                        android:id="@+id/EnsureAircraftText"
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
                         android:text="@string/ensure_aircraft_is_level_on_the_calibration_platform" />
 
                     <TextView
-                        android:id="@+id/textView35"
+                        android:id="@+id/CallClearText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/call_clear_props_and_connect_flight_battery"   />
 
                     <TextView
-                        android:id="@+id/textView36"
+                        android:id="@+id/WaitForDiaText"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:text="@string/wait_for_diagnostic_to_finish_amp_gps_lock_to_be_established_flashing_blue_light" />
 
                     <TextView
-                        android:id="@+id/textView37"
+                        android:id="@+id/CheckFunctionText"
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
                         android:text="@string/check_function_amp_quality_of_a_v_link_from_camera" />
 
                     <TextView
-                        android:id="@+id/textView38"
+                        android:id="@+id/MoveLeftText"
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
                         android:text="@string/move_left_transmitter_stick_to_top_left_corner_amp_wait_for_beep" />
 
                     <TextView
-                        android:id="@+id/textView39"
+                        android:id="@+id/MoveLeftTransText"
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
                         android:text="@string/move_left_transmitter_stick_to_top_right_corner_amp_wait_for_beep" />
 
                     <TextView
-                        android:id="@+id/textView40"
+                        android:id="@+id/TestForConText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/test_for_contol_and_operation" />
 
                     <TextView
-                        android:id="@+id/textView41"
+                        android:id="@+id/EnsureGroundText"
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
                         android:text="@string/ensure_ground_station_and_transmitter_displays_are_connected" />
 
                     <TextView
-                        android:id="@+id/textView42"
+                        android:id="@+id/LoadInText"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:text="@string/load_in_flight_plan_from_ground_station_if_required_beep_for_each_waypoint" />
 
                     <TextView
-                        android:id="@+id/textView43"
+                        android:id="@+id/StartRecordingText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/start_recording" />
 
                     <TextView
-                        android:id="@+id/textView44"
+                        android:id="@+id/RepositionAircraftText"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:text="@string/reposition_aircraft_in_take_off_area_on_level_ground_facing_into_wind" />
                     <TextView
-                        android:id="@+id/textView45"
+                        android:id="@+id/EnsureAllCrewText"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:text="@string/ensure_all_crew_public_amp_client_are_in_correct_safe_positions" />
 
                     <TextView
-                        android:id="@+id/textView46"
+                        android:id="@+id/DoWeHaveText"
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:text="@string/do_we_have_clearence_from_air_traffic_control_if_required" />
 
                     <TextView
-                        android:id="@+id/textView47"
+                        android:id="@+id/CallTakingText"
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
                         android:text="@string/call_taking_off_and_start_motors_left_transmitter_stick_to_bottom_right_corner" />
 
                     <TextView
-                        android:id="@+id/textView48"
+                        android:id="@+id/TakeOneText"
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
                         android:text="@string/take_one_final_quick" />
 
                     <TextView
-                        android:id="@+id/textView49"
+                        android:id="@+id/ThroughoutText"
                         android:layout_width="match_parent"
                         android:layout_height="130dp"
                         android:text="@string/throughout_entire_flight" />
                     <TextView
-                        android:id="@+id/textView50"
+                        android:id="@+id/BeforeLandigText"
                         android:layout_width="match_parent"
                         android:layout_height="130dp"
                         android:text="@string/before_landing_check" />
@@ -308,112 +308,112 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView23"
+                        android:id="@+id/TickText"
                         android:layout_width="match_parent"
                         android:layout_height="25dp"
                         android:text="@string/tick" />
 
                     <CheckBox
-                        android:id="@+id/checkBox1"
+                        android:id="@+id/AirframeCBox"
                         android:layout_width="match_parent"
                         android:layout_height="125dp" />
 
                     <CheckBox
-                        android:id="@+id/checkBox2"
+                        android:id="@+id/FlightBatteryCBox"
                         android:layout_width="match_parent"
                         android:layout_height="125dp" />
 
                     <CheckBox
-                        android:id="@+id/checkBox3"
+                        android:id="@+id/TransmittersCBox"
                         android:layout_width="match_parent"
                         android:layout_height="125dp" />
 
                     <CheckBox
-                        android:id="@+id/checkBox4"
+                        android:id="@+id/CameraCBox"
                         android:layout_width="match_parent"
                         android:layout_height="50dp" />
 
                     <CheckBox
-                        android:id="@+id/checkBox5"
+                        android:id="@+id/Airframe2CBox"
                         android:layout_width="match_parent"
                         android:layout_height="65dp" />
 
                     <CheckBox
-                        android:id="@+id/checkBox6"
+                        android:id="@+id/FlightBattery2CBox"
                         android:layout_width="match_parent"
                         android:layout_height="50dp" />
 
                     <CheckBox
-                        android:id="@+id/checkBox7"
+                        android:id="@+id/SelfDiagCBox"
                         android:layout_width="match_parent"
                         android:layout_height="80dp" />
 
                     <CheckBox
-                        android:id="@+id/checkBox8"
+                        android:id="@+id/MonitorCBox"
                         android:layout_width="match_parent"
                         android:layout_height="65dp" />
 
                     <CheckBox
-                        android:id="@+id/checkBox9"
+                        android:id="@+id/CalibrationCBox"
                         android:layout_width="match_parent"
                         android:layout_height="65dp" />
 
                     <CheckBox
-                        android:id="@+id/checkBox10"
+                        android:id="@+id/SaveCalibCBox"
                         android:layout_width="match_parent"
                         android:layout_height="65dp" />
 
                     <CheckBox
-                        android:id="@+id/checkBox11"
+                        android:id="@+id/CameraPlatCBox"
                         android:layout_width="match_parent"
                         android:layout_height="50dp" />
 
                     <CheckBox
-                        android:id="@+id/checkBox12"
+                        android:id="@+id/TelemetryCBox"
                         android:layout_width="match_parent"
                         android:layout_height="65dp" />
 
                     <CheckBox
-                        android:id="@+id/checkBox13"
+                        android:id="@+id/FlightPlanCBox"
                         android:layout_width="match_parent"
                         android:layout_height="80dp" />
 
                     <CheckBox
-                        android:id="@+id/checkBox14"
+                        android:id="@+id/Camera2CBox"
                         android:layout_width="match_parent"
                         android:layout_height="50dp" />
 
                     <CheckBox
-                        android:id="@+id/checkBox15"
+                        android:id="@+id/AircraftAlignCBox"
                         android:layout_width="match_parent"
                         android:layout_height="80dp" />
                     <CheckBox
-                        android:id="@+id/checkBox16"
-                        android:layout_width="match_parent"
-                        android:layout_height="80dp" />
-
-                    <CheckBox
-                        android:id="@+id/checkBox17"
+                        android:id="@+id/CrewPublicCBox"
                         android:layout_width="match_parent"
                         android:layout_height="80dp" />
 
                     <CheckBox
-                        android:id="@+id/checkBox18"
+                        android:id="@+id/ClearenceCBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp" />
+
+                    <CheckBox
+                        android:id="@+id/PowerUpCBox"
                         android:layout_width="match_parent"
                         android:layout_height="100dp" />
 
                     <CheckBox
-                        android:id="@+id/checkBox19"
+                        android:id="@+id/TakeOffCBox"
                         android:layout_width="match_parent"
                         android:layout_height="100dp" />
 
                     <CheckBox
-                        android:id="@+id/checkBox20"
+                        android:id="@+id/CommunicationCBox"
                         android:layout_width="match_parent"
                         android:layout_height="130dp" />
 
                     <CheckBox
-                        android:id="@+id/checkBox21"
+                        android:id="@+id/LandingCBox"
                         android:layout_width="match_parent"
                         android:layout_height="130dp" />
 
@@ -427,14 +427,14 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/SubmitBTN"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/submit" />
 
                 <Button
-                    android:id="@+id/btn1"
+                    android:id="@+id/GoBackBTN"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
