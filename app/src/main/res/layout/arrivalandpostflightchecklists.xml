@@ -43,7 +43,7 @@
                         android:id="@+id/FligtPlanText"
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
-                        android:text="@string/fligt_plan_brief" />
+                        android:text="@string/flight_plan_brief" />
 
                     <TextView
                         android:id="@+id/AirframeText"

@@ -32,7 +32,7 @@
     <string name="first_aid_kit">First aid kit</string>
     <string name="two_way_radios">Two way radios</string>
     <string name="site_survey">Site survey</string>
-    <string name="fligt_plan_brief">Fligt plan / brief</string>
+    <string name="flight_plan_brief">Flight plan / brief</string>
     <string name="a_v_connections">A/V connections</string>
     <string name="propellers">Propellers</string>
     <string name="ground_station">Ground station</string>
@@ -85,14 +85,14 @@
     <string name="crew_identification">Crew identification</string>
     <string name="fluorescent_jacket_s_hard_hats">Fluorescent jacket(s) / hard hats</string>
     <string name="clothing_boots_coat_gloves">Clothing (boots, coat, gloves)</string>
-    <string name="fligt_battery_packs">Fligt battery packs</string>
+    <string name="flight_battery_packs">Flight battery packs</string>
     <string name="signs_safety_tape_cones">Signs, safety tape, cones</string>
     <string name="camera_mount">Camera mount</string>
     <string name="ground_station_battery">Ground station battery</string>
     <string name="transmitter_battery_packs">Transmitter battery packs</string>
     <string name="site_assessment_from">Site assessment from</string>
     <string name="camera_battery_packs">Camera battery packs</string>
-    <string name="fligt_controller_transmitter_s">Fligt controller / transmitter(s)</string>
+    <string name="flight_controller_transmitter_s">Flight controller / transmitter(s)</string>
     <string name="camera_s_amp_lens_s"><![CDATA[Camera(s) & lens(s)]]></string>
     <string name="calibration_platform">Calibration platform</string>
     <string name="mobile_phone_battery">Mobile phone battery</string>
@@ -144,7 +144,7 @@
     <string name="power_up">Power up</string>
     <string name="take_off">Take off</string>
     <string name="landing">Landing</string>
-    <string name="note_battery_number">Note battery number in battery logbook, record pre-fligt battery power % and fit into airframe (no lower than 90%)</string>
+    <string name="note_battery_number">Note battery number in battery logbook, record pre-flight battery power % and fit into airframe (no lower than 90%)</string>
     <string name="switch_on_check_battery_power">Switch on, check battery power is within safe parameters, ensure trims are nuetral and all switches are in there correct positions</string>
     <string name="switch_on_and_confirm_correct_operation">Switch on and confirm correct operation</string>
     <string name="ensure_aircraft_is_level_on_the_calibration_platform">ensure aircraft is level on the calibration platform</string>
