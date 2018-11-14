@@ -1,9 +1,13 @@
 package com.example.gebruiker.droning;
 
         import android.content.Intent;
+        import android.database.sqlite.SQLiteDatabase;
         import android.support.v7.app.AppCompatActivity;
         import android.os.Bundle;
+        import android.util.Log;
         import android.view.View;
+
+        import java.io.File;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,7 +15,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        SQLiteDatabase testDB = this.openOrCreateDatabase("testDB", MODE_PRIVATE, null);
+        File test = getDatabasePath("testDB");
+        if(test.exists()) {
+            Log.i("database testDB", "Bestaat");
+        } else {
+            Log.i("database testDB", "Bestaat niet");
+        }
     }
+
 
     public void toBatteryLog(View view)
     {
