@@ -23,9 +23,9 @@ public class MainActivity extends AppCompatActivity {
             Log.i("database testDB", "Bestaat niet");
         }
         testDB.execSQL("CREATE TABLE IF NOT EXISTS "
-                + "IncidentLog"
-                + "( ID Interger, NaamStudent VARCHAR(255), Datum DATE, IncidentTime VARCHAR(255), Damage VARCHAR(255), Details VARCHAR(255), ActionTaken VARCHAR(255), Notes VARCHAR(255))");
-       }
+        + "IncidentLog"
+        + "( ID Interger, NaamStudent VARCHAR(255), Datum DATE, IncidentTime VARCHAR(255), Damage VARCHAR(255), Details VARCHAR(255), ActionTaken VARCHAR(255), Notes VARCHAR(255));");
+    }
 
 
     public void toBatteryLog(View view)
