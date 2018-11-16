@@ -24,11 +24,8 @@ public class MainActivity extends AppCompatActivity {
         }
         testDB.execSQL("CREATE TABLE IF NOT EXISTS "
                 + "IncidentLog"
-                + "( ID Interger, NaamStudent VARCHAR(255), Datum DATE, IncidentTime VARCHAR(255), Damage VARCHAR(255), Details VARCHAR(255), ActionTaken VARCHAR(255), Notes VARCHAR(255));");
-        testDB.execSQL("CREATE TABLE IF NOT EXISTS "
-                + "PostFlightChecklist"
-                + "( ID Interger, NaamStudent VARCHAR(255), Datum DATE, Touchdown Boolean, Powerdown Boolean, Removal Boolean, DataRecording Boolean, Transmitter Boolean, Camera Boolean, Airframe Boolean, Airframe Boolean, Battery Boolean, MemoryCard Boolean, Review Boolean);");
-    }
+                + "( ID Interger, NaamStudent VARCHAR(255), Datum DATE, IncidentTime VARCHAR(255), Damage VARCHAR(255), Details VARCHAR(255), ActionTaken VARCHAR(255), Notes VARCHAR(255))");
+       }
 
 
     public void toBatteryLog(View view)
