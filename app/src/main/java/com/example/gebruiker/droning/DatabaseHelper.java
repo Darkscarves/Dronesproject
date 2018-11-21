@@ -1,8 +1,11 @@
 package com.example.gebruiker.droning;
 
+import android.content.ContentValues;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
+
+import java.util.Date;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
             public static final String DATABASE_NAME = "Droning.db";
@@ -18,7 +21,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     public DatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, 1);
-        SQLiteDatabase db = this.getWritableDatabase();
     }
 
 
@@ -31,5 +33,22 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL("DROP TABLE IF EXISTS "+TABLE_NAME);
         onCreate(db);
+    }
+
+    public boolean insertData(String NaamStudent, String Datum, String IncidentTime, String Damage, String Details, String ActionTaken, String Notes){
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues contentValues = new ContentValues();
+        contentValues.put(COL_2,NaamStudent);
+        contentValues.put(COL_3,String.valueOf(Datum));
+        contentValues.put(COL_4,IncidentTime);
+        contentValues.put(COL_5,Damage);
+        contentValues.put(COL_6,Details);
+        contentValues.put(COL_7,ActionTaken);
+        contentValues.put(COL_8,Notes);
+        long result = db.insert(TABLE_NAME,null,contentValues);
+            if (result == -1)
+                return false;
+            else
+                return true;
     }
 }
