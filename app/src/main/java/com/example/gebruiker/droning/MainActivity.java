@@ -10,21 +10,12 @@ package com.example.gebruiker.droning;
         import java.io.File;
 
 public class MainActivity extends AppCompatActivity {
-
+    DatabaseHelper myDb;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        SQLiteDatabase testDB = this.openOrCreateDatabase("testDB", MODE_PRIVATE, null);
-        File test = getDatabasePath("testDB");
-        if(test.exists()) {
-            Log.i("database testDB", "Bestaat");
-        } else {
-            Log.i("database testDB", "Bestaat niet");
-        }
-        testDB.execSQL("CREATE TABLE IF NOT EXISTS "
-        + "IncidentLog"
-        + "( ID Interger, NaamStudent VARCHAR(255), Datum DATE, IncidentTime VARCHAR(255), Damage VARCHAR(255), Details VARCHAR(255), ActionTaken VARCHAR(255), Notes VARCHAR(255));");
+        myDb = new DatabaseHelper(this);
     }
 
 
