@@ -38,7 +38,8 @@ public class BatteryLog  extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        boolean isInserted = myDb.insertDataBattery(StudentNaamEdit.getText().toString(),
+                        boolean isInserted = myDb.insertDataBattery(
+                                StudentNaamEdit.getText().toString(),
                                 DatumEdit.getText().toString(),
                                 BatteryNumberEdit.getText().toString(),
                                 BatteryResidualEdit.getText().toString(),
