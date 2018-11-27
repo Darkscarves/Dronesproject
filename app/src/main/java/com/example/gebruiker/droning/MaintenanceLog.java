@@ -10,7 +10,10 @@ import android.widget.RadioButton;
 import android.widget.Toast;
 
 public class MaintenanceLog extends AppCompatActivity {
-
+    DatabaseHelper myDb;
+    EditText StudentNaamEdit,DateEdit, RedenEdit, TimeOfIncidentEdit, PartsReplacedEdit,WorkDoneEdit, NotesEdit;
+    Button SubmitBTN;
+    RadioButton SystemTestedYes, SystemTestedNo;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,9 +21,11 @@ public class MaintenanceLog extends AppCompatActivity {
         myDb = new DatabaseHelper(this);
         StudentNaamEdit = (EditText)findViewById(R.id.StudentNaamEdit);
         RedenEdit = (EditText)findViewById(R.id.RedenEdit);
+        DateEdit = (EditText)findViewById(R.id.DateEdit);
         PartsReplacedEdit = (EditText)findViewById(R.id.PartsReplacedEdit);
-//        SystemTestedYes = (RadioButton)findViewById(R.id.SystemTestedYes);
-//        SystemTestedNo = (RadioButton)findViewById(R.id.SystemTestedNo);
+        WorkDoneEdit = (EditText)findViewById(R.id.WorkDoneEdit);
+        SystemTestedYes = (RadioButton) findViewById(R.id.SystemTestedYes);
+        SystemTestedNo = (RadioButton) findViewById(R.id.SystemTestedNo);
         NotesEdit = (EditText)findViewById(R.id.NotesEdit);
         SubmitBTN = (Button)findViewById(R.id.SubmitBTN);
         AddData();
@@ -30,12 +35,13 @@ public class MaintenanceLog extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        boolean isInserted = myDb.insertData(StudentNaamEdit.getText().toString(),
+                        boolean isInserted = myDb.insertDataMaintenance(StudentNaamEdit.getText().toString(),
                                 RedenEdit.getText().toString(),
                                 WorkDoneEdit.getText().toString(),
+                                DateEdit.getText().toString(),
                                 PartsReplacedEdit.getText().toString(),
-//                                SystemTestedYes.getText().toString(),
-//                                SystemTestedNo.getText().toString(),
+                                SystemTestedYes.getText().toString(),
+                                SystemTestedNo.getText().toString(),
                                 NotesEdit.getText().toString() );
                         if(isInserted =true)
                             Toast.makeText(MaintenanceLog.this, "Data Inserted", Toast.LENGTH_SHORT).show();
