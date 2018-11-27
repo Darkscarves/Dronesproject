@@ -34,7 +34,7 @@ public class IncidentLog extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        boolean isInserted = myDb.insertData(StudentNaamEdit.getText().toString(),
+                        boolean isInserted = myDb.insertDataIncident(StudentNaamEdit.getText().toString(),
                                 DateOfIncidentEdit.getText().toString(),
                                 TimeOfIncidentEdit.getText().toString(),
                                 InjuriesDamageEdit.getText().toString(),
