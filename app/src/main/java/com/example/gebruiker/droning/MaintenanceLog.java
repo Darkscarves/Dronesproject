@@ -19,8 +19,8 @@ public class MaintenanceLog extends AppCompatActivity {
         StudentNaamEdit = (EditText)findViewById(R.id.StudentNaamEdit);
         RedenEdit = (EditText)findViewById(R.id.RedenEdit);
         PartsReplacedEdit = (EditText)findViewById(R.id.PartsReplacedEdit);
-        SystemTestedYes = (RadioButton)findViewById(R.id.SystemTestedYes);
-        SystemTestedNo = (RadioButton)findViewById(R.id.SystemTestedNo);
+//        SystemTestedYes = (RadioButton)findViewById(R.id.SystemTestedYes);
+//        SystemTestedNo = (RadioButton)findViewById(R.id.SystemTestedNo);
         NotesEdit = (EditText)findViewById(R.id.NotesEdit);
         SubmitBTN = (Button)findViewById(R.id.SubmitBTN);
         AddData();
@@ -34,8 +34,8 @@ public class MaintenanceLog extends AppCompatActivity {
                                 RedenEdit.getText().toString(),
                                 WorkDoneEdit.getText().toString(),
                                 PartsReplacedEdit.getText().toString(),
-                                SystemTestedYes.getText().toString(),
-                                SystemTestedNo.getText().toString(),
+//                                SystemTestedYes.getText().toString(),
+//                                SystemTestedNo.getText().toString(),
                                 NotesEdit.getText().toString() );
                         if(isInserted =true)
                             Toast.makeText(MaintenanceLog.this, "Data Inserted", Toast.LENGTH_SHORT).show();
