@@ -1,4 +1,5 @@
 package com.example.gebruiker.droning;
+
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,10 +8,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-
 public class BatteryLog  extends AppCompatActivity {
     DatabaseHelper myDb;
-    EditText StudentNaamEdit, DatumEdit, BatteryNumberEdit, BatteryResidualEdit, DateOfChargeEdit, ChargeInputEdit, FlightDurationEdit, PreFlightEdit2, NotesEdit;
+    EditText StudentNaamEdit, DatumEdit, BatteryNumberEdit, BatteryResidualEdit, DateOfChargeEdit, ChargeInputEdit, FlightDurationEdit, PreFlightEdit, NotesEdit;
     Button SubmitBTN;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +25,7 @@ public class BatteryLog  extends AppCompatActivity {
         DateOfChargeEdit = (EditText)findViewById(R.id.DateOfChargeEdit);
         ChargeInputEdit = (EditText)findViewById(R.id.ChargeInputEdit);
         FlightDurationEdit = (EditText)findViewById(R.id.FlightDurationEdit);
-        PreFlightEdit2 = (EditText)findViewById(R.id.PreFlightEdit2);
+        PreFlightEdit = (EditText)findViewById(R.id.PreFlightEdit);
         NotesEdit = (EditText)findViewById(R.id.NotesEdit);
         SubmitBTN = (Button)findViewById(R.id.SubmitBTN);
         AddData();
@@ -45,7 +45,7 @@ public class BatteryLog  extends AppCompatActivity {
                                 DateOfChargeEdit.getText().toString(),
                                 ChargeInputEdit.getText().toString(),
                                 FlightDurationEdit.getText().toString(),
-                                PreFlightEdit2.getText().toString(),
+                                PreFlightEdit.getText().toString(),
                                 NotesEdit.getText().toString() );
                         if(isInserted =true)
                             Toast.makeText(BatteryLog.this, "Data Inserted", Toast.LENGTH_SHORT).show();
