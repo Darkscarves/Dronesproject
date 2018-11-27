@@ -1,11 +1,9 @@
 package com.example.gebruiker.droning;
 
 import android.content.ContentValues;
-import android.database.sqlite.SQLiteOpenHelper;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
-
-import java.util.Date;
+import android.database.sqlite.SQLiteOpenHelper;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
             public static final String DATABASE_NAME = "Droning.db";
