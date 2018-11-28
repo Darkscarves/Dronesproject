@@ -18,7 +18,7 @@ public class BatteryLog  extends AppCompatActivity {
         setContentView(R.layout.batterylog);
         myDb = new DatabaseHelper(this);
 
-        StudentNaamEdit = (EditText)findViewById(R.id.StudentNaamEdit);
+        StudentNaamEdit = (EditText)findViewById(R.id.StudentennaamEdit);
         DatumEdit = (EditText)findViewById(R.id.DatumEdit);
         BatteryNumberEdit = (EditText)findViewById(R.id.BatteryNumberEdit);
         BatteryResidualEdit = (EditText)findViewById(R.id.BatteryResidualEdit);
@@ -52,6 +52,7 @@ public class BatteryLog  extends AppCompatActivity {
                             Toast.makeText(BatteryLog.this, "Data Inserted", Toast.LENGTH_SHORT).show();
                         else
                             Toast.makeText(BatteryLog.this, "Data not Inserted", Toast.LENGTH_SHORT).show();
+
                     }
                 }
         );

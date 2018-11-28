@@ -88,7 +88,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         else
             return true;
     }
-    public boolean insertDataMaintenance(String NaamStudent, String Datum, String Reason, String WorkDone, String PartsReplaced, String SystemTestedYes,String SystemTestedNo, String Notes){
+    public boolean insertDataMaintenance(String NaamStudent, String Datum, String Reason, String WorkDone, String PartsReplaced, String Notes){
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
         contentValues.put(COL_2,NaamStudent);
@@ -96,8 +96,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         contentValues.put(COL_15,Reason);
         contentValues.put(COL_16,WorkDone);
         contentValues.put(COL_17,PartsReplaced);
-        contentValues.put(COL_18,SystemTestedYes);
-        contentValues.put(COL_19,SystemTestedNo);
         contentValues.put(COL_8,Notes);
         contentValues.put(COL_15,Notes);
         long result = db.insert(TABLE_NAME2,null,contentValues);
