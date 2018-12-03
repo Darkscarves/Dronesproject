@@ -7,6 +7,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.graphics.Path;
 import android.view.View;
 
+import java.util.Date;
+
 public class DatabaseHelper extends SQLiteOpenHelper {
             public static final String DATABASE_NAME = "Droning.db";
             public static final String TABLE_NAME = "IncidentLog";
@@ -322,32 +324,41 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             return true;
     }
 
-    public boolean insertDataPreSiteSurvey(String NaamStudent, String Datum, String Pilot, String Observer, String WindSpeed, String Direction, String Obstruction, String ViewLimitations, String People, String Livestock, String Temperature, String Visibility, String Surface, String Permission, String Public, String AirTraffic, String Communication, String Proximity, String TakeOffArea, String LandingArea, String OperationalZone, String EmergencyArea, String HoldingArea){
+    public boolean insertDataPreSiteSurvey(String NaamStudent, String Datum, String Latitude, String Altitude, String WorkRequired, String DateWorkRequired, String DownloadedToGround, String VehicularAcces, String Pilot, String Observer, String UAVRegistration, String Helper1, String Helper2, String Airspace, String Terrain, String Proximities, String Hazards, String Restrictions, String Sensitivities, String People, String Livestock, String Permission, String Acces, String Footpaths, String Alternate, String RiskReduction, String Weahter, String NOTAMS, String LocalAirTraffic, String RegionalAirTraffic, String MilitaryControl, String NoticeToAirmen){
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
         contentValues.put(COL_2,NaamStudent);
         contentValues.put(COL_3,String.valueOf(Datum));
-        contentValues.put(COL_60,Pilot);
-        contentValues.put(COL_26,Observer);
-        contentValues.put(COL_61,WindSpeed);
-        contentValues.put(COL_62,Direction);
-        contentValues.put(COL_63,Obstruction);
-        contentValues.put(COL_64,ViewLimitations);
-        contentValues.put(COL_65,People);
-        contentValues.put(COL_66,Livestock);
-        contentValues.put(COL_67,Temperature);
-        contentValues.put(COL_68,Visibility);
-        contentValues.put(COL_69,Surface);
-        contentValues.put(COL_70,Permission);
-        contentValues.put(COL_71,Public);
-        contentValues.put(COL_72,AirTraffic);
-        contentValues.put(COL_58,Communication);
-        contentValues.put(COL_73,Proximity);
-        contentValues.put(COL_74,TakeOffArea);
-        contentValues.put(COL_75,LandingArea);
-        contentValues.put(COL_76,OperationalZone);
-        contentValues.put(COL_77,EmergencyArea);
-        contentValues.put(COL_78,HoldingArea);
+        contentValues.put(COL_79,Latitude);
+        contentValues.put(COL_80,Altitude);
+        contentValues.put(COL_81,WorkRequired);
+        contentValues.put(COL_82,DateWorkRequired);
+        contentValues.put(COL_83,DownloadedToGround);
+        contentValues.put(COL_84,VehicularAcces);
+        contentValues.put(COL_85,Pilot);
+        contentValues.put(COL_86,Observer);
+        contentValues.put(COL_87,UAVRegistration);
+        contentValues.put(COL_88,Helper1);
+        contentValues.put(COL_89,Helper2);
+        contentValues.put(COL_90,Airspace);
+        contentValues.put(COL_91,Terrain);
+        contentValues.put(COL_92,Proximities);
+        contentValues.put(COL_93,Hazards);
+        contentValues.put(COL_94,Restrictions);
+        contentValues.put(COL_95,Sensitivities);
+        contentValues.put(COL_96,People);
+        contentValues.put(COL_97,Livestock);
+        contentValues.put(COL_98,Permission);
+        contentValues.put(COL_99,Acces);
+        contentValues.put(COL_100,Footpaths);
+        contentValues.put(COL_101,Alternate);
+        contentValues.put(COL_102,RiskReduction);
+        contentValues.put(COL_103,Weahter);
+        contentValues.put(COL_104,NOTAMS);
+        contentValues.put(COL_105,LocalAirTraffic);
+        contentValues.put(COL_106,RegionalAirTraffic);
+        contentValues.put(COL_107,MilitaryControl);
+        contentValues.put(COL_108,NoticeToAirmen);
         long result = db.insert(TABLE_NAME7,null,contentValues);
         if (result == -1)
             return false;
