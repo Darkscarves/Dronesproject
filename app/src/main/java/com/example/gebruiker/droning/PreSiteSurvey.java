@@ -5,14 +5,18 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.RadioGroup;
 import android.widget.Toast;
 
 public class PreSiteSurvey extends AppCompatActivity {
 
     DatabaseHelper myDb;
-    EditText StudentNaamEdit,DateEdit, JobNumberEdit, PilotInCommandEdit, PartsReplacedEdit,ObserverEdit, uavEdit,Helper1Edit,Helper2Edit,SiteNameEdit,LatitudeAmpEdit;
+    EditText StudentNaamEdit,DateEdit, JobNumberEdit, PilotInCommandEdit, PartsReplacedEdit,ObserverEdit, uavEdit,Helper1Edit,Helper2Edit,SiteNameEdit,LatitudeAmpEdit, AltitudeFromEdit, WorkReqEdit, DateWorkEdit, uavEdit, uavEdit, uavEdit;
     Button SubmitBTN;
+    CheckBox DownloadedMapCBox;
+    RadioGroup RadioGroupVehicularAccess;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +33,11 @@ public class PreSiteSurvey extends AppCompatActivity {
         Helper2Edit = (EditText)findViewById(R.id.Helper2Edit);
         SiteNameEdit = (EditText)findViewById(R.id.uavEdit);
         LatitudeAmpEdit = (EditText)findViewById(R.id.uavEdit);
-        uavEdit = (EditText)findViewById(R.id.uavEdit);
+        AltitudeFromEdit = (EditText)findViewById(R.id.AltitudeFromEdit);
+        WorkReqEdit = (EditText)findViewById(R.id.WorkReqEdit);
+        DateWorkEdit = (EditText)findViewById(R.id.DateWorkEdit);
+        DownloadedMapCBox = (CheckBox) findViewById(R.id.DownloadedMapCBox);
+        RadioGroupVehicularAccess = (RadioGroup)findViewById(R.id.RadioGroupVehicularAccess);
         SubmitBTN = (Button)findViewById(R.id.SubmitBTN);
         AddData();
     }
@@ -45,11 +53,17 @@ public class PreSiteSurvey extends AppCompatActivity {
                                 PilotInCommandEdit.getText().toString(),
                                 DateEdit.getText().toString(),
                                 ObserverEdit.getText().toString(),
-                                uavEdit.getText().toString() ),
-                                Helper1Edit.getText().toString() ),
-                                Helper2Edit.getText().toString() ),
-                                SiteNameEdit.getText().toString() ),
-                                LatitudeAmpEdit.getText().toString() );
+                                uavEdit.getText().toString() ,
+                                Helper1Edit.getText().toString(),
+                                Helper2Edit.getText().toString(),
+                                SiteNameEdit.getText().toString(),
+                                LatitudeAmpEdit.getText().toString(),
+                                AltitudeFromEdit.getText().toString(),
+                                WorkReqEdit.getText().toString(),
+                                DateWorkEdit.getText().toString(),
+                                DownloadedMapCBox.getText().toString(),
+                                RadioGroupVehicularAcces.getText().toString(),
+                                uavEdit.getText().toString());
                         if(isInserted =true)
                             Toast.makeText(PreSiteSurvey.this, "Data Inserted", Toast.LENGTH_SHORT).show();
                         else
