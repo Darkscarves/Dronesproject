@@ -13,10 +13,10 @@ import android.widget.Toast;
 public class PreSiteSurvey extends AppCompatActivity {
 
     DatabaseHelper myDb;
-    EditText StudentNaamEdit,DateEdit, JobNumberEdit, PilotInCommandEdit, PartsReplacedEdit,ObserverEdit, uavEdit,Helper1Edit,Helper2Edit,SiteNameEdit,LatitudeAmpEdit, AltitudeFromEdit, WorkReqEdit, DateWorkEdit, uavEdit, uavEdit, uavEdit;
+    EditText StudentNaamEdit,DateEdit, JobNumberEdit, PilotInCommandEdit,ObserverEdit, uavEdit,Helper1Edit,Helper2Edit,SiteNameEdit,LatitudeAmpEdit, AltitudeFromEdit, WorkReqEdit, DateWorkEdit, uavEdit, uavEdit, uavEdit;
     Button SubmitBTN;
     CheckBox DownloadedMapCBox;
-    RadioGroup RadioGroupVehicularAccess;
+    RadioGroup RadioGroupVehicularAcces;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,7 +37,7 @@ public class PreSiteSurvey extends AppCompatActivity {
         WorkReqEdit = (EditText)findViewById(R.id.WorkReqEdit);
         DateWorkEdit = (EditText)findViewById(R.id.DateWorkEdit);
         DownloadedMapCBox = (CheckBox) findViewById(R.id.DownloadedMapCBox);
-        RadioGroupVehicularAccess = (RadioGroup)findViewById(R.id.RadioGroupVehicularAccess);
+        RadioGroupVehicularAcces = (RadioGroup)findViewById(R.id.RadioGroupVehicularAcces);
         SubmitBTN = (Button)findViewById(R.id.SubmitBTN);
         AddData();
     }
