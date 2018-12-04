@@ -127,6 +127,49 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             public static final String COL_106 = "RegionalAirTraffic";
             public static final String COL_107 = "MilitaryControl";
             public static final String COL_108 = "NoticeToAirmen";
+            public static final String TABLE_NAME8 = "EmbarkationChecklist";
+            public static final String COL_109 = "GroundStation";
+            public static final String COL_110 = "CameraMonitor";
+            public static final String COL_111 = "Receiver";
+            public static final String COL_112 = "TelemetryReceiver";
+            public static final String COL_113 = "Laptop";
+            public static final String COL_114 = "MobilePhone";
+            public static final String COL_115 = "Anemometer";
+            public static final String COL_116 = "FirstAid";
+            public static final String COL_117 = "HardHat";
+            public static final String COL_118 = "Radio";
+            public static final String COL_119 = "Clothing";
+            public static final String COL_120 = "AirNavigationMap";
+            public static final String COL_121 = "Checklist";
+            public static final String COL_122 = "Notepad";
+            public static final String COL_123 = "SiteAssessment";
+            public static final String COL_124 = "Signs";
+            public static final String COL_125 = "FlightBattery";
+            public static final String COL_126 = "TransmitterBattery";
+            public static final String COL_127 = "CameraBattery";
+            public static final String COL_128 = "StationBattery";
+            public static final String COL_129 = "ChargerBattery";
+            public static final String COL_130 = "PhoneBattery";
+            public static final String COL_131 = "Airframe";
+            public static final String COL_132 = "CameraMount";
+            public static final String COL_133 = "CalibrationPlatform";
+            public static final String COL_134 = "CameraLens";
+            public static final String COL_135 = "CameraConnection";
+            public static final String COL_136 = "CameraMemory";
+            public static final String COL_137 = "CameraLanyard";
+            public static final String COL_138 = "AttachmentBolt";
+            public static final String COL_139 = "MultiFunctionCharger";
+            public static final String COL_140 = "RequiredCharger";
+            public static final String COL_141 = "BatteryChecker";
+            public static final String COL_142 = "ScrewDrivers";
+            public static final String COL_143 = "Allenkeys";
+            public static final String COL_144 = "Pliers";
+            public static final String COL_145 = "CableTies";
+            public static final String COL_146 = "SideCutters";
+            public static final String COL_147 = "PropellerNuts";
+            public static final String COL_148 = "SpareProps";
+            public static final String COL_149 = "SocketSet";
+
 
 
     public DatabaseHelper(Context context) {
@@ -156,6 +199,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS "+TABLE_NAME5);
         db.execSQL("DROP TABLE IF EXISTS "+TABLE_NAME6);
         db.execSQL("DROP TABLE IF EXISTS "+TABLE_NAME7);
+        db.execSQL("DROP TABLE IF EXISTS "+TABLE_NAME8);
         onCreate(db);
     }
 
