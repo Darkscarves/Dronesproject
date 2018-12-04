@@ -5,6 +5,7 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.graphics.Path;
+import android.provider.ContactsContract;
 import android.view.View;
 
 import java.util.Date;
@@ -169,6 +170,56 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             public static final String COL_147 = "PropellerNuts";
             public static final String COL_148 = "SpareProps";
             public static final String COL_149 = "SocketSet";
+            public static final String TABLE_NAME9 = "OperationFlightPlan";
+            public static final String COL_150 = "JobNo";
+            public static final String COL_151 = "Version";
+            public static final String COL_152 = "Pilot";
+            public static final String COL_153 = "Observer";
+            public static final String COL_154 = "PayloadOperator";
+            public static final String COL_155 = "Helper";
+            public static final String COL_156 = "Address";
+            public static final String COL_157 = "Latitude";
+            public static final String COL_158 = "Elevation";
+            public static final String COL_159 = "VehicularAcces";
+            public static final String COL_160 = "FlightPurpose";
+            public static final String COL_161 = "OperationType";
+            public static final String COL_162 = "DateWorkRequired";
+            public static final String COL_163 = "MissionDuration";
+            public static final String COL_164 = "CruisingAltitude";
+            public static final String COL_165 = "MaxAltitude";
+            public static final String COL_166 = "MaxDistance";
+            public static final String COL_167 = "SatellitePic";
+            public static final String COL_168 = "BAGViewerPic";
+            public static final String COL_169 = "CrewPosition";
+            public static final String COL_170 = "FlightBox";
+            public static final String COL_171 = "AltLandingSites";
+            public static final String COL_172 = "Distances";
+            public static final String COL_173 = "RiskAssessment";
+            public static final String COL_174 = "LocalAirTraffic";
+            public static final String COL_175 = "RegionalAirTraffic";
+            public static final String COL_176 = "MilitaryControl";
+            public static final String COL_177 = "LowFlyingArea";
+            public static final String COL_178 = "Airspace";
+            public static final String COL_179 = "CivilMilitary";
+            public static final String COL_180 = "ATCPermission";
+            public static final String COL_181 = "MilitaryLowFlying";
+            public static final String COL_182 = "Prohibited";
+            public static final String COL_183 = "NOTAMAffect";
+            public static final String COL_184 = "NOTAMpublished";
+            public static final String COL_185 = "HelpdeskConsulted";
+            public static final String COL_186 = "VisualFlightRules";
+            public static final String COL_187 = "Distance150";
+            public static final String COL_188 = "Distance50";
+            public static final String COL_189 = "Class1Flight";
+            public static final String COL_190 = "TUG";
+            public static final String COL_191 = "FlightReported";
+            public static final String COL_192 = "Terrain";
+            public static final String COL_193 = "OtherAircraft";
+            public static final String COL_194 = "Hazards";
+            public static final String COL_195 = "Restrictions";
+            public static final String COL_196 = "Sensitives";
+            public static final String COL_197 = "Permission";
+            public static final String COL_198 = "Weather";
 
 
 
@@ -178,7 +229,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
 
     @Override
-    public void onCreate(SQLiteDatabase db) {
+    public void onCreate(SQLiteDatabase db){
         db.execSQL("create table " + TABLE_NAME +" (ID INTEGER PRIMARY KEY AUTOINCREMENT, NaamStudent TEXT, Datum DATE, IncidentTime TEXT, Damage TEXT, Details TEXT, ActionTaken TEXT, Notes TEXT )");
         db.execSQL("create table " + TABLE_NAME1 +" (ID INTEGER PRIMARY KEY AUTOINCREMENT, NaamStudent TEXT, Datum DATE, BatteryNo TEXT, BatteryResidual TEXT, ChargeDate TEXT, ChargeInput TEXT, FlightDuration TEXT, PreFlight TEXT, Notes TEXT )");
         db.execSQL("create table " + TABLE_NAME2 +" (ID INTEGER PRIMARY KEY AUTOINCREMENT, NaamStudent TEXT, Datum DATE, Reason TEXT, WorkDone TEXT, PartsReplaced TEXT, SystemTested BOOLEAN, Notes TEXT )");
@@ -186,7 +237,9 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.execSQL("create table " + TABLE_NAME4 +" (ID INTEGER PRIMARY KEY AUTOINCREMENT, NaamStudent TEXT, Datum DATE, SiteSurvey BOOLEAN, FlightPlan BOOLEAN, Airframe BOOLEAN, Camera BOOLEAN, Connections BOOLEAN, Propellers BOOLEAN, CalibrationPlatform BOOLEAN, GroundStation BOOLEAN, Monitor BOOLEAN, CrewIdBadges BOOLEAN, HardHat BOOLEAN, Radio BOOLEAN, FirstAid BOOLEAN, Extinguisher BOOLEAN, Signs BOOLEAN )");
         db.execSQL("create table " + TABLE_NAME5 +" (ID INTEGER PRIMARY KEY AUTOINCREMENT, NaamStudent TEXT, Datum DATE, Airframe BOOLEAN, FlightBattery BOOLEAN, Transmitters BOOLEAN, Camera BOOLEAN, SelfDiagnostic BOOLEAN, MonitorCalibration BOOLEAN, SaveCalibration BOOLEAN, TelemetryLink BOOLEAN, StartRecording BOOLEAN, AircraftAlignment BOOLEAN, Crew BOOLEAN, Clearance BOOLEAN, PowerUp BOOLEAN, TakeOff BOOLEAN, Communication BOOLEAN, Landing BOOLEAN )");
         db.execSQL("create table " + TABLE_NAME6 +" (ID INTEGER PRIMARY KEY AUTOINCREMENT, NaamStudent TEXT, Datum DATE, Pilot TEXT, Observer TEXT, WindSpeed TEXT, Direction TEXT, Obstruction TEXT, ViewLimitations TEXT, People TEXT, Livestock TEXT, Temperature TEXT, Visibility TEXT, Surface TEXT, Permission TEXT, Public TEXT, AirTraffic TEXT, Communication TEXT, Proximity TEXT, TakeOffArea TEXT, LandingArea TEXT, OperationalZone TEXT, EmergencyArea TEXT, HoldingArea TEXT )");
-        db.execSQL("create table " + TABLE_NAME7 +" (ID INTEGER PRIMARY KEY AUTOINCREMENT, NaamStudent TEXT, Datum DATE, Latitude TEXT, Altitude TEXT, WorkRequired TEXT, DateWorkRequired BOOLEAN, DownloadedToGround TEXT, VehicularAcces TEXT, Pilot TEXT, Observer TEXT, UAVRegistration TEXT, Helper1 TEXT, Helper2 TEXT, Airspace TEXT, Terrain TEXT, Proximities TEXT, Hazards TEXT, Restrictions TEXT, Sensitivities TEXT, People TEXT, Livestock TEXT, Permission TEXT, Acces TEXT, Footpaths TEXT, Alternate BOOLEAN, RiskReduction TEXT, Weather TEXT, NOTAMS TEXT, LocalAirTraffic TEXT, RegionalAirTraffic TEXT, MilitaryControl BOOLEAN, NoticeToAirmen TEXT )");
+        db.execSQL("create table " + TABLE_NAME7 +" (ID INTEGER PRIMARY KEY AUTOINCREMENT, NaamStudent TEXT, Datum DATE, Latitude TEXT, Altitude TEXT, WorkRequired TEXT, DateWorkRequired TEXT, DownloadedToGround TEXT, VehicularAcces TEXT, Pilot TEXT, Observer TEXT, UAVRegistration TEXT, Helper1 TEXT, Helper2 TEXT, Airspace TEXT, Terrain TEXT, Proximities TEXT, Hazards TEXT, Restrictions TEXT, Sensitivities TEXT, People TEXT, Livestock TEXT, Permission TEXT, Acces TEXT, Footpaths TEXT, Alternate TEXT, RiskReduction TEXT, Weather TEXT, NOTAMS TEXT, LocalAirTraffic TEXT, RegionalAirTraffic TEXT, MilitaryControl TEXT, NoticeToAirmen TEXT )");
+        db.execSQL("create table " + TABLE_NAME8 +" (ID INTEGER PRIMARY KEY AUTOINCREMENT, NaamStudent TEXT, Datum DATE, GroundStation BOOLEAN, CameraMonitor BOOLEAN, Receiver BOOLEAN, TelemetryReceiver BOOLEAN, Laptop BOOLEAN, MobilePhone BOOLEAN, Anemometer BOOLEAN, FirstAid BOOLEAN, HardHat BOOLEAN, Radio BOOLEAN, Clothing BOOLEAN, AirNavigationMap BOOLEAN, Checklist BOOLEAN, Notepad BOOLEAN, SiteAssessment BOOLEAN, Signs BOOLEAN, FLightBattery BOOLEAN, TransmitterBattery BOOLEAN, CameraBattery BOOLEAN, StationBattery BOOLEAN, ChargerBattery BOOLEAN, PhoneBattery BOOLEAN, Airframe BOOLEAN, CameraMount BOOLEAN, CalibrationPlatform BOOLEAN, CameraLens BOOLEAN, CameraConnection BOOLEAN, CameraMemory BOOLEAN, CameraLanyard BOOLEAN, AttachmentBolt BOOLEAN, MultiFunctionCharger BOOLEAN, RequiredCharger BOOLEAN, BatteryChecker BOOLEAN, Screwdrivers BOOLEAN, AllenKeys BOOLEAN, Pliers BOOLEAN, CableTies BOOLEAN, SideCutters BOOLEAN, PropellerNuts BOOLEAN, SpareProps BOOLEAN, SocketSet BOOLEAN )");
+        db.execSQL("create table " + TABLE_NAME9 +" (ID INTEGER PRIMARY KEY AUTOINCREMENT, NaamStudent TEXT, Datum DATE, JobNo TEXT, Version TEXT, Pilot TEXT, Observer TEXT, PayloadOperator TEXT, Helper TEXT, Address TEXT, Latitude TEXT, Elevation TEXT, VehicularAccess TEXT, FlightPurpose TEXT, OperationType TEXT, DateWorkRequired TEXT, MissionDuration TEXT, CruisingAltitude TEXT, MaxAltitude TEXT, MaxDistance TEXT, SatellitePic TEXT, BAGViewerPic TEXT, CrewPosition TEXT, FlightBox TEXT, AltLandingSites TEXT, Distances TEXT, RiskAssessment TEXT, LocalAirTraffic TEXT, RegionalAirTraffic TEXT, MilitaryControl TEXT, LowFlyingArea TEXT, Airspace TEXT, CivilMilitary TEXT, ATCPermission TEXT, MilitaryLowFlying TEXT, Prohibited TEXT, NOTAMAffect TEXT, NOTAMpublished TEXT, HelpdeskConsulted TEXT, VisualFlightRules TEXT, Distance150 TEXT, Distance50 TEXT, Class1Flight TEXT, TUG TEXT, FlightReported TEXT, Terrain TEXT, OtherAircraft TEXT, Hazards TEXT, Restrictions TEXT, Sensitives TEXT, Permission TEXT, Weather TEXT )");
     }
 
     @Override
@@ -200,6 +253,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS "+TABLE_NAME6);
         db.execSQL("DROP TABLE IF EXISTS "+TABLE_NAME7);
         db.execSQL("DROP TABLE IF EXISTS "+TABLE_NAME8);
+        db.execSQL("DROP TABLE IF EXISTS "+TABLE_NAME9);
         onCreate(db);
     }
 
@@ -404,6 +458,120 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         contentValues.put(COL_107,MilitaryControl);
         contentValues.put(COL_108,NoticeToAirmen);
         long result = db.insert(TABLE_NAME7,null,contentValues);
+        if (result == -1)
+            return false;
+        else
+            return true;
+    }
+
+    public boolean insertDataEmbarkationChecklist(String NaamStudent, String Datum, String GroundStation, String CameraMonitor, String Receiver, String TelemeteryReceiver, String Laptop, String MobilePhone, String Anemometer, String FirstAid, String HardHat, String Radio, String Clothing, String AirNavigationMap, String Checklist, String Notepad, String SiteAssessment, String Signs, String FlightBattery, String TransmitterBattery, String CameraBattery, String StationBattery, String ChargerBattery, String PhoneBattery, String Airframe, String CameraMount, String CalibrationPlatform, String CameraLens, String CameraConnection, String CameraMemory, String CameraLanyard, String AttachmentBolt, String MultiFunctionCharger, String RequiredCharger, String BatteryChecker, String Screwdrivers, String Allenkeys, String Pliers, String CableTies, String SideCutters, String PropellerNuts, String SpareProps, String SocketSet){
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues contentValues = new ContentValues();
+        contentValues.put(COL_2,NaamStudent);
+        contentValues.put(COL_3,String.valueOf(Datum));
+        contentValues.put(COL_109,GroundStation);
+        contentValues.put(COL_110,CameraMonitor);
+        contentValues.put(COL_111,Receiver);
+        contentValues.put(COL_112,TelemeteryReceiver);
+        contentValues.put(COL_113,Laptop);
+        contentValues.put(COL_114,MobilePhone);
+        contentValues.put(COL_115,Anemometer);
+        contentValues.put(COL_116,FirstAid);
+        contentValues.put(COL_117,HardHat);
+        contentValues.put(COL_118,Radio);
+        contentValues.put(COL_119,Clothing);
+        contentValues.put(COL_120,AirNavigationMap);
+        contentValues.put(COL_121,Checklist);
+        contentValues.put(COL_122,Notepad);
+        contentValues.put(COL_123,SiteAssessment);
+        contentValues.put(COL_124,Signs);
+        contentValues.put(COL_125,FlightBattery);
+        contentValues.put(COL_126,TransmitterBattery);
+        contentValues.put(COL_127,CameraBattery);
+        contentValues.put(COL_128,StationBattery);
+        contentValues.put(COL_129,ChargerBattery);
+        contentValues.put(COL_130,PhoneBattery);
+        contentValues.put(COL_131,Airframe);
+        contentValues.put(COL_132,CameraMount);
+        contentValues.put(COL_133,CalibrationPlatform);
+        contentValues.put(COL_134,CameraLens);
+        contentValues.put(COL_135,CameraConnection);
+        contentValues.put(COL_136,CameraMemory);
+        contentValues.put(COL_137,CameraLanyard);
+        contentValues.put(COL_138,AttachmentBolt);
+        contentValues.put(COL_139,MultiFunctionCharger);
+        contentValues.put(COL_140,RequiredCharger);
+        contentValues.put(COL_141,BatteryChecker);
+        contentValues.put(COL_142,Screwdrivers);
+        contentValues.put(COL_143,Allenkeys);
+        contentValues.put(COL_144,Pliers);
+        contentValues.put(COL_145,CableTies);
+        contentValues.put(COL_146,SideCutters);
+        contentValues.put(COL_147,PropellerNuts);
+        contentValues.put(COL_148,SpareProps);
+        contentValues.put(COL_149,SocketSet);
+        long result = db.insert(TABLE_NAME8,null,contentValues);
+        if (result == -1)
+            return false;
+        else
+            return true;
+    }
+
+    public boolean insertDataOperationFlightPlan(String NaamStudent, String Datum, String JobNo, String Version, String Pilot, String Observer, String PayloadOperator, String Helper, String Address, String Latitude, String Elevation, String VehicularAcces, String FlightPurpose, String OperationType, String DateWorkRequired, String MissionDuration, String CruisingAltitude, String MaxAltitude, String MaxDistance, String SatellitePic, String BAGViewerPic, String CrewPositon, String FlightBox, String AltLandingSites, String Distances, String RiskAssessment, String LocalAirTraffic, String RegionalAirTraffic, String MilitaryControl, String LowFlyingArea, String Airspace, String CivilMilitary, String ATCPermission, String MilitaryLowFlying, String Prohibited, String NOTAMAffect, String NOTAMpublished, String HelpdeskConsulted, String VisualFlightRules, String Distance150, String Distance50, String Class1Flight, String TUG, String FlightReported, String Terrain, String OtherAircraft, String Hazards, String Restrictions, String Sensitives, String Permission, String Weather){
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues contentValues = new ContentValues();
+        contentValues.put(COL_2,NaamStudent);
+        contentValues.put(COL_3,String.valueOf(Datum));
+        contentValues.put(COL_150,JobNo);
+        contentValues.put(COL_151,Version);
+        contentValues.put(COL_152,Pilot);
+        contentValues.put(COL_153,Observer);
+        contentValues.put(COL_154,PayloadOperator);
+        contentValues.put(COL_155,Helper);
+        contentValues.put(COL_156,Address);
+        contentValues.put(COL_157,Latitude);
+        contentValues.put(COL_158,Elevation);
+        contentValues.put(COL_159,VehicularAcces);
+        contentValues.put(COL_160,FlightPurpose);
+        contentValues.put(COL_161,OperationType);
+        contentValues.put(COL_162,DateWorkRequired);
+        contentValues.put(COL_163,MissionDuration);
+        contentValues.put(COL_164,CruisingAltitude);
+        contentValues.put(COL_165,MaxAltitude);
+        contentValues.put(COL_166,MaxDistance);
+        contentValues.put(COL_167,SatellitePic);
+        contentValues.put(COL_168,BAGViewerPic);
+        contentValues.put(COL_169,CrewPositon);
+        contentValues.put(COL_170,FlightBox);
+        contentValues.put(COL_171,AltLandingSites);
+        contentValues.put(COL_172,Distances);
+        contentValues.put(COL_173,RiskAssessment);
+        contentValues.put(COL_174,LocalAirTraffic);
+        contentValues.put(COL_175,RegionalAirTraffic);
+        contentValues.put(COL_176,MilitaryControl);
+        contentValues.put(COL_177,LowFlyingArea);
+        contentValues.put(COL_178,Airspace);
+        contentValues.put(COL_179,CivilMilitary);
+        contentValues.put(COL_180,ATCPermission);
+        contentValues.put(COL_181,MilitaryLowFlying);
+        contentValues.put(COL_182,Prohibited);
+        contentValues.put(COL_183,NOTAMAffect);
+        contentValues.put(COL_184,NOTAMpublished);
+        contentValues.put(COL_185,HelpdeskConsulted);
+        contentValues.put(COL_186,VisualFlightRules);
+        contentValues.put(COL_187,Distance150);
+        contentValues.put(COL_188,Distance50);
+        contentValues.put(COL_189,Class1Flight);
+        contentValues.put(COL_190,TUG);
+        contentValues.put(COL_191,FlightReported);
+        contentValues.put(COL_192,Terrain);
+        contentValues.put(COL_193,OtherAircraft);
+        contentValues.put(COL_194,Hazards);
+        contentValues.put(COL_195,Restrictions);
+        contentValues.put(COL_196,Sensitives);
+        contentValues.put(COL_197,Permission);
+        contentValues.put(COL_198,Weather);
+        long result = db.insert(TABLE_NAME9,null,contentValues);
         if (result == -1)
             return false;
         else
