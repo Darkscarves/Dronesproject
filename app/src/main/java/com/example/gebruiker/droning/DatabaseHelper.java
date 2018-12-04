@@ -40,6 +40,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             public static final String COL_22 = "Duration";
             public static final String COL_23 = "Aircraft";
             public static final String COL_24 = "AircraftSystem";
+            public static final String COL_199 = "BatteryNo";
             public static final String COL_25 = "Pilot";
             public static final String COL_26 = "Observer";
             public static final String COL_27 = "PayloadOperator";
@@ -233,7 +234,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.execSQL("create table " + TABLE_NAME +" (ID INTEGER PRIMARY KEY AUTOINCREMENT, NaamStudent TEXT, Datum DATE, IncidentTime TEXT, Damage TEXT, Details TEXT, ActionTaken TEXT, Notes TEXT )");
         db.execSQL("create table " + TABLE_NAME1 +" (ID INTEGER PRIMARY KEY AUTOINCREMENT, NaamStudent TEXT, Datum DATE, BatteryNo TEXT, BatteryResidual TEXT, ChargeDate TEXT, ChargeInput TEXT, FlightDuration TEXT, PreFlight TEXT, Notes TEXT )");
         db.execSQL("create table " + TABLE_NAME2 +" (ID INTEGER PRIMARY KEY AUTOINCREMENT, NaamStudent TEXT, Datum DATE, Reason TEXT, WorkDone TEXT, PartsReplaced TEXT, SystemTested BOOLEAN, Notes TEXT )");
-        db.execSQL("create table " + TABLE_NAME3 +" (ID INTEGER PRIMARY KEY AUTOINCREMENT, NaamStudent TEXT, Datum DATE, TakeOffTime TEXT, LandingTime TEXT, Duration TEXT, Aircraft TEXT, AircraftSystem TEXT, Pilot TEXT, Observer TEXT, PayloadOperator TEXT, Location TEXT, FlightPurpose TEXT, Comment TEXT )");
+        db.execSQL("create table " + TABLE_NAME3 +" (ID INTEGER PRIMARY KEY AUTOINCREMENT, NaamStudent TEXT, Datum DATE, TakeOffTime TEXT, LandingTime TEXT, Duration TEXT, Aircraft TEXT, AircraftSystem TEXT, BatteryNo TEXT, Pilot TEXT, Observer TEXT, PayloadOperator TEXT, Location TEXT, FlightPurpose TEXT, Comment TEXT )");
         db.execSQL("create table " + TABLE_NAME4 +" (ID INTEGER PRIMARY KEY AUTOINCREMENT, NaamStudent TEXT, Datum DATE, SiteSurvey BOOLEAN, FlightPlan BOOLEAN, Airframe BOOLEAN, Camera BOOLEAN, Connections BOOLEAN, Propellers BOOLEAN, CalibrationPlatform BOOLEAN, GroundStation BOOLEAN, Monitor BOOLEAN, CrewIdBadges BOOLEAN, HardHat BOOLEAN, Radio BOOLEAN, FirstAid BOOLEAN, Extinguisher BOOLEAN, Signs BOOLEAN )");
         db.execSQL("create table " + TABLE_NAME5 +" (ID INTEGER PRIMARY KEY AUTOINCREMENT, NaamStudent TEXT, Datum DATE, Airframe BOOLEAN, FlightBattery BOOLEAN, Transmitters BOOLEAN, Camera BOOLEAN, SelfDiagnostic BOOLEAN, MonitorCalibration BOOLEAN, SaveCalibration BOOLEAN, TelemetryLink BOOLEAN, StartRecording BOOLEAN, AircraftAlignment BOOLEAN, Crew BOOLEAN, Clearance BOOLEAN, PowerUp BOOLEAN, TakeOff BOOLEAN, Communication BOOLEAN, Landing BOOLEAN )");
         db.execSQL("create table " + TABLE_NAME6 +" (ID INTEGER PRIMARY KEY AUTOINCREMENT, NaamStudent TEXT, Datum DATE, Pilot TEXT, Observer TEXT, WindSpeed TEXT, Direction TEXT, Obstruction TEXT, ViewLimitations TEXT, People TEXT, Livestock TEXT, Temperature TEXT, Visibility TEXT, Surface TEXT, Permission TEXT, Public TEXT, AirTraffic TEXT, Communication TEXT, Proximity TEXT, TakeOffArea TEXT, LandingArea TEXT, OperationalZone TEXT, EmergencyArea TEXT, HoldingArea TEXT )");
@@ -310,7 +311,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             return true;
     }
 
-    public boolean insertDataPreSiteSurvey(String NaamStudent, String Datum, String TakeOffTime, String LandingTime, String Duration, String Notes, String Aircraft, String AircraftSystem, String Pilot, String Observer, String PayloadOperator, String Location, String FlightPurpose, String Comment){
+    public boolean insertDataPreSiteSurvey(String NaamStudent, String Datum, String TakeOffTime, String LandingTime, String Duration, String Notes, String Aircraft, String AircraftSystem, String BatteryNo, String Pilot, String Observer, String PayloadOperator, String Location, String FlightPurpose, String Comment){
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
         contentValues.put(COL_2,NaamStudent);
@@ -320,6 +321,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         contentValues.put(COL_22,Duration);
         contentValues.put(COL_23,Aircraft);
         contentValues.put(COL_24,AircraftSystem);
+        contentValues.put(COL_199,BatteryNo);
         contentValues.put(COL_25,Pilot);
         contentValues.put(COL_26,Observer);
         contentValues.put(COL_27,PayloadOperator);
