@@ -24,15 +24,32 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
-
                     <TextView
-                        android:id="@+id/StudentennaamText"
+                        android:id="@+id/ArrivalChecklist"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/studentennaam" />
+                        android:text="@string/arrival_checklist"
+                        android:textSize="30sp"/>
+                    <TextView
+                    android:id="@+id/StudentennaamText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/studentennaam" />
 
                     <EditText
                         android:id="@+id/StudentennaamEdit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+                    <TextView
+                        android:id="@+id/DatumText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/date" />
+
+                    <EditText
+                        android:id="@+id/DatumEdit"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:ems="10"
@@ -145,64 +162,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
                         android:text="@string/cordens_signs_amp_safety_tape" />
-                    <TextView
-                        android:id="@+id/TouchdownText"
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:text="@string/touchdown" />
 
-                    <TextView
-                        android:id="@+id/PowerDownText"
-                        android:layout_width="match_parent"
-                        android:layout_height="65dp"
-                        android:text="@string/power_down" />
-
-                    <TextView
-                        android:id="@+id/RemovalText"
-                        android:layout_width="match_parent"
-                        android:layout_height="65dp"
-                        android:text="@string/removal" />
-
-                    <TextView
-                        android:id="@+id/DataRecText"
-                        android:layout_width="match_parent"
-                        android:layout_height="65dp"
-                        android:text="@string/data_recording" />
-
-                    <TextView
-                        android:id="@+id/TransmitterText"
-                        android:layout_width="match_parent"
-                        android:layout_height="65dp"
-                        android:text="@string/transmitter" />
-                    <TextView
-                        android:id="@+id/Camera2Text"
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:text="@string/camera" />
-
-                    <TextView
-                        android:id="@+id/Airframe3Text"
-                        android:layout_width="match_parent"
-                        android:layout_height="110dp"
-                        android:text="@string/airframe" />
-
-                    <TextView
-                        android:id="@+id/BatteryText"
-                        android:layout_width="match_parent"
-                        android:layout_height="175dp"
-                        android:text="@string/battery" />
-
-                    <TextView
-                        android:id="@+id/MemoryCardText"
-                        android:layout_width="match_parent"
-                        android:layout_height="65dp"
-                        android:text="@string/memory_card" />
-
-                    <TextView
-                        android:id="@+id/ReviewText"
-                        android:layout_width="match_parent"
-                        android:layout_height="65dp"
-                        android:text="@string/review" />
 
                 </LinearLayout>
 
@@ -306,65 +266,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
                         android:text="@string/postion_requiered_to_maintain_safe_operation" />
-                    <TextView
-                        android:id="@+id/UponTouchText"
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:text="@string/upon_touchdown_immidiately_stop_left_transmitter_stick_to_bottom_left_corner" />
-
-                    <TextView
-                        android:id="@+id/WalkToAirText"
-                        android:layout_width="match_parent"
-                        android:layout_height="65dp"
-                        android:text="@string/walk_to_aircraft_disconnect_flight_battery_and_call_safe" />
-
-                    <TextView
-                        android:id="@+id/RemoveAirText"
-                        android:layout_width="match_parent"
-                        android:layout_height="65dp"
-                        android:text="@string/remove_aircraft_from_landing_area" />
-
-                    <TextView
-                        android:id="@+id/RecordFlightText"
-                        android:layout_width="match_parent"
-                        android:layout_height="65dp"
-                        android:text="@string/record_flight_time_details_in_pilot_logbook_amp_battery_logbook" />
-
-                    <TextView
-                        android:id="@+id/SwitchOffText"
-                        android:layout_width="match_parent"
-                        android:layout_height="65dp"
-                        android:text="@string/switch_off_transmitter" />
-                    <TextView
-                        android:id="@+id/StopRecText"
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:text="@string/stop_recording_and_switch_off" />
-
-                    <TextView
-                        android:id="@+id/ChechForDamText"
-                        android:layout_width="match_parent"
-                        android:layout_height="110dp"
-                        android:text="@string/check_for_damage_wear" />
-
-                    <TextView
-                        android:id="@+id/RemoveFlightText"
-                        android:layout_width="match_parent"
-                        android:layout_height="175dp"
-                        android:text="@string/remove_flight_battery_from_aircraft" />
-
-                    <TextView
-                        android:id="@+id/RemoveFromText"
-                        android:layout_width="match_parent"
-                        android:layout_height="65dp"
-                        android:text="@string/remove_from_camera_and_back_up_to_ground_station" />
-
-                    <TextView
-                        android:id="@+id/ReviewImagesText"
-                        android:layout_width="match_parent"
-                        android:layout_height="65dp"
-                        android:text="@string/review_images_and_discuss_with_crew_and_or_client_if_required" />
-                </LinearLayout>
+                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -451,6 +353,212 @@
                         android:id="@+id/CordensSingsCBox"
                         android:layout_width="match_parent"
                         android:layout_height="65dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/SubmitBTN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/submit" />
+
+                <Button
+                    android:id="@+id/GoBackBTN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="toHome"
+                    android:text="@string/go_back" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/PostFligthChecklist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/post_flight_checklist"
+                    android:textSize="30sp"/>
+                <TextView
+                    android:id="@+id/Studentennaam2Text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/studentennaam" />
+
+                <EditText
+                    android:id="@+id/Studentennaam2Edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+                <TextView
+                    android:id="@+id/Datum2Text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date" />
+
+                <EditText
+                    android:id="@+id/Datum2Edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="144dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/TouchdownText"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:text="@string/touchdown" />
+
+                    <TextView
+                        android:id="@+id/PowerDownText"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:text="@string/power_down" />
+
+                    <TextView
+                        android:id="@+id/RemovalText"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:text="@string/removal" />
+
+                    <TextView
+                        android:id="@+id/DataRecText"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:text="@string/data_recording" />
+
+                    <TextView
+                        android:id="@+id/TransmitterText"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:text="@string/transmitter" />
+
+                    <TextView
+                        android:id="@+id/Camera2Text"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:text="@string/camera" />
+
+                    <TextView
+                        android:id="@+id/Airframe3Text"
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:text="@string/airframe" />
+
+                    <TextView
+                        android:id="@+id/BatteryText"
+                        android:layout_width="match_parent"
+                        android:layout_height="175dp"
+                        android:text="@string/battery" />
+
+                    <TextView
+                        android:id="@+id/MemoryCardText"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:text="@string/memory_card" />
+
+                    <TextView
+                        android:id="@+id/ReviewText"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:text="@string/review" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="144dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/UponTouchText"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:text="@string/upon_touchdown_immidiately_stop_left_transmitter_stick_to_bottom_left_corner" />
+
+                    <TextView
+                        android:id="@+id/WalkToAirText"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:text="@string/walk_to_aircraft_disconnect_flight_battery_and_call_safe" />
+
+                    <TextView
+                        android:id="@+id/RemoveAirText"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:text="@string/remove_aircraft_from_landing_area" />
+
+                    <TextView
+                        android:id="@+id/RecordFlightText"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:text="@string/record_flight_time_details_in_pilot_logbook_amp_battery_logbook" />
+
+                    <TextView
+                        android:id="@+id/SwitchOffText"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:text="@string/switch_off_transmitter" />
+
+                    <TextView
+                        android:id="@+id/StopRecText"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:text="@string/stop_recording_and_switch_off" />
+
+                    <TextView
+                        android:id="@+id/ChechForDamText"
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:text="@string/check_for_damage_wear" />
+
+                    <TextView
+                        android:id="@+id/RemoveFlightText"
+                        android:layout_width="match_parent"
+                        android:layout_height="175dp"
+                        android:text="@string/remove_flight_battery_from_aircraft" />
+
+                    <TextView
+                        android:id="@+id/RemoveFromText"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:text="@string/remove_from_camera_and_back_up_to_ground_station" />
+
+                    <TextView
+                        android:id="@+id/ReviewImagesText"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:text="@string/review_images_and_discuss_with_crew_and_or_client_if_required" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
                     <CheckBox
                         android:id="@+id/TouchdownCBox"
                         android:layout_width="match_parent"
@@ -500,29 +608,28 @@
                         android:layout_width="match_parent"
                         android:layout_height="65dp" />
                 </LinearLayout>
-
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/SubmitBTN"
+                    android:id="@+id/SubmitBTN2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/submit" />
 
                 <Button
-                    android:id="@+id/GoBackBTN"
+                    android:id="@+id/GoBackBTN2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:onClick="toHome"
                     android:text="@string/go_back" />
             </LinearLayout>
+
 
         </LinearLayout>
     </ScrollView>

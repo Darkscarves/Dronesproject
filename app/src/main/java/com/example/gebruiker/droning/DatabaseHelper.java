@@ -221,6 +221,17 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             public static final String COL_196 = "Sensitives";
             public static final String COL_197 = "Permission";
             public static final String COL_198 = "Weather";
+            public static final String TABLE_NAME10 = "PostFlightChecklist";
+            public static final String COL_200 = "Touchdown";
+            public static final String COL_201 = "PowerDown";
+            public static final String COL_202 = "Removal";
+            public static final String COL_203 = "DataRecording";
+            public static final String COL_204 = "Transmitter";
+            public static final String COL_205 = "Camera";
+            public static final String COL_206 = "Airframe";
+            public static final String COL_207 = "Battery";
+            public static final String COL_208 = "MemoryCard";
+            public static final String COL_209 = "Review";
 
 
 
@@ -241,6 +252,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.execSQL("create table " + TABLE_NAME7 +" (ID INTEGER PRIMARY KEY AUTOINCREMENT, NaamStudent TEXT, Datum DATE, Latitude TEXT, Altitude TEXT, WorkRequired TEXT, DateWorkRequired TEXT, DownloadedToGround TEXT, VehicularAcces TEXT, Pilot TEXT, Observer TEXT, UAVRegistration TEXT, Helper1 TEXT, Helper2 TEXT, Airspace TEXT, Terrain TEXT, Proximities TEXT, Hazards TEXT, Restrictions TEXT, Sensitivities TEXT, People TEXT, Livestock TEXT, Permission TEXT, Acces TEXT, Footpaths TEXT, Alternate TEXT, RiskReduction TEXT, Weather TEXT, NOTAMS TEXT, LocalAirTraffic TEXT, RegionalAirTraffic TEXT, MilitaryControl TEXT, NoticeToAirmen TEXT )");
         db.execSQL("create table " + TABLE_NAME8 +" (ID INTEGER PRIMARY KEY AUTOINCREMENT, NaamStudent TEXT, Datum DATE, GroundStation BOOLEAN, CameraMonitor BOOLEAN, Receiver BOOLEAN, TelemetryReceiver BOOLEAN, Laptop BOOLEAN, MobilePhone BOOLEAN, Anemometer BOOLEAN, FirstAid BOOLEAN, HardHat BOOLEAN, Radio BOOLEAN, Clothing BOOLEAN, AirNavigationMap BOOLEAN, Checklist BOOLEAN, Notepad BOOLEAN, SiteAssessment BOOLEAN, Signs BOOLEAN, FLightBattery BOOLEAN, TransmitterBattery BOOLEAN, CameraBattery BOOLEAN, StationBattery BOOLEAN, ChargerBattery BOOLEAN, PhoneBattery BOOLEAN, Airframe BOOLEAN, CameraMount BOOLEAN, CalibrationPlatform BOOLEAN, CameraLens BOOLEAN, CameraConnection BOOLEAN, CameraMemory BOOLEAN, CameraLanyard BOOLEAN, AttachmentBolt BOOLEAN, MultiFunctionCharger BOOLEAN, RequiredCharger BOOLEAN, BatteryChecker BOOLEAN, Screwdrivers BOOLEAN, AllenKeys BOOLEAN, Pliers BOOLEAN, CableTies BOOLEAN, SideCutters BOOLEAN, PropellerNuts BOOLEAN, SpareProps BOOLEAN, SocketSet BOOLEAN )");
         db.execSQL("create table " + TABLE_NAME9 +" (ID INTEGER PRIMARY KEY AUTOINCREMENT, NaamStudent TEXT, Datum DATE, JobNo TEXT, Version TEXT, Pilot TEXT, Observer TEXT, PayloadOperator TEXT, Helper TEXT, Address TEXT, Latitude TEXT, Elevation TEXT, VehicularAccess TEXT, FlightPurpose TEXT, OperationType TEXT, DateWorkRequired TEXT, MissionDuration TEXT, CruisingAltitude TEXT, MaxAltitude TEXT, MaxDistance TEXT, SatellitePic TEXT, BAGViewerPic TEXT, CrewPosition TEXT, FlightBox TEXT, AltLandingSites TEXT, Distances TEXT, RiskAssessment TEXT, LocalAirTraffic TEXT, RegionalAirTraffic TEXT, MilitaryControl TEXT, LowFlyingArea TEXT, Airspace TEXT, CivilMilitary TEXT, ATCPermission TEXT, MilitaryLowFlying TEXT, Prohibited TEXT, NOTAMAffect TEXT, NOTAMpublished TEXT, HelpdeskConsulted TEXT, VisualFlightRules TEXT, Distance150 TEXT, Distance50 TEXT, Class1Flight TEXT, TUG TEXT, FlightReported TEXT, Terrain TEXT, OtherAircraft TEXT, Hazards TEXT, Restrictions TEXT, Sensitives TEXT, Permission TEXT, Weather TEXT )");
+        db.execSQL("create table " + TABLE_NAME10 +" (ID INTEGER PRIMARY KEY AUTOINCREMENT, NaamStudent TEXT, Datum DATE, Touchdown TEXT, PowerDown TEXT, Removal TEXT, DataRecording TEXT, Transmitter TEXT, Camera TEXT, Airframe TEXT, Battery TEXT, MemoryCard TEXT, Review TEXT )");
     }
 
     @Override
@@ -255,6 +267,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS "+TABLE_NAME7);
         db.execSQL("DROP TABLE IF EXISTS "+TABLE_NAME8);
         db.execSQL("DROP TABLE IF EXISTS "+TABLE_NAME9);
+        db.execSQL("DROP TABLE IF EXISTS "+TABLE_NAME10);
         onCreate(db);
     }
 
@@ -311,7 +324,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             return true;
     }
 
-    public boolean insertDataPreSiteSurvey(String NaamStudent, String Datum, String TakeOffTime, String LandingTime, String Duration, String Notes, String Aircraft, String AircraftSystem, String BatteryNo, String Pilot, String Observer, String PayloadOperator, String Location, String FlightPurpose, String Comment){
+    public boolean insertDataFlightLog(String NaamStudent, String Datum, String TakeOffTime, String LandingTime, String Duration, String Aircraft, String AircraftSystem, String BatteryNo, String Pilot, String Observer, String PayloadOperator, String Location, String FlightPurpose, String Comment){
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
         contentValues.put(COL_2,NaamStudent);
@@ -328,13 +341,12 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         contentValues.put(COL_28,Location);
         contentValues.put(COL_29,FlightPurpose);
         contentValues.put(COL_30,Comment);
-        contentValues.put(COL_8,Notes);
         long result = db.insert(TABLE_NAME3,null,contentValues);
         if (result == -1)
             return false;
         else
             return true;
-    }
+     }
 
     public boolean insertDataArrivalChecklist(String NaamStudent, String Datum, String SiteSurvey, String FlightPlan, String Airframe, String Camera, String Connections, String Propellers, String CalibrationPlatform, String GroundStation, String Monitor, String CrewIdBadges, String HardHat, String Radio, String FirstAid, String Extinguisher, String Signs){
         SQLiteDatabase db = this.getWritableDatabase();
@@ -574,6 +586,28 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         contentValues.put(COL_197,Permission);
         contentValues.put(COL_198,Weather);
         long result = db.insert(TABLE_NAME9,null,contentValues);
+        if (result == -1)
+            return false;
+        else
+            return true;
+    }
+
+    public boolean insertPostFlightChecklist(String NaamStudent, String Datum, String Touchdown, String PowerDown, String Removal, String DataRecording, String Transmitter, String Camera, String Airframe, String Battery, String MemoryCard, String Review){
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues contentValues = new ContentValues();
+        contentValues.put(COL_2,NaamStudent);
+        contentValues.put(COL_3,String.valueOf(Datum));
+        contentValues.put(COL_200,Touchdown);
+        contentValues.put(COL_201,PowerDown);
+        contentValues.put(COL_202,Removal);
+        contentValues.put(COL_203,DataRecording);
+        contentValues.put(COL_204,Transmitter);
+        contentValues.put(COL_205,Camera);
+        contentValues.put(COL_206,Airframe);
+        contentValues.put(COL_207,Battery);
+        contentValues.put(COL_208,MemoryCard);
+        contentValues.put(COL_209,Review);
+        long result = db.insert(TABLE_NAME10,null,contentValues);
         if (result == -1)
             return false;
         else
