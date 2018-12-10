@@ -353,4 +353,6 @@
     <string name="pre_notifications">Pre notifications</string>
     <string name="if_notified_date_time_amp_contact_name"><![CDATA[(If notified Date, Time & Contact Name)]]></string>
     <string name="notice_to_airmen">Notice to airmen</string>
+    <string name="arrival_checklist">Arrival Checklist</string>
+    <string name="post_flight_checklist">Post Flight Checklist</string>
 </resources>

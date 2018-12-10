@@ -39,6 +39,18 @@
                         android:layout_height="wrap_content"
                         android:ems="10"
                         android:inputType="textPersonName" />
+                    <TextView
+                        android:id="@+id/DatumText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/date" />
+
+                    <EditText
+                        android:id="@+id/DatumEdit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
                 </LinearLayout>
             </LinearLayout>
 

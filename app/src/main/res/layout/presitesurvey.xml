@@ -208,7 +208,7 @@
                         <TextView
                             android:id="@+id/VehicularAccesText"
                             android:layout_width="match_parent"
-                            android:layout_height="40dp"
+                            android:layout_height="45dp"
                             android:text="@string/vehicular_acces" />
                     </LinearLayout>
 
@@ -217,12 +217,10 @@
                         android:layout_height="match_parent"
                         android:orientation="vertical">
 
-                        <EditText
-                            android:id="@+id/SiteNameEdit"
+                        <TextView
+                            android:id="@+id/textView"
                             android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:ems="10"
-                            android:inputType="textPersonName" />
+                            android:layout_height="40dp" />
 
                         <EditText
                             android:id="@+id/LatitudeAmpEdit"
@@ -258,24 +256,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="60dp" />
 
-                        <RadioGroup
+                        <EditText
+                            android:id="@+id/VehicularAccesEdit"
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-
-                            <RadioButton
-                                android:id="@+id/VehicularAccesYes"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="@string/yes" />
-
-                            <RadioButton
-                                android:id="@+id/VehicularAccesNo"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="@string/no" />
-                        </RadioGroup>
+                            android:layout_height="45dp"
+                            android:ems="10"
+                            android:hint="Yes/No"
+                            android:inputType="textPersonName" />
 
                     </LinearLayout>
                 </LinearLayout>
@@ -348,7 +335,7 @@
                     <TextView
                         android:id="@+id/LivestockText"
                         android:layout_width="match_parent"
-                        android:layout_height="20dp"
+                        android:layout_height="40dp"
                         android:text="@string/livestock" />
 
                     <TextView
@@ -450,7 +437,7 @@
                     <TextView
                         android:id="@+id/LocalFarmsText"
                         android:layout_width="match_parent"
-                        android:layout_height="20dp"
+                        android:layout_height="40dp"
                         android:text="@string/local_farms" />
 
                     <TextView
@@ -559,7 +546,7 @@
                     <EditText
                         android:id="@+id/LivestockEdit"
                         android:layout_width="match_parent"
-                        android:layout_height="20dp"
+                        android:layout_height="40dp"
                         android:ems="10"
                         android:inputType="textPersonName" />
 

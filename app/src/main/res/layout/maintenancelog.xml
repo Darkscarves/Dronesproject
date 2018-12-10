@@ -85,27 +85,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/system_tested" />
-
-            <RadioGroup
-                android:id="@+id/RadioGroupSystemTested"
+            <EditText
+                android:id="@+id/SystemTestedEdit"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
-
-                 <RadioButton
-                    android:id="@+id/SystemTestedYes"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/yes" />
-
-                <RadioButton
-                    android:id="@+id/SystemTestedNo"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/no" />
-            </RadioGroup>
-
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Yes/No"/>
             <TextView
                 android:id="@+id/NotesText"
                 android:layout_width="match_parent"
