@@ -32,8 +32,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             public static final String COL_15 = "Reason";
             public static final String COL_16 = "WorkDone";
             public static final String COL_17 = "PartsReplaced";
-            public static final String COL_18 = "SystemTestedYes";
-            public static final String COL_19 = "SystemTestedNo";
+            public static final String COL_18 = "SystemTested";
             public static final String TABLE_NAME3 = "FlightLog";
             public static final String COL_20 = "TakeOffTime";
             public static final String COL_21 = "LandingTime";
@@ -307,7 +306,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             return true;
     }
 
-    public boolean insertDataMaintenance(String NaamStudent, String Datum, String Reason, String WorkDone, String PartsReplaced, String Notes){
+    public boolean insertDataMaintenance(String NaamStudent, String Datum, String Reason, String WorkDone, String PartsReplaced, String Systemtested, String Notes){
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
         contentValues.put(COL_2,NaamStudent);
@@ -315,8 +314,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         contentValues.put(COL_15,Reason);
         contentValues.put(COL_16,WorkDone);
         contentValues.put(COL_17,PartsReplaced);
+        contentValues.put(COL_18,Systemtested);
         contentValues.put(COL_8,Notes);
-        contentValues.put(COL_15,Notes);
         long result = db.insert(TABLE_NAME2,null,contentValues);
         if (result == -1)
             return false;
