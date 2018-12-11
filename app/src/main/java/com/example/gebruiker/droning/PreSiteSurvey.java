@@ -58,11 +58,11 @@ public class PreSiteSurvey extends AppCompatActivity {
         MilitaryControlEdit = (EditText) findViewById(R.id.MilitaryControlEdit);
         NoticeToAirmenEdit = (EditText) findViewById(R.id.NoticeToAirmenEdit);
         SubmitBTN = (Button)findViewById(R.id.SubmitBTN);
-   //    AddData();
+       AddData();
     }
 
 
- /*   public void AddData() {
+    public void AddData() {
         SubmitBTN.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
@@ -108,7 +108,7 @@ public class PreSiteSurvey extends AppCompatActivity {
                     }
                 }
         );
-    }*/
+    }
     public void toHome(View view)
     {
         Intent intent = new Intent(PreSiteSurvey.this, MainActivity.class);

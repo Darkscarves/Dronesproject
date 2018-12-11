@@ -73,10 +73,10 @@ public class OperationalFlightPlan extends AppCompatActivity {
         C20Edit = (EditText)findViewById(R.id.C20Edit);
         C21Edit = (EditText)findViewById(R.id.C21Edit);
         C22Edit = (EditText)findViewById(R.id.C22Edit);
-      //  AddData();
+        AddData();
     }
 
-  /*  public void AddData() {
+    public void AddData() {
         SubmitBTN.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
@@ -142,7 +142,7 @@ public class OperationalFlightPlan extends AppCompatActivity {
                     }
                 }
         );
-    }*/
+    }
     public void toHome(View view)
     {
         Intent intent = new Intent(OperationalFlightPlan.this, MainActivity.class);

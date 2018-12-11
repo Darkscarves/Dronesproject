@@ -66,10 +66,10 @@ public class EmbarkationChecklist extends AppCompatActivity {
         SparePropsTractorPusherCBox = (CheckBox)findViewById(R.id.SparePropsTractorPusherCBox);
         SmallSocketSetCBox = (CheckBox)findViewById(R.id.SmallSocketSetCBox);
         SubmitBTN = (Button)findViewById(R.id.SubmitBTN);
-     //   AddData();
+        AddData();
     }
 
-   /*  public void AddData() {
+    public void AddData() {
      SubmitBTN.setOnClickListener(
              new View.OnClickListener() {
                  @Override
@@ -128,7 +128,7 @@ public class EmbarkationChecklist extends AppCompatActivity {
                  }
              }
      );
- }*/
+ }
     public void toHome(View view)
     {
         Intent intent = new Intent(EmbarkationChecklist.this, MainActivity.class);

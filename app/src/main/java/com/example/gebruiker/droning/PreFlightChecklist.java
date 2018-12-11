@@ -44,10 +44,10 @@ public class PreFlightChecklist extends AppCompatActivity {
         CommunicationCBox = (CheckBox)findViewById(R.id.CommunicationCBox);
         LandingCBox = (CheckBox)findViewById(R.id.LandingCBox);
         SubmitBTN = (Button)findViewById(R.id.SubmitBTN);
-        //AddData();
+        AddData();
     }
 
-   /* public void AddData() {
+   public void AddData() {
         SubmitBTN.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
@@ -84,7 +84,7 @@ public class PreFlightChecklist extends AppCompatActivity {
                     }
                 }
         );
-    }*/
+    }
 
     public void toHome(View view)
     {
