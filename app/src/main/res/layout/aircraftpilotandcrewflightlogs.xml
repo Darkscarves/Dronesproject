@@ -9,7 +9,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="468dp">
+        android:layout_height="440dp">
 
 
         <LinearLayout
@@ -21,11 +21,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
+
                 <TextView
                     android:id="@+id/StudentennaamText"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:text="@string/studentennaam" />
+
                 <TextView
                     android:id="@+id/DateText"
                     android:layout_width="match_parent"
@@ -115,12 +117,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
+
                 <EditText
                     android:id="@+id/StudentennaamEdit"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:ems="10"
                     android:inputType="textPersonName" />
+
                 <EditText
                     android:id="@+id/DateEdit"
                     android:layout_width="match_parent"

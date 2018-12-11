@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class OperationalFlightPlan extends AppCompatActivity {
     DatabaseHelper myDb;
-    EditText StudentennaamEdit, DatumEdit, JobNumberEdit, VersionEdit, PilotInCommandEdit, ObserverEdit, PayloadOperatorEdit, Helper1Edit, AddressEdit, LattitudeAmpLongitudeEdit, ElevationEdit, VehicularAccesEdit, PurposeOfFlightEdit,
+    EditText StudentennaamEdit, DateEdit, JobNumberEdit, VersionEdit, PilotInCommandEdit, ObserverEdit, PayloadOperatorEdit, Helper1Edit, AddressEdit, LattitudeAmpLongitudeEdit, ElevationEdit, VehicularAccesEdit, PurposeOfFlightEdit,
             TypeOperationEdit, DateWorkEdit, MissionDurationEdit, CruisingAltitudeEdit, MaximumAltitudeEdit, MaximumDistanceEdit, SatellitePictureEdit, BAGViewerEdit, PositionOfCrewEdit, FlightboxEdit, AlternateLandingEdit,
             DistanceToPeopleEdit, RiskAssessmentEdit, LocalAirEdit,RegionalAirEdit, MilitaryControlEdit, CoordinatorLowEdit, C1Edit, C2Edit, C3Edit, C4Edit, C5Edit, C6Edit, C7Edit, C8Edit, C9Edit, C10Edit,
             C11Edit, C12Edit, C13Edit, C14Edit, C15Edit, C16Edit, C17Edit, C18Edit, C19Edit, C20Edit, C21Edit, C22Edit;
@@ -22,7 +22,7 @@ public class OperationalFlightPlan extends AppCompatActivity {
         myDb = new DatabaseHelper(this);
 
         StudentennaamEdit = (EditText)findViewById(R.id.StudentennaamEdit);
-        DatumEdit = (EditText)findViewById(R.id.DatumEdit);
+        DateEdit = (EditText)findViewById(R.id.DateEdit);
         JobNumberEdit = (EditText)findViewById(R.id.JobNumberEdit);
         VersionEdit = (EditText)findViewById(R.id.VersionEdit);
         PilotInCommandEdit = (EditText)findViewById(R.id.PilotInCommandEdit);
@@ -83,7 +83,7 @@ public class OperationalFlightPlan extends AppCompatActivity {
                     public void onClick(View v) {
                         boolean isInserted = myDb.insertDataOperationFlightPlan(
                                 StudentennaamEdit.getText().toString(),
-                                DatumEdit.getText().toString(),
+                                DateEdit.getText().toString(),
                                 JobNumberEdit.getText().toString(),
                                 VersionEdit.getText().toString(),
                                 PilotInCommandEdit.getText().toString(),

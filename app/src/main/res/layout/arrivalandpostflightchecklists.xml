@@ -9,12 +9,13 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="369dp">
+        android:layout_height="440dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -24,17 +25,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
+
                     <TextView
                         android:id="@+id/ArrivalChecklist"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/arrival_checklist"
-                        android:textSize="30sp"/>
+                        android:textSize="30sp" />
+
                     <TextView
-                    android:id="@+id/StudentennaamText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/studentennaam" />
+                        android:id="@+id/StudentennaamText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/studentennaam" />
 
                     <EditText
                         android:id="@+id/StudentennaamEdit"
@@ -42,6 +45,7 @@
                         android:layout_height="wrap_content"
                         android:ems="10"
                         android:inputType="textPersonName" />
+
                     <TextView
                         android:id="@+id/DatumText"
                         android:layout_width="match_parent"
@@ -266,7 +270,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="65dp"
                         android:text="@string/postion_requiered_to_maintain_safe_operation" />
-                 </LinearLayout>
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -383,12 +387,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
+
                 <TextView
                     android:id="@+id/PostFligthChecklist"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/post_flight_checklist"
-                    android:textSize="30sp"/>
+                    android:textSize="30sp" />
+
                 <TextView
                     android:id="@+id/Studentennaam2Text"
                     android:layout_width="match_parent"
@@ -401,6 +407,7 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textPersonName" />
+
                 <TextView
                     android:id="@+id/Datum2Text"
                     android:layout_width="match_parent"
@@ -583,6 +590,7 @@
                         android:id="@+id/TransmitterCBox"
                         android:layout_width="match_parent"
                         android:layout_height="65dp" />
+
                     <CheckBox
                         android:id="@+id/Camera2Cbox"
                         android:layout_width="match_parent"
@@ -609,6 +617,7 @@
                         android:layout_height="65dp" />
                 </LinearLayout>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

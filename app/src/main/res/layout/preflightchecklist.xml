@@ -9,12 +9,13 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="369dp">
+        android:layout_height="440dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -37,6 +38,7 @@
                         android:layout_height="wrap_content"
                         android:ems="10"
                         android:inputType="textPersonName" />
+
                     <TextView
                         android:id="@+id/DatumText"
                         android:layout_width="match_parent"
@@ -157,6 +159,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:text="@string/aircraft_alignment" />
+
                     <TextView
                         android:id="@+id/CrewPublicText"
                         android:layout_width="match_parent"
@@ -174,6 +177,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
                         android:text="@string/power_up" />
+
                     <TextView
                         android:id="@+id/TakeOffText"
                         android:layout_width="match_parent"
@@ -190,9 +194,7 @@
                         android:id="@+id/LandingText"
                         android:layout_width="match_parent"
                         android:layout_height="130dp"
-                        android:text="@string/landing"  />
-
-
+                        android:text="@string/landing" />
 
 
                 </LinearLayout>
@@ -242,7 +244,7 @@
                         android:id="@+id/CallClearText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:text="@string/call_clear_props_and_connect_flight_battery"   />
+                        android:text="@string/call_clear_props_and_connect_flight_battery" />
 
                     <TextView
                         android:id="@+id/WaitForDiaText"
@@ -297,6 +299,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="80dp"
                         android:text="@string/reposition_aircraft_in_take_off_area_on_level_ground_facing_into_wind" />
+
                     <TextView
                         android:id="@+id/EnsureAllCrewText"
                         android:layout_width="match_parent"
@@ -326,13 +329,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="130dp"
                         android:text="@string/throughout_entire_flight" />
+
                     <TextView
                         android:id="@+id/BeforeLandigText"
                         android:layout_width="match_parent"
                         android:layout_height="130dp"
                         android:text="@string/before_landing_check" />
-
-
 
 
                 </LinearLayout>
@@ -422,6 +424,7 @@
                         android:id="@+id/AircraftAlignCBox"
                         android:layout_width="match_parent"
                         android:layout_height="80dp" />
+
                     <CheckBox
                         android:id="@+id/CrewPublicCBox"
                         android:layout_width="match_parent"

@@ -10,8 +10,9 @@
     <ScrollView
         android:layout_width="match_parent"
 
-        android:layout_height="441dp">
-<LinearLayout
+        android:layout_height="440dp">
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -23,23 +24,24 @@
                 android:text="@string/studentennaam" />
 
             <EditText
-    android:id="@+id/StudentennaamEdit"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:ems="10"
-    android:inputType="textPersonName" />
-    <TextView
-        android:id="@+id/DatumText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/date" />
+                android:id="@+id/StudentennaamEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
 
-    <EditText
-        android:id="@+id/DatumEdit"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName" />
+            <TextView
+                android:id="@+id/DatumText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/date" />
+
+            <EditText
+                android:id="@+id/DatumEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
 
             <TextView
                 android:id="@+id/BatteryNumberText"
@@ -112,12 +114,12 @@
                 android:layout_height="wrap_content"
                 android:text="@string/pre_flight" />
 
-    <EditText
-        android:id="@+id/PreFlightEdit"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName" />
+            <EditText
+                android:id="@+id/PreFlightEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
 
             <TextView
                 android:id="@+id/NotesText"

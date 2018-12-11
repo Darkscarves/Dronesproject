@@ -9,7 +9,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="369dp">
+        android:layout_height="440dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -39,6 +39,7 @@
                         android:layout_height="wrap_content"
                         android:ems="10"
                         android:inputType="textPersonName" />
+
                     <TextView
                         android:id="@+id/DatumText"
                         android:layout_width="match_parent"
@@ -159,6 +160,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/notepad_amp_pens" />
+
                     <TextView
                         android:id="@+id/SiteAssessmentFromText"
                         android:layout_width="match_parent"
@@ -176,6 +178,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/flight_battery_packs" />
+
                     <TextView
                         android:id="@+id/TransmitterBatteryPacksText"
                         android:layout_width="match_parent"
@@ -192,7 +195,7 @@
                         android:id="@+id/GroundStationBatteryText"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:text="@string/ground_station_battery"  />
+                        android:text="@string/ground_station_battery" />
 
                     <TextView
                         android:id="@+id/ChargerBatteryPacksText"
@@ -247,6 +250,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/camera_memory_cards" />
+
                     <TextView
                         android:id="@+id/CameraToAirframeLanyardText"
                         android:layout_width="match_parent"
@@ -428,6 +432,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/check_condition" />
+
                     <TextView
                         android:id="@+id/CheckCondition15Text"
                         android:layout_width="match_parent"
@@ -511,6 +516,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/check_condition" />
+
                     <TextView
                         android:id="@+id/CheckCondition22Text"
                         android:layout_width="match_parent"
@@ -563,7 +569,7 @@
                         android:id="@+id/CheckCondition29Text"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:text="@string/check_condition"  />
+                        android:text="@string/check_condition" />
 
                     <TextView
                         android:id="@+id/CheckCondition30Text"
@@ -588,6 +594,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:text="@string/check_condition_amp_quantity" />
+
                     <TextView
                         android:id="@+id/CheckCondition34Text"
                         android:layout_width="match_parent"
@@ -682,6 +689,7 @@
                         android:id="@+id/NotepadPensCBox"
                         android:layout_width="match_parent"
                         android:layout_height="50dp" />
+
                     <CheckBox
                         android:id="@+id/SiteAssessmentFromCBox"
                         android:layout_width="match_parent"
@@ -751,6 +759,7 @@
                         android:id="@+id/CameraConnectionLeadsCBox"
                         android:layout_width="match_parent"
                         android:layout_height="50dp" />
+
                     <CheckBox
                         android:id="@+id/CameraMemoryCardsCBox"
                         android:layout_width="match_parent"
@@ -815,12 +824,11 @@
                         android:id="@+id/SparePropsTractorPusherCBox"
                         android:layout_width="match_parent"
                         android:layout_height="50dp" />
+
                     <CheckBox
                         android:id="@+id/SmallSocketSetCBox"
                         android:layout_width="match_parent"
                         android:layout_height="50dp" />
-
-
 
 
                 </LinearLayout>
