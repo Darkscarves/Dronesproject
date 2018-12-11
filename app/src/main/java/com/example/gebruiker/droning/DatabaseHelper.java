@@ -66,7 +66,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             public static final String COL_46 = "FlightBattery";
             public static final String COL_47 = "Transmitters";
             public static final String COL_48 = "SelfDiagnostic";
-            public static final String COL_49 = "MonitorCalibration";
+            public static final String COL_49 = "Monitor";
             public static final String COL_50 = "SaveCalibration";
             public static final String COL_51 = "TelemetryLink";
             public static final String COL_52 = "StartRecording";
@@ -231,6 +231,14 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             public static final String COL_207 = "Battery";
             public static final String COL_208 = "MemoryCard";
             public static final String COL_209 = "Review";
+            public static final String COL_210 = "AirframeLevel";
+            public static final String COL_211 = "ConnectBattery";
+            public static final String COL_212 = "Calibration";
+            public static final String COL_213 = "CameraPlatform";
+            public static final String COL_214 = "FlightPlan";
+            public static final String COL_215 = "HorizontalDistance";
+            public static final String COL_216 = "CrewIdentification";
+            public static final String COL_217 = "Transmitters";
 
 
 
@@ -306,7 +314,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             return true;
     }
 
-    public boolean insertDataMaintenance(String NaamStudent, String Datum, String Reason, String WorkDone, String PartsReplaced, String Systemtested, String Notes){
+    public boolean insertDataMaintenance(String NaamStudent, String Datum, String Reason, String WorkDone, String PartsReplaced, String Systemtested, String Notes) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
         contentValues.put(COL_2,NaamStudent);
@@ -374,7 +382,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             return true;
     }
 
-    public boolean insertDataPreFlightChecklist(String NaamStudent, String Datum, String Airframe, String FlightBattery, String Transmitters, String Camera, String SelfDiagnostic, String MonitorCalibration, String SaveCalibration, String TelemetryLink, String StartRecording, String AircraftAlignment, String Crew, String Clearance, String PowerUp, String TakeOff, String Communication, String Landing){
+    public boolean insertDataPreFlightChecklist(String NaamStudent, String Datum, String Airframe, String FlightBattery, String Transmitters, String Camera, String AirframeLevel, String ConnectBattery, String SelfDiagnostic, String Monitor, String Calibration, String SaveCalibration, String CameraPlatform, String TelemetryLink, String FlightPlan, String StartRecording, String AircraftAlignment, String Crew, String Clearance, String PowerUp, String TakeOff, String Communication, String Landing){
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
         contentValues.put(COL_2,NaamStudent);
@@ -383,10 +391,15 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         contentValues.put(COL_46,FlightBattery);
         contentValues.put(COL_47,Transmitters);
         contentValues.put(COL_34,Camera);
+        contentValues.put(COL_210,AirframeLevel);
+        contentValues.put(COL_211,ConnectBattery);
         contentValues.put(COL_48,SelfDiagnostic);
-        contentValues.put(COL_49,MonitorCalibration);
+        contentValues.put(COL_49,Monitor);
+        contentValues.put(COL_212,Calibration);
         contentValues.put(COL_50,SaveCalibration);
+        contentValues.put(COL_213,CameraPlatform);
         contentValues.put(COL_51,TelemetryLink);
+        contentValues.put(COL_214,FlightPlan);
         contentValues.put(COL_52,StartRecording);
         contentValues.put(COL_53,AircraftAlignment);
         contentValues.put(COL_54,Crew);
@@ -435,11 +448,12 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             return true;
     }
 
-    public boolean insertDataPreSiteSurvey(String NaamStudent, String Datum, String Latitude, String Altitude, String WorkRequired, String DateWorkRequired, String DownloadedToGround, String VehicularAcces, String Pilot, String Observer, String UAVRegistration, String Helper1, String Helper2, String Airspace, String Terrain, String Proximities, String Hazards, String Restrictions, String Sensitivities, String People, String Livestock, String Permission, String Acces, String Footpaths, String Alternate, String RiskReduction, String Weahter, String NOTAMS, String LocalAirTraffic, String RegionalAirTraffic, String MilitaryControl, String NoticeToAirmen){
+    public boolean insertDataPreSiteSurvey(String NaamStudent, String Datum, String JobNo, String Latitude, String Altitude, String WorkRequired, String DateWorkRequired, String DownloadedToGround, String VehicularAcces, String Pilot, String Observer, String UAVRegistration, String Helper1, String Helper2, String Airspace, String Terrain, String Proximities, String Hazards, String Restrictions, String Sensitivities, String People, String Livestock, String Permission, String Acces, String Footpaths, String Alternate, String RiskReduction, String Weahter, String NOTAMS, String LocalAirTraffic, String RegionalAirTraffic, String MilitaryControl, String NoticeToAirmen){
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
         contentValues.put(COL_2,NaamStudent);
         contentValues.put(COL_3,String.valueOf(Datum));
+        contentValues.put(COL_150,JobNo);
         contentValues.put(COL_79,Latitude);
         contentValues.put(COL_80,Altitude);
         contentValues.put(COL_81,WorkRequired);
@@ -477,7 +491,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             return true;
     }
 
-    public boolean insertDataEmbarkationChecklist(String NaamStudent, String Datum, String GroundStation, String CameraMonitor, String Receiver, String TelemeteryReceiver, String Laptop, String MobilePhone, String Anemometer, String FirstAid, String HardHat, String Radio, String Clothing, String AirNavigationMap, String Checklist, String Notepad, String SiteAssessment, String Signs, String FlightBattery, String TransmitterBattery, String CameraBattery, String StationBattery, String ChargerBattery, String PhoneBattery, String Airframe, String CameraMount, String CalibrationPlatform, String CameraLens, String CameraConnection, String CameraMemory, String CameraLanyard, String AttachmentBolt, String MultiFunctionCharger, String RequiredCharger, String BatteryChecker, String Screwdrivers, String Allenkeys, String Pliers, String CableTies, String SideCutters, String PropellerNuts, String SpareProps, String SocketSet){
+    public boolean insertDataEmbarkationChecklist(String NaamStudent, String Datum, String GroundStation, String CameraMonitor, String Receiver, String TelemeteryReceiver, String Laptop, String MobilePhone, String Anemometer, String FirstAid, String CrewIdentification, String HardHat, String Radio, String Clothing, String AirNavigationMap, String Checklist, String Notepad, String SiteAssessment, String Signs, String FlightBattery, String TransmitterBattery, String CameraBattery, String StationBattery, String ChargerBattery, String PhoneBattery, String Airframe, String CameraMount, String Transmitters, String CalibrationPlatform, String CameraLens, String CameraConnection, String CameraMemory, String CameraLanyard, String AttachmentBolt, String MultiFunctionCharger, String RequiredCharger, String BatteryChecker, String Screwdrivers, String Allenkeys, String Pliers, String CableTies, String SideCutters, String PropellerNuts, String SpareProps, String SocketSet){
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
         contentValues.put(COL_2,NaamStudent);
@@ -490,6 +504,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         contentValues.put(COL_114,MobilePhone);
         contentValues.put(COL_115,Anemometer);
         contentValues.put(COL_116,FirstAid);
+        contentValues.put(COL_216,CrewIdentification);
         contentValues.put(COL_117,HardHat);
         contentValues.put(COL_118,Radio);
         contentValues.put(COL_119,Clothing);
@@ -506,6 +521,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         contentValues.put(COL_130,PhoneBattery);
         contentValues.put(COL_131,Airframe);
         contentValues.put(COL_132,CameraMount);
+        contentValues.put(COL_217,Transmitters);
         contentValues.put(COL_133,CalibrationPlatform);
         contentValues.put(COL_134,CameraLens);
         contentValues.put(COL_135,CameraConnection);
@@ -530,7 +546,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             return true;
     }
 
-    public boolean insertDataOperationFlightPlan(String NaamStudent, String Datum, String JobNo, String Version, String Pilot, String Observer, String PayloadOperator, String Helper, String Address, String Latitude, String Elevation, String VehicularAcces, String FlightPurpose, String OperationType, String DateWorkRequired, String MissionDuration, String CruisingAltitude, String MaxAltitude, String MaxDistance, String SatellitePic, String BAGViewerPic, String CrewPositon, String FlightBox, String AltLandingSites, String Distances, String RiskAssessment, String LocalAirTraffic, String RegionalAirTraffic, String MilitaryControl, String LowFlyingArea, String Airspace, String CivilMilitary, String ATCPermission, String MilitaryLowFlying, String Prohibited, String NOTAMAffect, String NOTAMpublished, String HelpdeskConsulted, String VisualFlightRules, String Distance150, String Distance50, String Class1Flight, String TUG, String FlightReported, String Terrain, String OtherAircraft, String Hazards, String Restrictions, String Sensitives, String Permission, String Weather){
+    public boolean insertDataOperationFlightPlan(String NaamStudent, String Datum, String JobNo, String Version, String Pilot, String Observer, String PayloadOperator, String Helper, String Address, String Latitude, String Elevation, String VehicularAcces, String FlightPurpose, String OperationType, String DateWorkRequired, String MissionDuration, String CruisingAltitude, String MaxAltitude, String MaxDistance, String SatellitePic, String BAGViewerPic, String CrewPositon, String FlightBox, String AltLandingSites, String Distances, String RiskAssessment, String LocalAirTraffic, String RegionalAirTraffic, String MilitaryControl, String LowFlyingArea, String Airspace, String CivilMilitary, String ATCPermission, String MilitaryLowFlying, String Prohibited, String NOTAMAffect, String NOTAMpublished, String HelpdeskConsulted, String VisualFlightRules, String Distance150, String Distance50, String HorizontalDistance, String Class1Flight, String TUG, String FlightReported, String Terrain, String OtherAircraft, String Hazards, String Restrictions, String Sensitives, String Permission, String Weather){
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
         contentValues.put(COL_2,NaamStudent);
@@ -574,6 +590,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         contentValues.put(COL_186,VisualFlightRules);
         contentValues.put(COL_187,Distance150);
         contentValues.put(COL_188,Distance50);
+        contentValues.put(COL_215,HorizontalDistance);
         contentValues.put(COL_189,Class1Flight);
         contentValues.put(COL_190,TUG);
         contentValues.put(COL_191,FlightReported);
