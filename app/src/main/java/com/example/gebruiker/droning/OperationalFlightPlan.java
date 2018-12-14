@@ -73,6 +73,7 @@ public class OperationalFlightPlan extends AppCompatActivity {
         C20Edit = (EditText)findViewById(R.id.C20Edit);
         C21Edit = (EditText)findViewById(R.id.C21Edit);
         C22Edit = (EditText)findViewById(R.id.C22Edit);
+        SubmitBTN = (Button)findViewById(R.id.SubmitBTN);
         AddData();
     }
 
