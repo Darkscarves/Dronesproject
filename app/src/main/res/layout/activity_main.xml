@@ -26,146 +26,185 @@
             android:id="@+id/Linear"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="horizontal">
 
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="200dp"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
                 <Button
                     android:id="@+id/PreSiteSurveyLink"
-                    android:layout_width="200dp"
+                    android:layout_width="150dp"
                     android:layout_height="60dp"
                     android:layout_weight="1"
+                    android:background="@drawable/buttonshape"
                     android:onClick="toPreSiteSurvey"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
                     android:text="@string/pre_site_survey"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <Button
-                    android:id="@+id/OnSiteSurveyLink"
-                    android:layout_width="200dp"
-                    android:layout_height="60dp"
-                    android:layout_weight="1"
-                    android:onClick="toOnSiteSurvey"
-                    android:text="@string/on_site_survey"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <Button
                     android:id="@+id/PreFlightChecklistLink"
-                    android:layout_width="200dp"
+                    android:layout_width="150dp"
                     android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
                     android:layout_weight="1"
+                    android:background="@drawable/buttonshape"
                     android:onClick="toPreFlightChecklist"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
                     android:text="@string/pre_flight_checklists"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <Button
-                    android:id="@+id/OperationalFlightPlanLink"
-                    android:layout_width="200dp"
-                    android:layout_height="60dp"
-                    android:layout_weight="1"
-                    android:onClick="toOperationFlightPlan"
-                    android:text="@string/operational_flight_plan"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <Button
                     android:id="@+id/MaintenanceLogLink"
-                    android:layout_width="200dp"
+                    android:layout_width="150dp"
                     android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
                     android:layout_weight="1"
+                    android:background="@drawable/buttonshape"
                     android:onClick="toMaintenanceLog"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
                     android:text="@string/maintenance_log"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <Button
-                    android:id="@+id/IncidentLogLink"
-                    android:layout_width="200dp"
-                    android:layout_height="60dp"
-                    android:layout_weight="1"
-                    android:onClick="toIncidentLog"
-                    android:text="@string/incident_log"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <Button
                     android:id="@+id/ArrivalAndPostFlightChecklistLink"
-                    android:layout_width="200dp"
+                    android:layout_width="150dp"
                     android:layout_height="60dp"
-                    android:layout_marginTop="-8dp"
+                    android:layout_marginTop="10dp"
                     android:layout_weight="1"
+                    android:background="@drawable/buttonshape"
                     android:onClick="toArrivalAndPostFlightChecklists"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
                     android:text="@string/arrival_and_post_flight_checklist"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <Button
-                    android:id="@+id/BatteryLogLink"
-                    android:layout_width="200dp"
+                    android:id="@+id/EmbarkationChecklistLink"
+                    android:layout_width="150dp"
                     android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
                     android:layout_weight="1"
-                    android:onClick="toBatteryLog"
-                    android:text="@string/battery_log"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="toEmbarkationChecklist"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="@string/embarkation_checklist"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
+
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
                 <Button
-                    android:id="@+id/EmbarkationChecklistLink"
-                    android:layout_width="200dp"
+                    android:id="@+id/OnSiteSurveyLink"
+
+                    android:layout_width="150dp"
                     android:layout_height="60dp"
                     android:layout_weight="1"
-                    android:onClick="toEmbarkationChecklist"
-                    android:text="@string/embarkation_checklist"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="toOnSiteSurvey"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="@string/on_site_survey"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/OperationalFlightPlanLink"
+                    android:background="@drawable/buttonshape"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:onClick="toOperationFlightPlan"
+                    android:text="@string/operational_flight_plan"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/IncidentLogLink"
+                    android:background="@drawable/buttonshape"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:onClick="toIncidentLog"
+                    android:text="@string/incident_log"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/BatteryLogLink"
+                    android:background="@drawable/buttonshape"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:onClick="toBatteryLog"
+                    android:text="@string/battery_log"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <Button
                     android:id="@+id/AircraftPilotAndCrewFlightLogsLink"
-                    android:layout_width="200dp"
-                    android:layout_height="60dp"
-                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
                     android:onClick="toAircraftPilotAndCrewFlightLogs"
                     android:text="@string/aircraft_pilot_and_crew_flight_logs"
+                    android:background="@drawable/buttonshape"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:layout_weight="1"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
