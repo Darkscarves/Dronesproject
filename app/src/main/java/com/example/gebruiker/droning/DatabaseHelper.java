@@ -9,6 +9,7 @@ import android.graphics.Path;
 import android.provider.ContactsContract;
 import android.view.View;
 
+import java.io.File;
 import java.util.Date;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
@@ -247,6 +248,12 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public DatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, 1);
     }
+
+    public File[] getExternalFilesDirs(String type) {
+        return new File[0];
+    }
+
+
 
 
     @Override
