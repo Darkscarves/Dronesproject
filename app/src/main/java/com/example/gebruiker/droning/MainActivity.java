@@ -88,6 +88,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void toTest(View view)
+    {
+        Intent intent = new Intent(MainActivity.this, apiTest.class);
+        startActivity(intent);
+    }
+
 
 
 }

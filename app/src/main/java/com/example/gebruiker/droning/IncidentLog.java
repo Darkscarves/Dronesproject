@@ -86,7 +86,7 @@ public class IncidentLog extends AppCompatActivity {
 //                        Hier afhandeling van HTTP Request
 
                         class Verbinding extends AsyncTask<Void, Void, JSONObject> {
-                        private static final String JSON_URL = "../../../../../../../../../../lampp/htdocs/dronebeheer/dronebeheerapp/include/incidentloginsert.php";
+                        private static final String JSON_URL = "../../../../lampp/htdocs/dronebeheer/dronebeheerapp/include/incidentloginsert.php";
                         String charset = "UTF-8";
                         HttpURLConnection conn;
                         StringBuilder result;
@@ -94,27 +94,43 @@ public class IncidentLog extends AppCompatActivity {
 
 
                                 protected JSONObject doInBackground(Void... args) {
-                            JSONObject retObj = null;
+                                    JSONObject retObj = null;
 
-                            try {
-                                urlObj = new URL(JSON_URL);
+                                    try {
+                                        urlObj = new URL(JSON_URL);
 
-                                conn = (HttpURLConnection) urlObj.openConnection();
-                                conn.setDoOutput(false);
-                                conn.setRequestMethod("get");
-                                conn.setRequestProperty("Accept-Charset", charset);
-                                conn.setConnectTimeout(15000);
-                                conn.connect();
+                                        conn = (HttpURLConnection) urlObj.openConnection();
+                                        conn.setDoOutput(false);
+                                        conn.setRequestMethod("get");
+                                        conn.setRequestProperty("Accept-Charset", charset);
+                                        conn.setConnectTimeout(15000);
+                                        conn.connect();
 
+                                        InputStream in = new BufferedInputStream(conn.getInputStream());
+                                        BufferedReader reader = new BufferedReader(new InputStreamReader(in));
+                                        result = new StringBuilder();
 
+                                        String line;
+                                        while ((line = reader.readLine()) != null) {
+                                        result.append(line);
+                                    }
+
+                                    retObj = new JSONObject(result.toString());
+
+                                 }  catch (IOException e) {
+                                     e.printStackTrace();
+                                 } catch (JSONException e) {
+                                     e.printStackTrace();
+                                 }
+                                 return retObj;
+                                 }
+                                protected void onPostExecute(JSONObject json){
+                                    if (json != null) {
+                                        //textview.setText(json.toString());
+                                        Log.d("ontvangen json", json.toString());
+                                    }
+                                }
                             }
-                            catch (IOException e) {
-                                e.printStackTrace();
-                            }
-                                    return retObj;
-                        }
-
-                }
     //    );
  //   }
     public void toHome(View view)
