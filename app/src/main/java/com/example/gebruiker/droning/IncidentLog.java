@@ -61,76 +61,64 @@ public class IncidentLog extends AppCompatActivity {
         ActionTakenIncidentReportEdit = (EditText)findViewById(R.id.ActionTakenIncidentReportEdit);
         NotesEdit = (EditText)findViewById(R.id.NotesEdit);
         SubmitBTN = (Button)findViewById(R.id.SubmitBTN);
-  //      AddData();
     }
 
- //   public void AddData() {
- //       SubmitBTN.setOnClickListener(
-  //              new View.OnClickListener() {
-    //                @Override
-      //              public void onClick(View v) {
-//                        boolean isInserted = myDb.insertDataIncident(StudentNaamEdit.getText().toString(),
-//                                DateOfIncidentEdit.getText().toString(),
-//                                TimeOfIncidentEdit.getText().toString(),
-//                                InjuriesDamageEdit.getText().toString(),
-//                                IncidentDetailsEdit.getText().toString(),
-//                                ActionTakenIncidentReportEdit.getText().toString(),
-//                                NotesEdit.getText().toString() );
-//                        if(isInserted =true) {
-//                            Toast.makeText(IncidentLog.this, "Data Inserted", Toast.LENGTH_SHORT).show();
-//                            Log.i("buttonCheck", "Je hebt op submit gedrukt...");
-//                        }
-//                        else {
-//                            Toast.makeText(IncidentLog.this, "Data not Inserted", Toast.LENGTH_SHORT).show();
-//                        }
-//                        Hier afhandeling van HTTP Request
 
-                        class Verbinding extends AsyncTask<Void, Void, JSONObject> {
-                        private static final String JSON_URL = "../../../../lampp/htdocs/dronebeheer/dronebeheerapp/include/incidentloginsert.php";
-                        String charset = "UTF-8";
-                        HttpURLConnection conn;
-                        StringBuilder result;
-                        URL urlObj;
+    class Verbinding extends AsyncTask<Void, Void, JSONObject> {
+        String check = "pizza";
+        private final String JSON_URL = "http://192.168.64.6/dronebeheer/dronebeheerapp/include/incidentloginsert.php"
+                + "?check="+ check
+                + "&naamStudent=" + StudentNaamEdit
+                + "&datum=" +  DateOfIncidentEdit
+                + "&incidentTime=" + TimeOfIncidentEdit
+                + "&damage=" + InjuriesDamageEdit
+                + "&details=" + IncidentDetailsEdit
+                + "&actionTaken=" + ActionTakenIncidentReportEdit
+                + "&notes=" + NotesEdit;
+        String charset = "UTF-8";
+        HttpURLConnection conn;
+        StringBuilder result;
+        URL urlObj;
 
 
-                                protected JSONObject doInBackground(Void... args) {
-                                    JSONObject retObj = null;
+        protected JSONObject doInBackground(Void... args) {
+            JSONObject retObj = null;
 
-                                    try {
-                                        urlObj = new URL(JSON_URL);
+            try {
+                urlObj = new URL(JSON_URL);
 
-                                        conn = (HttpURLConnection) urlObj.openConnection();
-                                        conn.setDoOutput(false);
-                                        conn.setRequestMethod("get");
-                                        conn.setRequestProperty("Accept-Charset", charset);
-                                        conn.setConnectTimeout(15000);
-                                        conn.connect();
+                conn = (HttpURLConnection) urlObj.openConnection();
+                conn.setDoOutput(false);
+                conn.setRequestMethod("GET");
+                conn.setRequestProperty("Accept-Charset", charset);
+                conn.setConnectTimeout(15000);
+                conn.connect();
 
-                                        InputStream in = new BufferedInputStream(conn.getInputStream());
-                                        BufferedReader reader = new BufferedReader(new InputStreamReader(in));
-                                        result = new StringBuilder();
+                InputStream in = new BufferedInputStream(conn.getInputStream());
+                BufferedReader reader = new BufferedReader(new InputStreamReader(in));
+                result = new StringBuilder();
 
-                                        String line;
-                                        while ((line = reader.readLine()) != null) {
-                                        result.append(line);
-                                    }
+                String line;
+                while ((line = reader.readLine()) != null) {
+                    result.append(line);
+                }
 
-                                    retObj = new JSONObject(result.toString());
+                retObj = new JSONObject(result.toString());
 
-                                 }  catch (IOException e) {
-                                     e.printStackTrace();
-                                 } catch (JSONException e) {
-                                     e.printStackTrace();
-                                 }
-                                 return retObj;
-                                 }
-                                protected void onPostExecute(JSONObject json){
-                                    if (json != null) {
-                                        //textview.setText(json.toString());
-                                        Log.d("ontvangen json", json.toString());
-                                    }
-                                }
-                            }
+            }  catch (IOException e) {
+                e.printStackTrace();
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+            return retObj;
+        }
+        protected void onPostExecute(JSONObject json){
+            if (json != null) {
+                //textview.setText(json.toString());
+                Log.i("ontvangen json", json.toString());
+            }
+        }
+    }
     //    );
  //   }
     public void toHome(View view)

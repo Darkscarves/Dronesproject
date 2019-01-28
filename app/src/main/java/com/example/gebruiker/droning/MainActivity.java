@@ -87,13 +87,4 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, PreSiteSurvey.class);
         startActivity(intent);
     }
-
-    public void toTest(View view)
-    {
-        Intent intent = new Intent(MainActivity.this, apiTest.class);
-        startActivity(intent);
-    }
-
-
-
 }

@@ -10,15 +10,11 @@ import org.json.JSONObject;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
-import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.ProtocolException;
 import java.net.URL;
-import java.net.URLEncoder;
 
 public class apiTest extends AppCompatActivity {
 
@@ -30,15 +26,15 @@ public class apiTest extends AppCompatActivity {
 
 
     class Verbinding extends AsyncTask<Void, Void, JSONObject> {
-        private static final String JSON_URL = "http://192.168.64.6/dronebeheer/dronebeheerapp/include/incidentloginsert.php";
-        JSON_URL += "?check=pizza";
-        JSON_URL += "&naamStudent=David";
-        JSON_URL += "&datum=24-03-2018";
-        JSON_URL += "&incidentTime=13:33";
-        JSON_URL += "&damage=geen schade";
-        JSON_URL += "&details=ik draag geen bril";
-        JSON_URL += "&actionTaken=Ik heb een zonnebril gepakt";
-        JSON_URL += "&notes=C#";
+        private static final String JSON_URL = "http://192.168.64.6/dronebeheer/dronebeheerapp/include/incidentloginsert.php"
+                + "?check=pizza"
+                + "&naamStudent=Niels"
+                + "&datum=29-03-2018"
+                + "&incidentTime=18:29"
+                + "&damage=geen schadedsdsds"
+                + "&details=Ik draag geen broekfdsf"
+                + "&actionTaken=Ik doe een broek aandasd"
+                + "&notes=yjyt";
         String charset = "UTF-8";
         HttpURLConnection conn;
         StringBuilder result;
