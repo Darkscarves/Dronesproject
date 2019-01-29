@@ -45,7 +45,7 @@ public class IncidentLog extends AppCompatActivity {
                 datePickerDialog=new DatePickerDialog(IncidentLog.this, new DatePickerDialog.OnDateSetListener() {
                     @Override
                     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
-                        DateOfIncidentEditData.setText(day+"-"+(month+1)+"-"+year);
+                        DateOfIncidentEditData.setText(year+"-"+(month+1)+"-"+day);
                     }
                 },year,month,day);
                 datePickerDialog.show();

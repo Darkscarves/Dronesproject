@@ -32,7 +32,7 @@ public class AircraftPilotAndCrewFlightLogs extends AppCompatActivity {
                 datePickerDialog=new DatePickerDialog(AircraftPilotAndCrewFlightLogs.this, new DatePickerDialog.OnDateSetListener() {
                     @Override
                     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
-                        DateEdit.setText(day+"-"+(month+1)+"-"+year);
+                        DateEdit.setText(year+"-"+(month+1)+"-"+day);
                     }
                 },year,month,day);
                 datePickerDialog.show();

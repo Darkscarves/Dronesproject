@@ -35,7 +35,7 @@ public class OperationalFlightPlan extends AppCompatActivity {
                 datePickerDialog=new DatePickerDialog(OperationalFlightPlan.this, new DatePickerDialog.OnDateSetListener() {
                     @Override
                     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
-                        DateEdit.setText(day+"-"+(month+1)+"-"+year);
+                        DateEdit.setText(year+"-"+(month+1)+"-"+day);
                     }
                 },year,month,day);
                 datePickerDialog.show();

@@ -38,7 +38,7 @@ public class PreSiteSurvey extends AppCompatActivity {
                 datePickerDialog=new DatePickerDialog(PreSiteSurvey.this, new DatePickerDialog.OnDateSetListener() {
                     @Override
                     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
-                        DateEdit.setText(day+"-"+(month+1)+"-"+year);
+                        DateEdit.setText(year+"-"+(month+1)+"-"+day);
                     }
                 },year,month,day);
                 datePickerDialog.show();
