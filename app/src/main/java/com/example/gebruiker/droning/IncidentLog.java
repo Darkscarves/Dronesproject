@@ -5,12 +5,12 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.text.InputType;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
-import android.widget.Toast;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -24,18 +24,18 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Calendar;
 
+
 public class IncidentLog extends AppCompatActivity {
     DatabaseHelper myDb;
-    EditText StudentNaamEdit, DateOfIncidentEdit, TimeOfIncidentEdit, InjuriesDamageEdit, IncidentDetailsEdit, ActionTakenIncidentReportEdit, NotesEdit;
+    EditText StudentNaamEditData, DateOfIncidentEditData, TimeOfIncidentEditData, InjuriesDamageEditData, IncidentDetailsEditData, ActionTakenIncidentReportEditData, NotesEditData;
     Button SubmitBTN;
     DatePickerDialog datePickerDialog;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.incidentlog);
-        new Verbinding().execute();
-        DateOfIncidentEdit=findViewById(R.id.DateOfIncidentEdit);
-        DateOfIncidentEdit.setOnClickListener(new View.OnClickListener() {
+        DateOfIncidentEditData=findViewById(R.id.DateOfIncidentEdit);
+        DateOfIncidentEditData.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Calendar calendar= Calendar.getInstance();
@@ -45,7 +45,7 @@ public class IncidentLog extends AppCompatActivity {
                 datePickerDialog=new DatePickerDialog(IncidentLog.this, new DatePickerDialog.OnDateSetListener() {
                     @Override
                     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
-                        DateOfIncidentEdit.setText(day+"-"+(month+1)+"-"+year);
+                        DateOfIncidentEditData.setText(day+"-"+(month+1)+"-"+year);
                     }
                 },year,month,day);
                 datePickerDialog.show();
@@ -53,35 +53,56 @@ public class IncidentLog extends AppCompatActivity {
         });
         myDb = new DatabaseHelper(this);
 
-        StudentNaamEdit = (EditText)findViewById(R.id.StudentNaamEdit);
-        DateOfIncidentEdit = (EditText)findViewById(R.id.DateOfIncidentEdit);
-        TimeOfIncidentEdit = (EditText)findViewById(R.id.TimeOfIncidentEdit);
-        InjuriesDamageEdit = (EditText)findViewById(R.id.InjuriesDamageEdit);
-        IncidentDetailsEdit = (EditText)findViewById(R.id.IncidentDetailsEdit);
-        ActionTakenIncidentReportEdit = (EditText)findViewById(R.id.ActionTakenIncidentReportEdit);
-        NotesEdit = (EditText)findViewById(R.id.NotesEdit);
+        StudentNaamEditData = (EditText)findViewById(R.id.StudentNaamEdit);
+        StudentNaamEditData.setInputType(InputType.TYPE_CLASS_TEXT);
+
+        DateOfIncidentEditData = (EditText)findViewById(R.id.DateOfIncidentEdit);
+        DateOfIncidentEditData.setInputType(InputType.TYPE_CLASS_TEXT);
+
+        TimeOfIncidentEditData = (EditText)findViewById(R.id.TimeOfIncidentEdit);
+        TimeOfIncidentEditData.setInputType(InputType.TYPE_CLASS_TEXT);
+
+        InjuriesDamageEditData = (EditText)findViewById(R.id.InjuriesDamageEdit);
+        InjuriesDamageEditData.setInputType(InputType.TYPE_CLASS_TEXT);
+
+        IncidentDetailsEditData = (EditText)findViewById(R.id.IncidentDetailsEdit);
+        IncidentDetailsEditData.setInputType(InputType.TYPE_CLASS_TEXT);
+
+        ActionTakenIncidentReportEditData = (EditText)findViewById(R.id.ActionTakenIncidentReportEdit);
+        ActionTakenIncidentReportEditData.setInputType(InputType.TYPE_CLASS_TEXT);
+
+        NotesEditData = (EditText)findViewById(R.id.NotesEdit);
+        NotesEditData.setInputType(InputType.TYPE_CLASS_TEXT);
+
         SubmitBTN = (Button)findViewById(R.id.SubmitBTN);
     }
 
 
     class Verbinding extends AsyncTask<Void, Void, JSONObject> {
         String check = "pizza";
+        String Data1 = StudentNaamEditData.getText().toString();
+        String Data2 = DateOfIncidentEditData.getText().toString();
+        String Data3 = TimeOfIncidentEditData.getText().toString();
+        String Data4 = InjuriesDamageEditData.getText().toString();
+        String Data5 = IncidentDetailsEditData.getText().toString();
+        String Data6 = ActionTakenIncidentReportEditData.getText().toString();
+        String Data7 = NotesEditData.getText().toString();
         private final String JSON_URL = "http://192.168.64.6/dronebeheer/dronebeheerapp/include/incidentloginsert.php"
                 + "?check="+ check
-                + "&naamStudent=" + StudentNaamEdit
-                + "&datum=" +  DateOfIncidentEdit
-                + "&incidentTime=" + TimeOfIncidentEdit
-                + "&damage=" + InjuriesDamageEdit
-                + "&details=" + IncidentDetailsEdit
-                + "&actionTaken=" + ActionTakenIncidentReportEdit
-                + "&notes=" + NotesEdit;
+                + "&naamStudent=" + Data1
+                + "&datum=" +  Data2
+                + "&incidentTime=" + Data3
+                + "&damage=" + Data4
+                + "&details=" + Data5
+                + "&actionTaken=" + Data6
+                + "&notes=" + Data7;
         String charset = "UTF-8";
         HttpURLConnection conn;
         StringBuilder result;
         URL urlObj;
 
 
-        protected JSONObject doInBackground(Void... args) {
+        protected JSONObject doInBackground(Void... args ) {
             JSONObject retObj = null;
 
             try {
@@ -125,6 +146,11 @@ public class IncidentLog extends AppCompatActivity {
     {
         Intent intent = new Intent(IncidentLog.this, MainActivity.class);
         startActivity(intent);
+    }
+
+    public void SendDataIncident(View view)
+    {
+        new Verbinding().execute();
     }
 }
 
