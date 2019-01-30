@@ -87,7 +87,7 @@ public class IncidentLog extends AppCompatActivity {
         String Data5 = IncidentDetailsEditData.getText().toString();
         String Data6 = ActionTakenIncidentReportEditData.getText().toString();
         String Data7 = NotesEditData.getText().toString();
-        private final String JSON_URL = "http://192.168.64.6/dronebeheer/dronebeheerapp/include/incidentloginsert.php"
+        private final String JSON_URL = "http://localhost/php/droning/DroneBeheer-master/Drone%20Beheer%20App/include/incidentloginsert.php"
                 + "?check="+ check
                 + "&naamStudent=" + Data1
                 + "&datum=" +  Data2
