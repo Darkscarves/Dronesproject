@@ -2,12 +2,14 @@ package com.example.gebruiker.droning;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.graphics.Path;
 import android.provider.ContactsContract;
 import android.view.View;
 
+import java.io.File;
 import java.util.Date;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
@@ -239,12 +241,19 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public static final String COL_215 = "HorizontalDistance";
     public static final String COL_216 = "CrewIdentification";
     public static final String COL_217 = "Transmitters";
+    public static final String COL_218 = "status";
 
 
 
     public DatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, 1);
     }
+
+    public File[] getExternalFilesDirs(String type) {
+        return new File[0];
+    }
+
+
 
 
     @Override
@@ -628,5 +637,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             return false;
         else
             return true;
-    }
+        }
+
+
 }

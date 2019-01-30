@@ -32,7 +32,7 @@ public class BatteryLog  extends AppCompatActivity {
                 datePickerDialog=new DatePickerDialog(BatteryLog.this, new DatePickerDialog.OnDateSetListener() {
                     @Override
                     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
-                        DatumEdit.setText(day+"-"+(month+1)+"-"+year);
+                        DatumEdit.setText(year+"-"+(month+1)+"-"+day);
                     }
                 },year,month,day);
                 datePickerDialog.show();

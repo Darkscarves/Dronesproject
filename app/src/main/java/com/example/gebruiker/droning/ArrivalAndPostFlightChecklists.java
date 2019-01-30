@@ -24,6 +24,7 @@ public class ArrivalAndPostFlightChecklists extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.arrivalandpostflightchecklists);
         DatumEdit=findViewById(R.id.DatumEdit);
+        Datum2Edit=findViewById(R.id.Datum2Edit);
         DatumEdit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -34,11 +35,35 @@ public class ArrivalAndPostFlightChecklists extends AppCompatActivity {
                 datePickerDialog=new DatePickerDialog(ArrivalAndPostFlightChecklists.this, new DatePickerDialog.OnDateSetListener() {
                     @Override
                     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
-                        DatumEdit.setText(day+"-"+(month+1)+"-"+year);
+                        DatumEdit.setText(year+"-"+(month+1)+"-"+day);
                     }
                 },year,month,day);
                 datePickerDialog.show();
+
+
             }
+
+        }
+        );
+
+        Datum2Edit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Calendar calendar= Calendar.getInstance();
+                final int year=calendar.get(Calendar.YEAR);
+                final int month=calendar.get(Calendar.MONTH);
+                final int day=calendar.get(Calendar.DAY_OF_MONTH);
+                datePickerDialog=new DatePickerDialog(ArrivalAndPostFlightChecklists.this, new DatePickerDialog.OnDateSetListener() {
+                    @Override
+                    public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+                        Datum2Edit.setText(year+"-"+(month+1)+"-"+day);
+                    }
+                },year,month,day);
+                datePickerDialog.show();
+
+
+            }
+
         });
         myDb = new DatabaseHelper(this);
 

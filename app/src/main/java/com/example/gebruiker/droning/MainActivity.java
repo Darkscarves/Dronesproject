@@ -1,6 +1,7 @@
 package com.example.gebruiker.droning;
 
         import android.content.Intent;
+        import android.database.Cursor;
         import android.database.sqlite.SQLiteDatabase;
         import android.support.v7.app.AppCompatActivity;
         import android.os.Bundle;
@@ -16,6 +17,18 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         myDb = new DatabaseHelper(this);
+
+        // testen DB
+        SQLiteDatabase DroningDB = this.openOrCreateDatabase("Droning", MODE_PRIVATE, null);
+
+        File dbFile = getDatabasePath("Droning");
+        if(dbFile.exists()){
+            Log.i("Droning database", "Exists");
+        }else{
+            Log.i("Droning database", "Does not exists");
+        }
+
+
     }
 
 
@@ -74,7 +87,4 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, PreSiteSurvey.class);
         startActivity(intent);
     }
-
-
-
 }
