@@ -1,23 +1,46 @@
 package com.example.gebruiker.droning;
 
+import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import java.util.Calendar;
 
 public class PreFlightChecklist extends AppCompatActivity {
     DatabaseHelper myDb;
     EditText StudentennaamEdit, DatumEdit;
     Button SubmitBTN;
+    DatePickerDialog datePickerDialog;
     CheckBox AirframeCBox, FlightBatteryCBox, TransmittersCBox, CameraCBox, Airframe2CBox, FlightBattery2CBox, SelfDiagCBox, MonitorCBox, CalibrationCBox, SaveCalibCBox, CameraPlatCBox, TelemetryCBox, FlightPlanCBox, Camera2CBox, AircraftAlignCBox, CrewPublicCBox, ClearenceCBox, PowerUpCBox, TakeOffCBox, CommunicationCBox, LandingCBox;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.preflightchecklist);
+        DatumEdit=findViewById(R.id.DatumEdit);
+        DatumEdit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Calendar calendar= Calendar.getInstance();
+                final int year=calendar.get(Calendar.YEAR);
+                final int month=calendar.get(Calendar.MONTH);
+                final int day=calendar.get(Calendar.DAY_OF_MONTH);
+                datePickerDialog=new DatePickerDialog(PreFlightChecklist.this, new DatePickerDialog.OnDateSetListener() {
+                    @Override
+                    public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+                        DatumEdit.setText(day+"-"+(month+1)+"-"+year);
+                    }
+                },year,month,day);
+                datePickerDialog.show();
+            }
+        });
+
         myDb = new DatabaseHelper(this);
 
         StudentennaamEdit = (EditText)findViewById(R.id.StudentennaamEdit);
@@ -46,6 +69,8 @@ public class PreFlightChecklist extends AppCompatActivity {
         SubmitBTN = (Button)findViewById(R.id.SubmitBTN);
         AddData();
     }
+
+
 
    public void AddData() {
         SubmitBTN.setOnClickListener(
